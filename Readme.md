@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Белый Кролик](https://up.htmlacademy.ru/htmlcss/25/user/1048599).
-* Наставник: `Неизвестно`.
+* Наставник: [Виктор Гирда](https://htmlacademy.ru/profile/viktorgirda).
 
 ---
 
