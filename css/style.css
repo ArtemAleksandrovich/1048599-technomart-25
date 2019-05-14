@@ -7,3 +7,6 @@ h2 {
 .header-top {
 	background-color: #293449;
 }
+.button {
+	text-transform: uppercase;
+}
