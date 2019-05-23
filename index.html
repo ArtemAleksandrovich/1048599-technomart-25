@@ -7,34 +7,38 @@
     <title>Техномарт</title>
   </head>
   <body>
-    <header class="main-header">
-    	<div class="header-top">
-    		<a href="#" class="logo">ТЕХНОМАРТ</a>
-    		<form action="#"><input type="text" value="Поиск:"></form>
-    		<a href="#">Закладки:</a>
-    		<a href="#">Корзина:</a>
-    		<a href="#" class="formalize">Оформить заказ</a>
-    	</div>
-    	<div class="header-middle">
-    		<h1 class="">Интернет магазин <br> строительных материалов <br> и инструментов для ремонта</h1>
+    <header>
+    	<section class="header-top">
+    		<div class="wrapper">
+				<a href="#"  class="logo">ТЕХНОМАРТ</a>
+				<form action="#"><input type="text" value="Поиск:"></form>
+				<a href="#" class="bookmarks">Закладки:</a>
+				<a href="#" class="basket">Корзина:</a>
+				<a href="#" class="formalize">Оформить заказ</a>
+    		</div>
+    	</section>	
+    	<section>
+    		<div class="wrapper">
+    			<h1 class="">Интернет магазин <br> строительных материалов <br> и инструментов для ремонта</h1>
     			<p class="phone">+7 (812) 555-05-55</p>	
 				<p class="address">.г Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-   			<ul class="user-navigation">
+   				<ul class="user-nav">
 					<li><a href="#">Войти</a></li>
 					<li><a href="#">Регистрация</a></li>
-			</ul>
-    	</div>
-    	<nav class="header-bottom">
-			<ul class="site-navigation">
-				<li><a href="#">Главная</a></li>
-				<li><a href="/company.html">Компания</a></li>
-				<li><a href="/catalog.html">Каталог</a></li>
-				<li><a href="/news.html">Новости</a></li>
-				<li><a href="/special.html">Спецпредложения</a></li>
-				<li><a href="/delivery.html">Доставка</a></li>
-				<li><a href="/contact.html">Контакты</a></li>
-			</ul>
-		</nav>
+				</ul>
+    			<nav>
+					<ul>
+						<li><a href="#">Главная</a></li>
+						<li><a href="/company.html">Компания</a></li>
+						<li><a href="/catalog.html">Каталог</a></li>
+						<li><a href="/news.html">Новости</a></li>
+						<li><a href="/special.html">Спецпредложения</a></li>
+						<li><a href="/delivery.html">Доставка</a></li>
+						<li><a href="/contact.html">Контакты</a></li>
+					</ul>
+				</nav>
+     	  	</div>
+      	</section>
     </header>
     <main>
       	<table class="catalog">
@@ -118,22 +122,37 @@
     			<a href="#"><img src="#" alt="metado"></a>
     		</div>   		
     	</article>
-    	<div class="service-tab">
+    	<section class="service">
     		<h2>Сервисы</h2>
     		<p>Хороший интернет-магазин отличается от плохого не только ценами<br>
     		Мы стараемся изо всех сил чтобы сделать ваши покупки приятными</p>
-    		<ol class="service-tab-nav">
-    			<li><a href="#delivery">Доставка</a></li>
-    			<li><a href="#guarantee">Гарантия</a></li>
-    			<li><a href="#loan">Кредит</a></li>
-    		</ol>
-    		<ol class="service-tab-content">
-    			<li id="delivery"><h3>Доставка</h3><p>Мы с удовольствием доставляем ваш товар прямо к вашему подъезду совершенно бесплатно!<br>
-    			Ведь мы неплохо заработаем поднимая его на ваш этаж</p></li>
-    			<li id="guarantee"><h3>Гарантия</h3><p>Текст</p></li>
-    			<li id="loan"><h3>Кредит</h3><p>Текст</p></li>
-    		</ol>
-    	</div>
+    		<ul class="tabs">
+    			<li>
+    				<input type="radio" name="tabs" id="tab-1" checked>
+    				<label for="tab-1">Доставка</label>
+    				<div class="wrapper">
+    					Мы с удовольствием доставляем ваш товар прямо к вашему подъезду совершенно бесплатно!<br>
+    					Ведь мы неплохо заработаем поднимая его на ваш этаж
+    				</div>
+    			</li>
+    			<li>  	
+    			  	<input type="radio" name="tabs" id="tab-2" checked>
+    				<label for="tab-2">Гарантия</label>
+    				<div class="wrapper">
+    					Мы с удовольствием доставляем ваш товар прямо к вашему подъезду совершенно бесплатно!<br>
+    					Ведь мы неплохо заработаем поднимая его на ваш этаж
+    				</div>
+    			</li>
+    			<li>  	
+    			  	<input type="radio" name="tabs" id="tab-3" checked>
+    				<label for="tab-3">Кредит</label>
+    				<div class="wrapper">
+    					Мы с удовольствием доставляем ваш товар прямо к вашему подъезду совершенно бесплатно!<br>
+    					Ведь мы неплохо заработаем поднимая его на ваш этаж
+    				</div>
+    			</li>
+    		</ul>
+    	</section>
     	<section class="info-comany">
     		<h2>Компания "техномарт"</h2>
     		<p>Настоящий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушным скономить на гастрабайтерах</p>

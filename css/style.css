@@ -1,12 +1,57 @@
-h2 {
-	text-transform: uppercase;
+body {
+	font-family: "Cuprum", "PT Sans", serif;
+	font-size: 16px;
 }
-.main-header {
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+header {
 	background-color: #f4f7f9;
+	height: 300px;
 }
 .header-top {
 	background-color: #293449;
+	line-height: 42px;
 }
-.button {
-	text-transform: uppercase;
+.header-top a{
+	color: #fff;
+	text-decoration: none;
+	text-align:  center;
 }
+.logo {
+    width: 17%;  					
+	font-size: 24px;			
+	text-transform: uppercase; 	
+	background-color: #ee3643;	
+	box-shadow: 0 5px #b52933;	
+	float: left;
+}
+form {
+	float: left;
+	width: 33%;
+}
+.bookmarks {
+	width: 19%;
+	height: 42px;
+	text-align:  center;
+}
+.basket {
+	width: 19%;
+		text-align:  center;
+}
+.formalize {
+	width: 12%;
+	background-color: #63a63e;
+	float:  right;
+}
+
+
+
+
+
+
+
+
+
+
