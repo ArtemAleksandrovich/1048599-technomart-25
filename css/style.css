@@ -6,22 +6,26 @@ body {
 	width: 80%;
 	margin: 0 auto;
 }
+a {
+	color: #fff;
+	text-decoration: none;
+	text-align:  center;
+}
+/*шапка*/
 header {
 	background-color: #f4f7f9;
 	height: 300px;
+	color: #fff;
+
 }
 .header-top {
 	background-color: #293449;
 	line-height: 42px;
 }
-.header-top a{
-	color: #fff;
-	text-decoration: none;
-	text-align:  center;
-}
+
 .logo {
     width: 17%;  					
-	font-size: 24px;			
+	font-size: 24px;
 	text-transform: uppercase; 	
 	background-color: #ee3643;	
 	box-shadow: 0 5px #b52933;	
@@ -31,15 +35,7 @@ form {
 	float: left;
 	width: 33%;
 }
-.bookmarks {
-	width: 19%;
-	height: 42px;
-	text-align:  center;
-}
-.basket {
-	width: 19%;
-		text-align:  center;
-}
+
 .formalize {
 	width: 12%;
 	background-color: #63a63e;
@@ -47,8 +43,12 @@ form {
 }
 
 
-
-
+/*Подвал*/
+ 
+footer {
+	background-color: #32425c;
+	height: 300px;
+}
 
 
 
