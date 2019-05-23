@@ -41,7 +41,12 @@ form {
 	background-color: #63a63e;
 	float:  right;
 }
+/*основное содержание страницы*/
 
+/*О компании, контакты*/
+.company {
+	float: left;
+}
 
 /*Подвал*/
  
