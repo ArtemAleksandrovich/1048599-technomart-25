@@ -7,7 +7,81 @@ html {
 	width: 80%;
 	margin: 0 auto;
 }
+.button {
+	font-size: 14px;
+	background-color: #ee3643;
+	text-transform: uppercase;
+	padding: 10px 60px;
+	border-radius: 5px;
+}
+/*
+a {
+	text-decoration: none;
+	color: white;
+}
+*/
 
+header{
+	background-color: #f3f7f9;
+}
+.header-top {
+	background-color: #293449;
+	display: flex;
+}
 
-
-
+.logo {
+	background-color: #ee3643;
+	font-size: 24px;
+	padding: 12px 55px;
+	text-transform: uppercase;
+}
+.formalize {
+	background-color: #63a63e;
+	font-size: 17px;
+	padding: 12px 55px;
+}
+.header-bottom {
+	display: flex;
+	flex-direction: column;
+}
+.user-info{
+	display: inherit;
+}
+h1 {
+	color: #ee3643;
+	font-size: 16px;
+	font-style: italic;
+	padding: 54px 53px 72px 39px
+}
+.contact{
+	align-self: center; 
+}
+.phone {
+	border: 2px solid white;
+	font-size: 21px;
+	color: #ee3643;
+	font-weight: 700;
+	padding: 15px 55px;
+}
+.address{
+	font-size: 14px;
+	color: #32425c;
+}
+nav {
+	background-color: #32425c;
+}
+.info-company {
+	display: flex;	
+}
+.company {
+	width: 68%;
+}
+.contact{
+	width: 32%;
+}
+footer {
+	background-color: #32425c;
+}
+.footer-bottom {
+	background-color: #293449;
+}
