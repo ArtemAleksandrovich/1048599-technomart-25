@@ -1,61 +1,12 @@
-body {
+html {
 	font-family: "Cuprum", "PT Sans", serif;
 	font-size: 16px;
+	box-sizing: border-box;
 }
 .wrapper {
 	width: 80%;
 	margin: 0 auto;
 }
-a {
-	color: #fff;
-	text-decoration: none;
-	text-align:  center;
-}
-/*шапка*/
-header {
-	background-color: #f4f7f9;
-	height: 300px;
-	color: #fff;
-
-}
-.header-top {
-	background-color: #293449;
-	line-height: 42px;
-}
-
-.logo {
-    width: 17%;  					
-	font-size: 24px;
-	text-transform: uppercase; 	
-	background-color: #ee3643;	
-	box-shadow: 0 5px #b52933;	
-	float: left;
-}
-form {
-	float: left;
-	width: 33%;
-}
-
-.formalize {
-	width: 12%;
-	background-color: #63a63e;
-	float:  right;
-}
-/*основное содержание страницы*/
-
-/*О компании, контакты*/
-.company {
-	float: left;
-}
-
-/*Подвал*/
- 
-footer {
-	background-color: #32425c;
-	height: 300px;
-}
-
-
 
 
 
