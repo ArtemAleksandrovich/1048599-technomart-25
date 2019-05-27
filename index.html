@@ -27,13 +27,13 @@
                         <p class="phone">+7 (812) 555-05-55</p>
                         <p class="address">.г Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
                     </div>
-                    <ul class="user-nav">
-                        <li><a href="#">Войти</a></li>
-                        <li><a href="#">Регистрация</a></li>
-                    </ul>
+                    <div class="user-nav">
+                        <a href="#">Войти</a>
+                        <a href="#">Регистрация</a>
+                    </div>
                 </div>
                 <nav>
-                    <ul>
+                    <ul class="menu">
                         <li><a href="#">Главная</a></li>
                         <li><a href="/company.html">Компания</a></li>
                         <li><a href="/catalog.html">Каталог</a></li>
@@ -48,60 +48,56 @@
     </header>
     <main>
         <div class="wrapper">
-            <div>
-                <div>
-                    <div class="material">
-                        <h3>Материалы</h3>
-                        <a href="/material.html">на любой вкус</a>
-                    </div>
-                    <div class="tooling">
-                        <h3>Инструменты</h3>
-                        <a href="/tooling.html">на все случаи</a>
-                    </div>
-                    <div class="technique">
-                        <h3>Техника</h3>
-                        <a href="/technic.html">для стройки</a>
-                    </div>
+            <div class="item-menu">
+                <div class="material">
+                    <h3>Материалы</h3>
+                    <a href="/material.html">на любой вкус</a>
                 </div>
-                <div>
-                    <div class="slider">
+                <div class="tooling">
+                    <h3>Инструменты</h3>
+                    <a href="/tooling.html">на все случаи</a>
+                </div>
+                <div class="technique">
+                    <h3>Техника</h3>
+                    <a href="/technic.html">для стройки</a>
+                </div>
+                <div class="slider">
                     
-                    </div>
-                    <div class="discount">
-                        <h3>Скидки 50%</h3>
-                        <a href="/special.html"> на 350 товаров</a>
-                    </div>
-                    <div class="delivery">
-                        <h3>Доставка</h3>
-                        <a href="/delivery.html">бесплатно</a>
-                    </div>
                 </div>
-            </div>
+                <div class="discount">
+                    <h3>Скидки 50%</h3>
+                    <a href="/special.html"> на 350 товаров</a>
+                </div>
+                <div class="delivery">
+                    <h3>Доставка</h3>
+                    <a href="/delivery.html">бесплатно</a>
+                </div>
+        	</div>
             <section class="popular-goods">
                 <div class="popular">
                     <h2>популярные товары:</h2>
                     <a href="№" class="button">все популярные товары</a>
                 </div>
                 <div class="goods">
-                    <article>
+                    <article class="snippet">
                         <img src="img/BOSCH9000.jpg" alt="Перфоратор BOSCH BFG 9000">
                         <h3>Перфоратор BOSCH<br> BFG 9000</h3>
                         <span> 32500 Р.</span>
                         <a href="#" class="actionprice">25500 Р.</a>
                     </article>
-                    <article>
+                    <article class="snippet">
                         <img src="img/BOSCH3000.jpg" alt="Перфоратор BOSCH BFG 3000">
                         <h3>Перфоратор BOSCH<br> BFG 3000</h3>
                         <span> 22500 Р.</span>
                         <a href="#">15500 Р.</a>
                     </article>
-                    <article>
+                    <article class="snippet">
                         <img src="img/BOSCH6000.jpg" alt="Перфоратор BOSCH BFG 6000">
                         <h3>Перфоратор BOSCH<br> BFG 6000</h3>
                         <span> 30500 Р.</span>
                         <a href="#">25500 Р.</a>
                     </article>
-                    <article class="goods-new">
+                    <article class="snippet-new">
                         <img src="img/BOSCH2000.jpg" alt="Перфоратор BOSCH BFG 2000">
                         <h3>Перфоратор BOSCH<br> BFG 2000</h3>
                         <a href="#">12500 Р.</a>
@@ -130,19 +126,19 @@
                 <h2>Сервисы</h2>
                 <p>Хороший интернет-магазин отличается от плохого не только ценами<br>Мы стараемся изо всех сил чтобы сделать ваши покупки приятными</p>
                 <ul class="tabs">
-                    <li>
+                    <li class="service-tab">
                         <input type="radio" name="tabs" id="tab-1" checked>
                         <label for="tab-1">Доставка</label>
                         <div class="wrapper">Мы с удовольствием доставляем ваш товар прямо к вашему подъезду совершенно бесплатно!<br>Ведь мы неплохо заработаем поднимая его на ваш этаж
                         </div>
                     </li>
-                    <li>
+                    <li class="service-tab">
                         <input type="radio" name="tabs" id="tab-2" checked>
                         <label for="tab-2">Гарантия</label>
                         <div class="wrapper">Мы с удовольствием доставляем ваш товар прямо к вашему подъезду совершенно бесплатно!<br>Ведь мы неплохо заработаем поднимая его на ваш этаж
                         </div>
                     </li>
-                    <li>
+                    <li class="service-tab">
                         <input type="radio" name="tabs" id="tab-3" checked>
                         <label for="tab-3">Кредит</label>
                         <div class="wrapper">Мы с удовольствием доставляем ваш товар прямо к вашему подъезду совершенно бесплатно!<br>Ведь мы неплохо заработаем поднимая его на ваш этаж
@@ -157,7 +153,7 @@
                     <h2>Компания "техномарт"</h2>
                     <p>Настоящий мужской шопинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушным скономить на гастрабайтерах</p>
                     <p>Мы можем доставить ваш товар в самые отдаленные точки России <br>Техномарт работает со многими транспортными компаниями</p>
-                    <ul>
+                    <ul class="information">
                         <li>Деловые линии</li>
                         <li>Автотрейдинг</li>
                         <li>ЖелДорЭкспедиция</li>
@@ -174,34 +170,28 @@
         </div>
     </main>
     <footer>
-        <nav>
-            <div class="wrapper">
-                <a class="logo">ТЕХНОМАРТ</a>
-                <ul>
-                    <li><a href="/company.html">Компания</a></li>
-                    <li><a href="/news.html">Новости</a></li>
-                    <li><a href="/catalog.html">Каталог</a></li>
-                    <li><a href="/delivery.html">Доставка</a></li>
-                    <li><a href="/contact.html">Контакты</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div  class="footer-middle">
-            <div class="wrapper">
-                <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>+7 (812) 555-05-55</address>
-                <ul>
-                    <li><a href="/material.html">Материалы</a></li>
-                    <li><a href="/technic.html">Техника</a></li>
-                    <li><a href="/tooling.html">Инструменты</a></li>
-                    <li><a href="/special.html">Спецпредложения</a></li>
-                </ul>
-            </div>
+        <div class="wrapper">
+            <a class="logo">ТЕХНОМАРТ</a>
+            <ul class="footer-menu">
+                <li><a href="/company.html">Компания</a></li>
+                <li><a href="/news.html">Новости</a></li>
+                <li><a href="/catalog.html">Каталог</a></li>
+                <li><a href="/delivery.html">Доставка</a></li>
+                <li><a href="/contact.html">Контакты</a></li>
+            </ul>
+            <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 <br>+7 (812) 555-05-55</address>
+            <ul class="footer-menu">
+                <li class="footer-midle-a"><a href="/material.html">Материалы</a></li>
+                <li class="footer-midle-a"><a href="/technic.html">Техника</a></li>
+                <li class="footer-midle-a"><a href="/tooling.html">Инструменты</a></li>
+                <li class="footer-midle-a"><a href="/special.html">Спецпредложения</a></li>
+            </ul>
         </div>
         <div class="footer-bottom">
             <div class="wrapper">
                 <p>&copy; 2010-2017 Компания "Техномарт"<br>Все права защищены</p>
                 <ul class="social-buttons">
-                    <li><a href="#" class="social-buttons-vk">В контакте</a></li>
+                	<li><a href="#" class="social-buttons-vk">В контакте</a></li>
                     <li><a href="#" class="social-buttons-fac">Facebook</a></li>
                     <li><a href="#" class="social-buttons-ins">Instagram</a></li>
                 </ul>
