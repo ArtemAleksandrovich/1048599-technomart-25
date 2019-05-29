@@ -1,87 +1,109 @@
-html {
-	font-family: "Cuprum", "PT Sans", serif;
-	font-size: 16px;
-	box-sizing: border-box;
+body{
+	margin: 0;
+	
+	font-family: 'Cuprum', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+	color: white;
+	text-transform: capitalize;
+	
+	background: black;
 }
-.wrapper {
+.wrapper{
 	width: 940px;
 	margin: 0 auto;
 }
-.button {
-	font-size: 14px;
-	background-color: #ee3643;
-	text-transform: uppercase;
-	padding: 10px 60px;
-	border-radius: 5px;
-}
-/*
-a {
+a{
 	text-decoration: none;
+}
+.header-top{
+	font-size: 17px;
+	line-height: 18px;
+	color: white;
+	background: rgb(41 52 73);
+}
+.top-menu a{
 	color: white;
 }
-*/
-
-header{
-	background-color: #f3f7f9;
+.top-menu a:hover{
+	background: rgb(33 42 58);
 }
-.header-top {
-	background-color: #293449;
-	display: flex;
+.top-menu a:active{
+	background: rgb(22 29 41);
 }
-
-.logo {
-	background-color: #ee3643;
+.logo{
 	font-size: 24px;
-	padding: 12px 55px;
+	line-height: 24px;
+	color:  white;
 	text-transform: uppercase;
+	background: rgb(238 54 67);
 }
-.formalize {
-	background-color: #63a63e;
+a.logo:hover{
+	background: rgb(202 44 55);	
+}
+a.logo:active{
+	background: rgb(186 39 50);	
+}
+.formalize{
+	color: white;
+	background: rgb(99 166 62);	
+}
+a.formalize:hover{
+	background: rgb(95 187 45);
+}
+a.formalize:active{
+	background: rgb(81 133 52);
+}
+.header-bottom{
 	font-size: 17px;
-	padding: 12px 55px;
+	line-height: 17px;
+	color: white;
+	background: rgb(243 247 248);
 }
-.header-bottom {
-	display: flex;
-	flex-direction: column;
-}
-.user-info{
-	display: inherit;
-}
-h1 {
-	color: #ee3643;
-	font-size: 16px;
+.user-info h1{
 	font-style: italic;
-	padding: 54px 53px 72px 39px
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 23px;
+	color: rgb(238 54 67);
+	text-transform: none;
 }
-.contact{
-	align-self: center; 
-}
-.phone {
-	border: 2px solid white;
+.phone{
 	font-size: 21px;
-	color: #ee3643;
-	font-weight: 700;
-	padding: 15px 55px;
+	line-height: 21px;
+	color: rgb(233 41 42);
+	border: 3px solid white; 
 }
 .address{
 	font-size: 14px;
-	color: #32425c;
+	line-height: 24px;
+	color: rgb(50 66 92);
 }
-nav {
-	background-color: #32425c;
+.user-nav a{
+	font-style: 21px;
+	line-height: 21px;
+	color: black;
 }
-.info-company {
-	display: flex;	
+.user-nav a:hover{
+	color: rgb(238 54 67);
 }
-.company {
-	width: 68%;
+.user-nav a:active{
+	color: rgba(0, 0, 0, 0.302);
 }
-.contact{
-	width: 32%;
+.menu{
+	font-size: 17px;
+	line-height: 17px;
+	list-style: none;
+	background: rgb(50 66 92);
 }
-footer {
-	background-color: #32425c;
+.nav-menu a{
+	color: white;
 }
-.footer-bottom {
-	background-color: #293449;
+.nav-menu a:hover{
+	background: rgb(41 52 73);
+}
+.nav-menu a:active{
+	background: rgb(29 39 57);
+	color: rgba(255, 255, 255, 0.5)
 }
