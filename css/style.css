@@ -1,14 +1,12 @@
 body{
 	margin: 0;
 	
-	font-family: 'Cuprum', Arial, sans-serif;
+	font-family: "Cuprum", Arial, sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 400;
 	color: white;
-	text-transform: capitalize;
-	
-	background: black;
+
 }
 .wrapper{
 	width: 940px;
@@ -16,6 +14,9 @@ body{
 }
 a{
 	text-decoration: none;
+}
+.header{
+	background: rgb(243 247 248);
 }
 .header-top{
 	font-size: 17px;
@@ -38,7 +39,7 @@ a{
 	color:  white;
 	text-transform: uppercase;
 	background: rgb(238 54 67);
-}
+} /*необходимо сделать тень*/
 a.logo:hover{
 	background: rgb(202 44 55);	
 }
@@ -59,7 +60,6 @@ a.formalize:active{
 	font-size: 17px;
 	line-height: 17px;
 	color: white;
-	background: rgb(243 247 248);
 }
 .user-info h1{
 	font-style: italic;
@@ -107,3 +107,147 @@ a.formalize:active{
 	background: rgb(29 39 57);
 	color: rgba(255, 255, 255, 0.5)
 }
+.item-menu h3{
+	font-size: 24px;
+	line-height: 30px;
+	color: white;
+	font-weight: 700;
+}
+.item-menu a{
+	font-size: 14px;
+	line-height: 18px;
+	color: white;
+	text-transform: uppercase;
+	background: rgba(0,0,0,0.1)
+}
+.item-menu a:hover{
+	background: rgba(0,0,0,0.2)
+}
+.item-menua:active{
+	background: rgba(0,0,0,0.3)
+}
+.popular{
+	font-size: 30px;
+	line-height: 30px;
+	color: rgb(50 66 92);
+	background: rgb(249 245 240);
+	text-transform: uppercase;
+}
+.goods{
+	font-size: 17px;
+	line-height: 18px;
+	color: black;
+}
+.snippet{
+	border: 1px solid rgb(234 234 234);
+} /*можно использовать его стразу и на товары и на производителей?*/
+.goods h3{
+	font-size: 18px;
+	line-height: 20px;
+	color: black;
+	font-family: "PT Sans", Arial, sans-serif;
+}
+.goods span{
+	color: rgb(169 169 169);
+	text-decoration: line-through;
+	text-transform: uppercase;
+}
+.service{
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	color: black;
+	background: rgb(244 248 249);
+} /*Сервисы еще требуют доработки табов*/
+.tabs{
+	list-style: none;
+	
+}
+.service h2{
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+.service label{
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 21px;
+	line-height: 30px;
+	color: white;
+	background: rgb(50 66 92);
+}
+.info-company{
+	font-family: "PT Sans", Arial, sans-serif;
+	color: black;
+}
+.info-company h2{
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+.information{
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	list-style: none; /*	нужно доделать красную черту*/
+}
+.footer{
+	background: rgb(50 66 92);
+}
+.logo-footer{
+	font-size: 30px;
+	line-height: 30px;
+	color:  white;
+	text-transform: uppercase;
+	background: rgb(238 54 67);
+} /*необходимо сделать тень*/
+.footer-menu{
+	font-size: 18px;
+	line-height: 24px;
+	list-style: none;
+}
+.footer-midle-a{
+	color: white;
+}
+.footer-midle-b{
+	color: rgb(255 209 128);
+}
+.footer-midle-a:hover{
+	text-decoration: underline;
+}
+.footer-midle-a:active{
+	text-decoration: underline;
+	color: rgba(25,255,255,0.5);
+}
+.footer-midle-b:hover{
+	text-decoration: underline;
+}
+.footer-midle-b:active{
+	text-decoration: underline;
+	color: rgba(255,209,128,0.5);
+}
+.footer address{
+	font-size: 18px;
+	line-height: 24px;
+	color: rgb(241 245 247);
+}
+.footer-bottom{
+	font-size: 16px;
+	line-height: 18px;
+	background: rgb(41 52 73);
+}
+.social-buttons{
+	list-style: none;
+}
+.footer-bottom a{
+	color: rgb(255 209 128);
+}
+.footer-bottom a:hover{
+	text-decoration: underline;
+}
+.footer-bottom a:active{
+	text-decoration: underline;
+	color: rgb(238 54 67);
+}
+
