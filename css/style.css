@@ -34,9 +34,8 @@ a{
 	color:  white;
 	text-transform: uppercase;
 	background: rgb(238 54 67);
-	padding: 9px 55px;
-
-} /*необходимо сделать тень*/
+	padding: 9px 55px 14px;
+}
 .logo:hover{
 	background: rgb(202 44 55);	
 }
@@ -52,8 +51,7 @@ a{
 }
 .bookmarks{
 	color: white;
-	
-	width: 150px;
+	padding: 12px 20px;
 	
 }
 .basket{
@@ -81,6 +79,7 @@ a{
 	font-size: 17px;
 	line-height: 17px;
 	color: white;
+	padding-bottom: 35px;
 }
 .user-info{
 	display: flex;
@@ -122,15 +121,16 @@ a{
 	line-height: 17px;
 	list-style: none;
 	background: rgb(50 66 92);
-	
+	border-bottom: 5px solid rgb(41 52 73);
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 .nav-menu a{
 	color: white;
 	display: block;
 	padding: 19px 31px;
 }
+/*слева большой отступ */
 .nav-menu:hover{
 	background: rgb(41 52 73);
 }
@@ -140,22 +140,25 @@ a{
 }
 .item-menu{
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
-	margin: 59px 0px 0px;
+}
+.item-menu-left{
+	display: flex;
+	flex-wrap: wrap;
 }
 .item-menu h3{
 	font-size: 24px;
 	line-height: 30px;
 	color: white;
 	font-weight: 700;
+	margin: 0 0 16px;
 }
 .item-menu a{
 	font-size: 14px;
 	line-height: 18px;
 	color: white;
 	text-transform: uppercase;
-	background: rgba(0,0,0,0.1)
+	background: rgba(0,0,0,0.1);
 }
 .item-menu a:hover{
 	background: rgba(0,0,0,0.2)
@@ -163,41 +166,72 @@ a{
 .item-menu a:active{
 	background: rgba(0,0,0,0.3)
 }
+.material a{
+	padding: 10px 22px;
+	border-radius: 5px;
+}
 .material{
-	background: rgb(255 191 71);
+	background: rgb(255 191 71) url(/icon/icon-1.png) no-repeat;
+	background-position: 212px center;
+	box-sizing: border-box;
 	width: 300px;
-	height: 123px;
-	margin: 0px 0px 10px;
+	margin: 60px 10px 10px 0px;
+	padding: 26px 22px;
+}
+.tooling a{
+	padding: 10px 27px;
+	border-radius: 5px;	
 }
 .tooling{
-	background: rgb(59 188 227);
+	background: rgb(59 188 227)  url(/icon/icon-2.png) no-repeat;
+	background-position: 198px center;
+	box-sizing: border-box;
 	width: 300px;
-	height: 123px;
-	margin: 0px 0px 10px;
+	margin: 60px 10px 10px 10px;
+	padding: 26px 22px;
+
+}
+.technique a{
+	padding: 10px 30px;
+	border-radius: 5px;	
 }
 .technique{
-	background: rgb(220 145 216);
+	background: rgb(220 145 216) url(/icon/icon-3.png) no-repeat;
+	background-position: 191px center;
+	box-sizing: border-box;
 	width: 300px;
-	height: 123px;	
-	margin: 0px 0px 10px;	
+	margin: 60px 0px 20px 10px;	
+	padding: 26px 22px;
+}
+.discount a{
+	padding: 10px 22px;
+	border-radius: 5px;	
 }
 .discount{
-	background: rgb(142 215 143);
+	background: rgb(142 215 143) url(/icon/icon-4.png) no-repeat;
+	background-position: 196px center;	
+	box-sizing: border-box;
 	width: 300px;
-	height: 123px;	
-	margin: 10px 0px;
+	margin: 10px 0px 20px 10px;
+	padding: 26px 22px;
+}
+.delivery a{
+	padding: 10px 37px;
+	border-radius: 5px;	
 }
 .delivery{
-	background: rgb(255 191 71);
+	background: rgb(255 191 71) url(/icon/icon-5.png) no-repeat;
+	background-position: 191px center;	
+	box-sizing: border-box;	
 	width: 300px;
-	height: 123px;
-	margin: 10px 0px 0px;
+	margin: 10px 0px 0px 10px;
+	padding: 26px 22px;
 }
 .slider{
-	background: black;
+	background: url(/img/Layer%2099.jpg);
 	width: 620px;
 	height: 266px;
-	margin: 10px; 0px; 0px;
+	margin: 10px 10px 10px 0px;
 }
 .popular{
 	font-size: 30px;
@@ -219,7 +253,7 @@ a{
 .snippet{
 	border: 1px solid rgb(234 234 234);
 	
-} /*можно использовать его стразу и на товары и на производителей?*/
+} 
 .goods h3{
 	font-size: 18px;
 	line-height: 20px;
@@ -340,7 +374,7 @@ a{
 	color:  white;
 	text-transform: uppercase;
 	background: rgb(238 54 67);
-} /*необходимо сделать тень*/
+} 
 .footer-menu{
 	font-size: 18px;
 	line-height: 24px;
@@ -398,6 +432,7 @@ a{
 	text-transform: uppercase;
 	border-radius: 5px;
 }
+
 
 
 
