@@ -11,6 +11,7 @@ body{
 .wrapper{
 	width: 940px;
 	margin: 0 auto;
+	padding: 0px 10px;
 }
 a{
 	text-decoration: none;
@@ -24,14 +25,8 @@ a{
 	color: white;
 	background: rgb(41 52 73);
 }
-.top-menu a{
-	color: white;
-}
-.top-menu a:hover{
-	background: rgb(33 42 58);
-}
-.top-menu a:active{
-	background: rgb(22 29 41);
+.top-menu{
+	display: flex;
 }
 .logo{
 	font-size: 24px;
@@ -39,27 +34,56 @@ a{
 	color:  white;
 	text-transform: uppercase;
 	background: rgb(238 54 67);
+	padding: 9px 55px;
+
 } /*необходимо сделать тень*/
-a.logo:hover{
+.logo:hover{
 	background: rgb(202 44 55);	
 }
-a.logo:active{
+.logo:active{
 	background: rgb(186 39 50);	
+}
+.top-menu input{
+	background: rgb(41 52 73);
+	color: white;
+	width: 270px;
+	border: none;
+	
+}
+.bookmarks{
+	color: white;
+	
+	width: 150px;
+	
+}
+.basket{
+	color: white;
+	width: 150px;
+}
+.basket:hover{
+	background: rgb(33 42 58);
+}
+.basket:active{
+	background: rgb(22 29 41);
 }
 .formalize{
 	color: white;
-	background: rgb(99 166 62);	
+	background: rgb(99 166 62);
+	padding: 12px 20px;
 }
-a.formalize:hover{
+.formalize:hover{
 	background: rgb(95 187 45);
 }
-a.formalize:active{
+.formalize:active{
 	background: rgb(81 133 52);
 }
 .header-bottom{
 	font-size: 17px;
 	line-height: 17px;
 	color: white;
+}
+.user-info{
+	display: flex;
 }
 .user-info h1{
 	font-style: italic;
@@ -68,6 +92,8 @@ a.formalize:active{
 	line-height: 23px;
 	color: rgb(238 54 67);
 	text-transform: none;
+	
+	margin: 54px 71px 53px 44px;
 }
 .phone{
 	font-size: 21px;
@@ -96,16 +122,27 @@ a.formalize:active{
 	line-height: 17px;
 	list-style: none;
 	background: rgb(50 66 92);
+	
+	display: flex;
+	justify-content: space-between;
 }
 .nav-menu a{
 	color: white;
+	display: block;
+	padding: 19px 31px;
 }
-.nav-menu a:hover{
+.nav-menu:hover{
 	background: rgb(41 52 73);
 }
-.nav-menu a:active{
+.nav-menu:active{
 	background: rgb(29 39 57);
 	color: rgba(255, 255, 255, 0.5)
+}
+.item-menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 59px 0px 0px;
 }
 .item-menu h3{
 	font-size: 24px;
@@ -123,8 +160,44 @@ a.formalize:active{
 .item-menu a:hover{
 	background: rgba(0,0,0,0.2)
 }
-.item-menua:active{
+.item-menu a:active{
 	background: rgba(0,0,0,0.3)
+}
+.material{
+	background: rgb(255 191 71);
+	width: 300px;
+	height: 123px;
+	margin: 0px 0px 10px;
+}
+.tooling{
+	background: rgb(59 188 227);
+	width: 300px;
+	height: 123px;
+	margin: 0px 0px 10px;
+}
+.technique{
+	background: rgb(220 145 216);
+	width: 300px;
+	height: 123px;	
+	margin: 0px 0px 10px;	
+}
+.discount{
+	background: rgb(142 215 143);
+	width: 300px;
+	height: 123px;	
+	margin: 10px 0px;
+}
+.delivery{
+	background: rgb(255 191 71);
+	width: 300px;
+	height: 123px;
+	margin: 10px 0px 0px;
+}
+.slider{
+	background: black;
+	width: 620px;
+	height: 266px;
+	margin: 10px; 0px; 0px;
 }
 .popular{
 	font-size: 30px;
@@ -132,14 +205,20 @@ a.formalize:active{
 	color: rgb(50 66 92);
 	background: rgb(249 245 240);
 	text-transform: uppercase;
+	
+	display: flex;
 }
 .goods{
 	font-size: 17px;
 	line-height: 18px;
 	color: black;
+	
+	display: flex;
+	justify-content: space-around;
 }
 .snippet{
 	border: 1px solid rgb(234 234 234);
+	
 } /*можно использовать его стразу и на товары и на производителей?*/
 .goods h3{
 	font-size: 18px;
@@ -162,6 +241,56 @@ a.formalize:active{
 .tabs{
 	list-style: none;
 	
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	
+}
+.tabs:after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 240px;
+}
+.tabs li {
+	float: left;
+}
+.tabs li > input {
+	display: none;
+}
+.tabs li > label {
+	display: inline-block;
+	border: 1px solid #999;
+	border-right-width: 0;
+	border-bottom-width: 0;
+	height: 30px;
+	line-height: 30px;
+	padding: 5px 20px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.tabs li:last-child > label {
+	border-right-width: 1px;
+}
+.tabs .tab-content {
+	display: none;
+	position: absolute;
+	left: 0;
+	padding: 20px;
+	border: 1px solid white;
+	height: 200px;
+	overflow-y: auto;
+}
+.tabs li > input:checked + label {
+	background-color: white;
+	color: rgb(50 66 92);
+}
+.tabs li > input:checked ~ .tab-content {
+	display: block;
 }
 .service h2{
 	font-family: "Cuprum", Arial, sans-serif;
@@ -178,13 +307,23 @@ a.formalize:active{
 }
 .info-company{
 	font-family: "PT Sans", Arial, sans-serif;
+	font-size:13px;
+	line-height: 24px;
 	color: black;
+	display: flex;
+	justify-content: space-between;
 }
 .info-company h2{
 	font-family: "Cuprum", Arial, sans-serif;
 	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
+}
+.company{
+	width: 540px;
+}
+.contact{
+	width: 300px;
 }
 .information{
 	font-family: "Cuprum", Arial, sans-serif;
@@ -206,6 +345,7 @@ a.formalize:active{
 	font-size: 18px;
 	line-height: 24px;
 	list-style: none;
+	display: flex;
 }
 .footer-midle-a{
 	color: white;
@@ -250,4 +390,15 @@ a.formalize:active{
 	text-decoration: underline;
 	color: rgb(238 54 67);
 }
+.button{
+	font-size: 14px;
+	line-height: 18px;
+	color: white;
+	background: rgb(238 54 67);
+	text-transform: uppercase;
+	border-radius: 5px;
+}
+
+
+
 
