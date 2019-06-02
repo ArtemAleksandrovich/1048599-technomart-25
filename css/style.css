@@ -27,6 +27,7 @@ a{
 }
 .top-menu{
 	display: flex;
+	justify-content: space-around;
 }
 .logo{
 	font-size: 24px;
@@ -35,11 +36,14 @@ a{
 	text-transform: uppercase;
 	background: rgb(238 54 67);
 	padding: 9px 55px 14px;
+	box-shadow: 0px 5px 0px rgb(181 41 51);
 }
-.logo:hover{
+.logo:hover,
+.logo-footer:hover{
 	background: rgb(202 44 55);	
 }
-.logo:active{
+.logo:active,
+.logo-footer:active{
 	background: rgb(186 39 50);	
 }
 .top-menu input{
@@ -121,7 +125,9 @@ a{
 	line-height: 17px;
 	list-style: none;
 	background: rgb(50 66 92);
-	border-bottom: 5px solid rgb(41 52 73);
+	box-shadow: 0px 5px 0px rgb(41 52 73);
+	margin: 0;
+	padding: 0;
 	display: flex;
 	justify-content: space-around;
 }
@@ -138,9 +144,14 @@ a{
 	background: rgb(29 39 57);
 	color: rgba(255, 255, 255, 0.5)
 }
+main{
+	padding-top: 60px;
+}
 .item-menu{
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 53px;
+	
 }
 .item-menu-left{
 	display: flex;
@@ -175,7 +186,7 @@ a{
 	background-position: 212px center;
 	box-sizing: border-box;
 	width: 300px;
-	margin: 60px 10px 10px 0px;
+	margin: 0px 10px 10px 0px;
 	padding: 26px 22px;
 }
 .tooling a{
@@ -187,7 +198,7 @@ a{
 	background-position: 198px center;
 	box-sizing: border-box;
 	width: 300px;
-	margin: 60px 10px 10px 10px;
+	margin: 0px 10px 10px 10px;
 	padding: 26px 22px;
 
 }
@@ -200,7 +211,7 @@ a{
 	background-position: 191px center;
 	box-sizing: border-box;
 	width: 300px;
-	margin: 60px 0px 20px 10px;	
+	margin: 0px 0px 20px 10px;	
 	padding: 26px 22px;
 }
 .discount a{
@@ -231,29 +242,44 @@ a{
 	background: url(/img/Layer%2099.jpg);
 	width: 620px;
 	height: 266px;
-	margin: 10px 10px 10px 0px;
+	margin: 10px 10px 0px 0px;
+}
+.popular-goods{
+/*	margin-top: 53px;*/
 }
 .popular{
-	font-size: 30px;
-	line-height: 30px;
 	color: rgb(50 66 92);
 	background: rgb(249 245 240);
-	text-transform: uppercase;
-	
+	text-transform: uppercase;	
 	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+.popular h2{
+	font-size: 30px;
+	line-height: 30px;
+	margin: 0;
+}
+.popular a{
+	padding: 10px 55px;
 }
 .goods{
 	font-size: 17px;
 	line-height: 18px;
-	color: black;
-	
+	color: black;	
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	margin-top: 20px;
 }
 .snippet{
 	border: 1px solid rgb(234 234 234);
-	
+	display: flex;
+	flex-direction: column;	
 } 
+.snippet a{
+	padding: 10px 37px;
+	margin: 13px 36px 21px 43px;
+}
 .goods h3{
 	font-size: 18px;
 	line-height: 20px;
@@ -264,6 +290,21 @@ a{
 	color: rgb(169 169 169);
 	text-decoration: line-through;
 	text-transform: uppercase;
+}
+.popular-maker{
+	margin-top: 53px;
+}
+.button.maker{
+	padding: 10px 70px;
+}
+.manufacturer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.manufacturer .snippet{
+	width: 220px;
+	margin-top: 20px;
 }
 .service{
 	font-family: "PT Sans", Arial, sans-serif;
@@ -374,6 +415,8 @@ a{
 	color:  white;
 	text-transform: uppercase;
 	background: rgb(238 54 67);
+	padding: 16px 41px;
+	box-shadow: 0px 5px 0px rgb(181 41 51);
 } 
 .footer-menu{
 	font-size: 18px;
