@@ -87,6 +87,9 @@ a{
 }
 .user-info{
 	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
 }
 .user-info h1{
 	font-style: italic;
@@ -94,25 +97,34 @@ a{
 	font-size: 16px;
 	line-height: 23px;
 	color: rgb(238 54 67);
-	text-transform: none;
-	
 	margin: 54px 71px 53px 44px;
+}
+.contact-header{
+	margin-top: 46px;
+	
 }
 .phone{
 	font-size: 21px;
 	line-height: 21px;
 	color: rgb(233 41 42);
-	border: 3px solid white; 
+	border: 3px solid white;
+	margin: 0;
+	padding: 11px 53px 11px 73px;
 }
 .address{
 	font-size: 14px;
 	line-height: 24px;
 	color: rgb(50 66 92);
 }
+.user-nav{
+	margin-top: 46px;
+}
 .user-nav a{
 	font-style: 21px;
 	line-height: 21px;
 	color: black;
+	background: rgb(255 255 255);
+	padding: 12px 45px;
 }
 .user-nav a:hover{
 	color: rgb(238 54 67);
@@ -188,6 +200,9 @@ main{
 	width: 300px;
 	margin: 0px 10px 10px 0px;
 	padding: 26px 22px;
+	
+	display: block;
+	position: relative;
 }
 .tooling a{
 	padding: 10px 27px;
