@@ -5,27 +5,69 @@
 	</symbol>
 	<view id="accountSearch-view" viewBox="0 0 17 17" />
 	<use xlink:href="#accountSearch" width="17" height="17" x="0" y="0"></use>
+<!-- icon accountSearch30 Поиск-->
+	<symbol id="accountSearch30" viewBox="0 0 17 17">
+		<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"><path fill="rgba(255,255,255,0.3)" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/></svg>
+	</symbol>
+	<view id="accountSearch30-view" viewBox="0 50 17 17" />
+	<use xlink:href="#accountSearch30" width="17" height="17" x="0" y="50"></use>
+<!-- icon accountSearch50 Поиск-->
+	<symbol id="accountSearch50" viewBox="0 0 17 17">
+		<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"><path fill="rgba(255,255,255,0.5)" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/></svg>
+	</symbol>
+	<view id="accountSearch50-view" viewBox="0 100 17 17" />
+	<use xlink:href="#accountSearch50" width="17" height="17" x="0" y="100"></use>
+<!-- icon accountSearchRed Поиск-->	
+	<symbol id="accountSearchRed" viewBox="0 0 17 17">
+		<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"><path fill="#ee3643" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/></svg>
+	</symbol>
+	<view id="accountSearchRed-view" viewBox="0 150 17 17" />
+	<use xlink:href="#accountSearchRed" width="17" height="17" x="0" y="150"></use>
 <!--  icon accountBookmark Закладки-->
 	<symbol id="accountBookmark" viewBox="0 0 14 16">
 		<svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill="#fff" d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/></svg>
 	</symbol>
-	<view id="accountBookmark-view" viewBox="57 0 14 16" />
-	<use xlink:href="#accountBookmark" width="14" height="16" x="57" y="0"></use>	
+	<view id="accountBookmark-view" viewBox="50 0 14 16" />
+	<use xlink:href="#accountBookmark" width="14" height="16" x="50" y="0"></use>
+<!--  icon accountBookmark30 Закладки-->
+	<symbol id="accountBookmark30" viewBox="0 0 14 16">
+		<svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill="rgba(255,255,255,0.3)" d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/></svg>
+	</symbol>
+	<view id="accountBookmark30-view" viewBox="50 50 14 16" />
+	<use xlink:href="#accountBookmark30" width="14" height="16" x="50" y="50"></use>
+<!--  icon accountBookmark50 Закладки-->
+	<symbol id="accountBookmark50" viewBox="0 0 14 16">
+		<svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill="rgba(255,255,255,0.5)" d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/></svg>
+	</symbol>
+	<view id="accountBookmark50-view" viewBox="50 100 14 16" />
+	<use xlink:href="#accountBookmark50" width="14" height="16" x="50" y="100"></use>
 <!--  icon accountCart Корзина-->
 	<symbol id="accountCart" viewBox="0 0 15 15">
 		<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><circle fill="#fff" cx="4.5" cy="13.5" r="1.5"/><circle fill="#fff" cx="12.5" cy="13.5" r="1.5"/><path fill="#fff" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/></svg>
 	</symbol>
-	<view id="accountCart-view" viewBox="111 0 15 15" />
-	<use xlink:href="#accountCart" width="15" height="15" x="111" y="0"></use>	
+	<view id="accountCart-view" viewBox="100 0 15 15" />
+	<use xlink:href="#accountCart" width="15" height="15" x="100" y="0"></use>
+<!--  icon accountCart30 Корзина-->
+	<symbol id="accountCart30" viewBox="0 0 15 15">
+		<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><circle fill="rgba(255,255,255,0.3)" cx="4.5" cy="13.5" r="1.5"/><circle fill="#fff" cx="12.5" cy="13.5" r="1.5"/><path fill="#fff" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/></svg>
+	</symbol>
+	<view id="accountCart30-view" viewBox="100 50 15 15" />
+	<use xlink:href="#accountCart30" width="15" height="15" x="100" y="50"></use>
+<!--  icon accountCart50 Корзина-->
+	<symbol id="accountCart50" viewBox="0 0 15 15">
+		<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><circle fill="rgba(255,255,255,0.3)" cx="4.5" cy="13.5" r="1.5"/><circle fill="#fff" cx="12.5" cy="13.5" r="1.5"/><path fill="#fff" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/></svg>
+	</symbol>
+	<view id="accountCart50-view" viewBox="100 100 15 15" />
+	<use xlink:href="#accountCart50" width="15" height="15" x="100" y="100"></use>	
 <!--  icon accountPhone Телефон-->
 	<symbol id="accountPhone" viewBox="0 0 19 19">
 		<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19"><path fill="#B7BFC8" d="M15.572 18.985h-.941c-4.129-.488-7.157-2.408-9.359-4.864C3.062 11.66 1.318 8.492.978 4.228V3.084c.078-.774.459-1.304.898-1.757C2.425.766 3.25.044 4.002.019c.554-.018 1.5.38 1.879.899.329.446.504 1.339.656 2.003.154.671.505 1.643.408 2.289-.148 1.007-1.487 1.434-1.879 2.166 1.307 3.135 3.443 5.439 6.293 7.031.715-.392 1.346-1.572 2.332-1.595.359-.009.818.178 1.184.286.402.121.75.275 1.104.408.596.224 1.648.521 2.004 1.021.365.513.57 1.356.49 1.879-.164 1.041-1.879 2.197-2.901 2.579z"/></svg>
 	</symbol>
-	<view id="accountPhone-view" viewBox="170 0 19 19" />
-	<use xlink:href="#accountPhone" width="19" height="19" x="170" y="0"></use>
+	<view id="accountPhone-view" viewBox="0 200 19 19" />
+	<use xlink:href="#accountPhone" width="19" height="19" x="0" y="200"></use>
 <!--  icon accountLogin Вход-->
 	<symbol id="accountLogin" viewBox="0 0 20 17">
-		<svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path fill="#c5c5c5" d="M14.875 8.5L6 0v6H0v5h6v6z"/><path fill="#c5c5c5" d="M16.986 15.01h-5.027V17h5.027c2.178 0 3.004-1.81 3.029-3.026V3.028C19.99 1.811 19.164 0 16.986 0h-5.027v1.99h5.027c.839 0 .992.681 1.01 1.057v10.904c-.017.376-.171 1.059-1.01 1.059z"/></svg>
+	<svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path fill="#c5c5c5" d="M14.875 8.5L6 0v6H0v5h6v6z"/><path fill="#c5c5c5" d="M16.986 15.01h-5.027V17h5.027c2.178 0 3.004-1.81 3.029-3.026V3.028C19.99 1.811 19.164 0 16.986 0h-5.027v1.99h5.027c.839 0 .992.681 1.01 1.057v10.904c-.017.376-.171 1.059-1.01 1.059z"/></svg>
 	</symbol>
 	<view id="accountLogin-view" viewBox="230 0 20 17" />
 	<use xlink:href="#accountLogin" width="20" height="17" x="230" y="0"></use>
@@ -42,11 +84,11 @@
 	<view id="accountLogout-view" viewBox="340 0 20 17" />
 	<use xlink:href="#accountLogout" width="20" height="17" x="340" y="0"></use>
 <!--  icon accountleft Стрелка слайдера left-->
-	<symbol id="accountLogin" viewBox="400 0 20 40">
+	<symbol id="accountleft" viewBox="400 0 20 40">
 		<path fill="#FFF" d="M19.83-.035l2.089 2.099L4.13 19.947l17.847 17.939-2.09 2.099L-.048 19.947z"/>
 	</symbol>
-	<view id="accountLogin-view" viewBox="400 0 20 40" />
-	<use xlink:href="#accountLogin" width="20" height="40" x="400" y="0"></use>
+	<view id="accountleft-view" viewBox="400 0 20 40" />
+	<use xlink:href="#accountleft" width="20" height="40" x="400" y="0"></use>
 <!--  icon accountRight стрелка слайдера right-->
 	<symbol id="accountRight" viewBox="460 0 20 40">
 		<path fill="#FFF" d="M2.098-.035L.009 2.064l17.789 17.883L-.048 37.886l2.089 2.099 19.935-20.038z"/>
