@@ -65,6 +65,23 @@ a{
 	border: none;
 	
 }
+.search{
+	font-size: 17px;
+	line-height: 18px;
+	padding: 12px;	
+}
+input::-webkit-input-placeholder{
+	color: white;
+}
+.search:hover{
+	outline: none;
+	background: rgb(33 42 58);
+}
+.search:focus{
+	outline: none;
+	background: white;
+	color: black;	
+}
 .bookmarks{
 	color: white;
 	padding: 12px 20px;
