@@ -38,13 +38,25 @@ a{
 	padding: 9px 55px 14px;
 	box-shadow: 0px 5px 0px rgb(181 41 51);
 }
+.logo-footer{
+	font-size: 30px;
+	line-height: 30px;
+	color:  white;
+	text-transform: uppercase;
+	background: rgb(238 54 67);
+	padding: 16px 41px;
+	box-shadow: 0px 5px 0px rgb(181 41 51);
+}
 .logo:hover,
-.logo-footer:hover{
-	background: rgb(202 44 55);	
+.logo:focus,
+.logo-footer:hover,
+.logo-footer:focus{
+	outline: none;
+	background: rgb(202 44 55);
 }
 .logo:active,
 .logo-footer:active{
-	background: rgb(186 39 50);	
+	background: rgb(186 39 50);
 }
 .top-menu input{
 	background: rgb(41 52 73);
@@ -56,15 +68,19 @@ a{
 .bookmarks{
 	color: white;
 	padding: 12px 20px;
-	
 }
 .basket{
 	color: white;
 	width: 150px;
 }
-.basket:hover{
+.bookmarks:hover,
+.bookmarks:focus,
+.basket:hover,
+.basket:focus{
+	outline: none;
 	background: rgb(33 42 58);
 }
+.bookmarks:active,
 .basket:active{
 	background: rgb(22 29 41);
 }
@@ -73,7 +89,9 @@ a{
 	background: rgb(99 166 62);
 	padding: 12px 20px;
 }
-.formalize:hover{
+.formalize:hover,
+.formalize:focus{
+	outline: none;
 	background: rgb(95 187 45);
 }
 .formalize:active{
@@ -126,7 +144,9 @@ a{
 	background: rgb(255 255 255);
 	padding: 12px 45px;
 }
-.user-nav a:hover{
+.user-nav a:hover,
+.user-nav a:focus{
+	outline: none;
 	color: rgb(238 54 67);
 }
 .user-nav a:active{
@@ -148,13 +168,14 @@ a{
 	display: block;
 	padding: 19px 31px;
 }
-/*слева большой отступ */
-.nav-menu:hover{
+.nav-menu a:hover,
+.nav-menu a:focus{
+	outline: none;
 	background: rgb(41 52 73);
 }
-.nav-menu:active{
+.nav-menu a:active{
 	background: rgb(29 39 57);
-	color: rgba(255, 255, 255, 0.5)
+	color: rgba(255, 255, 255, 0.5);
 }
 main{
 	padding-top: 60px;
@@ -183,8 +204,10 @@ main{
 	text-transform: uppercase;
 	background: rgba(0,0,0,0.1);
 }
-.item-menu a:hover{
-	background: rgba(0,0,0,0.2)
+.item-menu a:hover,
+.item-menu a:focus{
+	outline: none;
+	background: rgba(0,0,0,0.2);
 }
 .item-menu a:active{
 	background: rgba(0,0,0,0.3)
@@ -258,9 +281,6 @@ main{
 	width: 620px;
 	height: 266px;
 	margin: 10px 10px 0px 0px;
-}
-.popular-goods{
-/*	margin-top: 53px;*/
 }
 .popular{
 	color: rgb(50 66 92);
@@ -424,15 +444,6 @@ main{
 .footer{
 	background: rgb(50 66 92);
 }
-.logo-footer{
-	font-size: 30px;
-	line-height: 30px;
-	color:  white;
-	text-transform: uppercase;
-	background: rgb(238 54 67);
-	padding: 16px 41px;
-	box-shadow: 0px 5px 0px rgb(181 41 51);
-} 
 .footer-menu{
 	font-size: 18px;
 	line-height: 24px;
@@ -445,14 +456,18 @@ main{
 .footer-midle-b{
 	color: rgb(255 209 128);
 }
-.footer-midle-a:hover{
+.footer-midle-a:hover,
+.footer-midle-a:focus{
+	outline: none;
 	text-decoration: underline;
 }
 .footer-midle-a:active{
 	text-decoration: underline;
 	color: rgba(25,255,255,0.5);
 }
-.footer-midle-b:hover{
+.footer-midle-b:hover,
+.footer-midle-b:focus{
+	outline: none;
 	text-decoration: underline;
 }
 .footer-midle-b:active{
@@ -472,14 +487,25 @@ main{
 .social-buttons{
 	list-style: none;
 }
+.social-buttons a{
+	background: rgb(33 42 58);
+	border-radius: 50%;
+}
+.social-buttons a:hover,
+.social-buttons a:focus,
+.social-buttons a:active{
+	background: rgb(238 54 67);
+}
 .footer-bottom a{
 	color: rgb(255 209 128);
 }
-.footer-bottom a:hover{
+.footer-bottom a:hover,
+.footer-bottom a:focus{
+	outline: none;
 	text-decoration: underline;
+
 }
 .footer-bottom a:active{
-	text-decoration: underline;
 	color: rgb(238 54 67);
 }
 .button{
@@ -489,6 +515,14 @@ main{
 	background: rgb(238 54 67);
 	text-transform: uppercase;
 	border-radius: 5px;
+}
+.button:hover,
+.button:focus{
+	outline: none;
+	background: rgb(202 44 55);
+}
+.button:active{
+	background: rgb(186 39 50);
 }
 
 
