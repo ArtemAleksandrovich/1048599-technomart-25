@@ -29,8 +29,10 @@
                         <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
                     </div>
                     <div class="user-nav">
-                        <a href="login.html" class="login-link">Войти</a>
-                        <a href="reg.html" class="registration-link">Регистрация</a>
+                    	<div class="user-nav login">
+                        	<a href="login.html" class="login-link">Войти</a>
+                        	<a href="reg.html" class="registration-link">Регистрация</a>
+                        </div>
                     </div>
                 </div>
                 <nav>
@@ -104,7 +106,7 @@
             <section class="popular-goods">
                 <div class="popular">
                     <h2>популярные товары:</h2>
-                    <a href="№" class="button">все популярные товары</a>
+                    <a href="#" class="button">все популярные товары</a>
                 </div>
                 <div class="goods">
                     <article class="snippet">
@@ -135,7 +137,7 @@
             <section class="popular-maker">
                 <div class="popular">
                     <h2>популярные производители:</h2>
-                    <a href="№" class="button maker">все производители</a>
+                    <a href="#" class="button maker">все производители</a>
                 </div>
                 <div class="manufacturer">
                     <a href="#" class="snippet"><img src="img/bosch.jpg" alt="Bosch"></a>
@@ -156,15 +158,25 @@
 				<div class="tabs"> 
 					<label class="tabs-label" for="delivery">Доставка</label> 
 					<input type="radio" class="tabs-input" name="service" id="delivery" checked> 
-					<div class="tabs-description">Мы с удовольствием доставляем ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем поднимая его на ваш этаж</div> 
+					<div class="tabs-description">
+						<h3>Доставка</h3>
+						<p>Мы с удовольствием доставляем ваш товар прямо <br> к вашему подъезду совершенно бесплатно! <br> Ведь мы неплохо заработаем<br> поднимая его на ваш этаж</p>
+					</div> 
 
 					<label class="tabs-label" for="warranty">Гарантия</label> 
 					<input type="radio" class="tabs-input" name="service" id="warranty"> 
-					<div class="tabs-description">Мы с удовольствием доставляем ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем поднимая его на ваш этаж 3</div> 
+					<div class="tabs-description">
+						<h3>Гарантия</h3>
+						<p>Если купленный у нас товар поломается или заискрит,<br>а также в случае пожара, спровоцированного его возгаранием,<br>вы всегда можете быть уверены в нашей гарантии. Мы обменяем<br>сгоревший товар на новый.<br>Дом уж восстановите как-нибудь сами.</p>
+					</div> 
 
 					<label class="tabs-label" for="credit">Кредит</label> 
 					<input type="radio" class="tabs-input" name="service" id="credit"> 
-					<div class="tabs-description">Мы с удовольствием доставляем ваш товар прямо к вашему подъезду совершенно бесплатно!<br>Ведь мы неплохо заработаем поднимая его на ваш этаж 2</div> 
+					<div class="tabs-description">
+						<h3>Кредит</h3>
+						<p>Залезть в долговую яму стало проще!<br>Кредитные консультанты придут вам на помощь.</p>
+						<a href="#" class="button credit">Отправить заявку</a>
+					</div> 
 				</div> 
 			</div> 
 		</section>

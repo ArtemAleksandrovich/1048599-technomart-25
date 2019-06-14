@@ -45,11 +45,7 @@ a{
 	padding: 13px 54px;
 	box-shadow: 0px 5px 0px rgb(181 41 51);
 }
-.logo.logo-footer{
-	font-size: 30px;
-	line-height: 30px;
-	padding: 16px 41px;
-}
+
 .logo:hover,
 .logo:focus,
 .logo-footer:hover,
@@ -199,6 +195,18 @@ input::-webkit-input-placeholder{
 	padding-bottom: 44px;
 	margin: 0;
 }
+.user-info span{
+	font-style: italic;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 23px;
+	color: rgb(238 54 67);
+	
+	padding-top: 49px;
+	padding-left: 53px;
+	padding-bottom: 44px;
+	margin: 0;
+}
 .contact-header{
 	margin-top: 46px;
 	
@@ -234,10 +242,10 @@ input::-webkit-input-placeholder{
 	margin: 10px;;
 }
 .user-nav{
+	margin-top: 46px;
+}
+.user-nav.login{
 	margin: 0;
-	padding-top: 46px;
-	padding-bottom: 67px;
-
 	display: flex;
 }
 .login-link{
@@ -252,7 +260,32 @@ input::-webkit-input-placeholder{
 	padding-right: 27px;
 	
 	display: block;
-	position: relative;	
+	position: relative;
+}
+.login-link.user{
+	margin: 0px;
+	padding-left: 47px;
+	padding-right: 69px;
+}
+.login-link.user::before{
+	content: " ";
+	position: absolute;
+	top: 13px;
+	left: 13px;
+	width: 20px;
+	height: 18px;
+	background-image: url(/img/sprite.svg#accountUserHover-view);
+	opacity: 0.3;
+}
+.login-link.user::after{
+	content: " ";
+	position: absolute;
+	top: 14px;
+	right: 10px;
+	width: 20px;
+	height: 17px;
+	background-image: url(/img/sprite.svg#accountLogoutHover-view);
+	opacity: 0.3;
 }
 .login-link::before{
 	content: " ";
@@ -274,18 +307,64 @@ input::-webkit-input-placeholder{
 .login-link:hover,
 .login-link:focus,
 .registration-link:hover,
-.registration-link:focus{
+.registration-link:focus,
+.order:hover,
+.account:hover,
+.order:focus,
+.account:focus{
 	outline: none;
 	color: rgb(238 54 67);
 }
 .login-link:hover::before,
-.login-link:focus::before{
+.login-link:focus::before,
+.login-link:hover::after,
+.login-link:focus::after{
 	opacity: 1;
 }
 .login-link:active,
-registration-link:active{
+registration-link:active,
+.order:active,
+.account:active{
 	color: rgba(0, 0, 0, 0.302);
 }
+.personal ul{
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin-top: 10px;
+	align-items: flex-start;
+}
+.order,
+.account{
+	font-size: 16px;
+	line-height: 18px;
+	color: rgb(50 66 92);
+	text-decoration: underline;
+	padding-left: 18px;
+	padding-right: 14px;
+	
+	display: block;
+	position: relative;
+	
+}
+.account::before{
+	content: " ";
+	position: absolute;
+	top: 7px;
+	left: 1px;
+	width: 4px;
+	height: 4px;
+	background: rgb(50 66 92);
+	border-radius: 50%;
+
+}
+.order:hover,
+.account:hover,
+.order:focus,
+.account:focus{
+	
+}
+
 /*Главное меню*/
 .menu{
 	font-size: 17px;
@@ -509,7 +588,6 @@ main{
 	border: none;
 	box-shadow: 0px 10px 25px rgba(41,52,73,0.5);
 }
-
 .goods h3{
 	font-size: 18px;
 	line-height: 20px;
@@ -547,18 +625,52 @@ main{
 	line-height: 24px;
 	color: black;
 	background: rgb(244 248 249);
-} 
+	margin: 0;
+	padding-top: 68px;
+}
+.service h2{
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	margin: 0;
+}
+.service h3{
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 36px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: rgb(50 66 92);
+}
 .tabs { 
-display: flex; 
-flex-direction: column; 
-padding: 0; 
-margin: 0; 
-position: relative; 
+	display: flex; 
+	flex-direction: column; 
+	padding: 0;
+	padding-top: 77px;
+	padding-bottom: 102px;
+	margin: 0; 
+	position: relative; 
 } 
-.tabs-label { 
-width: 20%; 
-outline: 1px solid green; 
+.tabs-label {
+	font-family: "Cuprum", Arial, sans-serif;
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 30px;
+	color: white;
+	
+	box-sizing: border-box;
+	padding: 15px 22px;
+	width: 240px; 
+	background: rgb(50 66 92);
+	outline: 1px solid rgb(71 98 123);
 } 
+.tabs-label:hover,
+.tabs-label:focus{
+	background: rgb(41 52 73);
+}
+.tabs-label:active{
+	color: rgb(50 66 92);
+	background: white;
+}
 .tabs-input { 
 display: none; 
 } 
@@ -566,84 +678,34 @@ display: none;
 display: block; 
 } 
 .tabs-description { 
-display: none; 
-position: absolute; 
-width: 80%; 
-right: 0; 
-top: 50%; 
-transform: translateY(-50%); 
-outline: 1px solid red; 
-}
-/*
-
-.tabs{
-	list-style: none;
-	
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	position: relative;
-	
-}
-.tabs:after {
-	content: "";
-	clear: both;
-	display: block;
-	height: 240px;
-}
-.tabs li {
-	float: left;
-}
-.tabs li > input {
-	display: none;
-}
-.tabs li > label {
-	display: inline-block;
-	border: 1px solid #999;
-	border-right-width: 0;
-	border-bottom-width: 0;
-	height: 30px;
-	line-height: 30px;
-	padding: 5px 20px;
-	cursor: pointer;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-}
-.tabs li:last-child > label {
-	border-right-width: 1px;
-}
-.tabs .tab-content {
-	display: none;
+	display: none; 
 	position: absolute;
-	left: 0;
-	padding: 20px;
-	border: 1px solid white;
-	height: 200px;
-	overflow-y: auto;
+	box-sizing: border-box;
+	height: 278px;
+	width: 700px; 
+	right: 0; 
+	top: 50%; 
+	transform: translateY(-50%); 
+	padding-left: 74px;
+	background: linear-gradient(to left #000 #fff );
+
 }
-.tabs li > input:checked + label {
-	background-color: white;
-	color: rgb(50 66 92);
+.button.credit{
+	padding: 10px 44px;
 }
-.tabs li > input:checked ~ .tab-content {
-	display: block;
+.tabs-description:nth-of-type(1){
+	background: url(/img/delivery.png) no-repeat;
+	background-position: right bottom;
 }
-.service h2{
-	font-family: "Cuprum", Arial, sans-serif;
-	font-size: 30px;
-	line-height: 30px;
-	text-transform: uppercase;
+.tabs-description:nth-of-type(2){
+	background: url(/img/guarantee.png) no-repeat;
+	background-position: right bottom;
 }
-.service label{
-	font-family: "Cuprum", Arial, sans-serif;
-	font-size: 21px;
-	line-height: 30px;
-	color: white;
-	background: rgb(50 66 92);
+.tabs-description:nth-of-type(3){
+	background: url(/img/credit.png) no-repeat;
+	background-position: right bottom;	
 }
-*/
+
 
 /*Блок о компании и как добраться до нас*/
 .info-company{
@@ -672,12 +734,18 @@ outline: 1px solid red;
 	line-height: 20px;
 	list-style: none; /*	нужно доделать красную черту*/
 }
+/*Подвал сайта*/
 .footer{
 	background: rgb(50 66 92);
 }
 .footer-top{
 	display: flex;
-
+}
+.logo-footer{
+	font-size: 30px;
+	line-height: 30px;
+	padding: 21px 41px;
+	margin-right: 170px;
 }
 .footer-middle{
 	display: flex;
@@ -690,18 +758,26 @@ outline: 1px solid red;
 }
 .footer address{
 	width: 390px;
+	margin-top: 37px;
+	margin-right: 90px;
+	margin-bottom: 45px;
 }
 .footer-menu{
 	font-size: 18px;
 	line-height: 24px;
 	list-style: none;
-	width: 550px;
 	padding: 0;
+/*	margin-top: 0px;*/
 	display: flex;
-	justify-content: flex-end;
+/*	justify-content: space-between;*/
+	align-items: baseline;
+	align-items: center;
 }
+
+
 .footer-menu-link{
 	color: white;
+
 }
 .footer-midle-b{
 	color: rgb(255 209 128);
@@ -737,13 +813,44 @@ outline: 1px solid red;
 .social-buttons{
 	list-style: none;
 	display: flex;
-	
+	padding: 0;
 }
 .social-buttons li{
 	background: rgb(33 42 58);
 	width: 42px;
 	height: 42px;
 	border-radius: 50%;
+	margin-left: 5px;
+	
+	display: block;
+	position: relative;
+}
+.social-buttons-vk::before{
+	content: " ";
+	position: absolute;
+	top: 13px;
+	left: 8px;
+	width: 26px;
+	height: 15px;
+	background-image: url(/img/sprite.svg#accountVK-view);
+}
+.social-buttons-fac::before{
+	content: " ";
+	position: absolute;
+	top: 10px;
+	left: 14px;
+	width: 12px;
+	height: 22px;
+	background-image: url(/img/sprite.svg#accountFb-view);
+}
+.social-buttons-ins::before{
+	content: " ";
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 21px;
+	height: 21px;
+	background-image: url(/img/sprite.svg#accountInsta-view);
 }
 .social-buttons li:hover,
 .social-buttons li:focus,
