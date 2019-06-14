@@ -16,6 +16,7 @@ body{
 a{
 	text-decoration: none;
 }
+/*Шапка сайта header-top*/
 .header{
 	background: rgb(243 247 248);
 }
@@ -24,6 +25,10 @@ a{
 	line-height: 18px;
 	color: white;
 	background: rgb(41 52 73);
+
+	display: flex;
+	justify-content: space-around;
+	
 }
 .top-menu{
 	display: flex;
@@ -35,7 +40,9 @@ a{
 	color:  white;
 	text-transform: uppercase;
 	background: rgb(238 54 67);
-	padding: 9px 55px 14px;
+	box-sizing: border-box;
+	width: 220px;
+	padding: 13px 54px;
 	box-shadow: 0px 5px 0px rgb(181 41 51);
 }
 .logo.logo-footer{
@@ -57,14 +64,30 @@ a{
 .top-menu input{
 	background: rgb(41 52 73);
 	color: white;
-	width: 270px;
 	border: none;
 	
 }
 .search{
 	font-size: 17px;
 	line-height: 18px;
-	padding: 15px;
+	padding: 16px;
+	padding-left: 49px;
+	box-sizing: border-box;
+	width: 270px;
+	
+	display: block;
+	position: relative;
+	flex-grow: 1;
+}
+.search::before{
+	content: " ";
+	position: absolute;
+	top: 12px;
+	left: 17px;
+	width: 17px;
+	height: 17px;
+	background-image: url(/img/sprite.svg#accountSearchHover-view);
+	opacity: 0.3;
 }
 input::-webkit-input-placeholder{
 	color: white;
@@ -80,14 +103,53 @@ input::-webkit-input-placeholder{
 }
 .bookmarks{
 	color: white;
-	padding: 12px 20px;
-	margin: 0;
+	padding: 15px;
+	padding-left: 45px;
+
+	display: block;
+	position: relative;
+	flex-grow: 1;
+}
+.bookmarks::before{
+	content: " ";
+	position: absolute;
+	top: 15px;
+	left: 17px;
+	width: 14px;
+	height: 16px;
+	background-image: url(/img/sprite.svg#accountBookmarkHover-view);
+	opacity: 0.3;
 }
 .basket{
 	color: white;
-	padding: 12px 20px;
-	margin: 0;
+	padding: 15px;
+	padding-left: 45px;
+	
+	display: block;
+	position: relative;
+	flex-grow: 1;
 }
+.basket::before{
+	content: " ";
+	position: absolute;
+	top: 15px;
+	left: 17px;
+	width: 15px;
+	height: 15px;
+	background-image: url(/img/sprite.svg#accountCartHover-view);
+	opacity: 0.3;
+}
+.basket:hover::before,
+.basket:focus::before,
+.bookmarks:hover::before,
+.bookmarks:focus::before{
+	opacity: 1;
+}
+.bookmarks:active::before,
+.basket:active::before{
+	opacity: 0.5;
+}
+
 .bookmarks:hover,
 .bookmarks:focus,
 .basket:hover,
@@ -102,7 +164,8 @@ input::-webkit-input-placeholder{
 .formalize{
 	color: white;
 	background: rgb(99 166 62);
-	padding: 12px 20px;
+	padding: 15px 21px;
+	flex-grow: 1;
 }
 .formalize:hover,
 .formalize:focus{
@@ -112,17 +175,17 @@ input::-webkit-input-placeholder{
 .formalize:active{
 	background: rgb(81 133 52);
 }
+/*Шапка сайта header-bottom*/
 .header-bottom{
 	font-size: 17px;
 	line-height: 17px;
 	color: white;
-	padding-bottom: 35px;
+	padding-bottom: 65px;
 }
 .user-info{
 	display: flex;
 	justify-content: space-between;
-	margin: 0;
-	padding: 0;
+
 }
 .user-info h1{
 	font-style: italic;
@@ -130,7 +193,11 @@ input::-webkit-input-placeholder{
 	font-size: 16px;
 	line-height: 23px;
 	color: rgb(238 54 67);
-	margin: 54px 71px 53px 44px;
+	
+	padding-top: 49px;
+	padding-left: 53px;
+	padding-bottom: 44px;
+	margin: 0;
 }
 .contact-header{
 	margin-top: 46px;
@@ -141,32 +208,85 @@ input::-webkit-input-placeholder{
 	line-height: 21px;
 	color: rgb(233 41 42);
 	border: 3px solid white;
+	
+	box-sizing: border-box;
 	margin: 0;
-	padding: 11px 53px 11px 73px;
+	padding: 12px;
+	padding-left: 74px;
+	padding-right: 45px;
+	
+	display: block;
+	position: relative;
+}
+.phone::before{
+	content: " ";
+	position: absolute;
+	top: 13px;
+	left: 16px;
+	width: 19px;
+	height: 19px;
+	background-image: url(/img/sprite.svg#accountPhone-view);
 }
 .address{
 	font-size: 14px;
 	line-height: 24px;
 	color: rgb(50 66 92);
+	margin: 10px;;
 }
 .user-nav{
-	margin-top: 46px;
+	margin: 0;
+	padding-top: 46px;
+	padding-bottom: 67px;
+
+	display: flex;
 }
-.user-nav a{
+.login-link{
 	font-style: 21px;
 	line-height: 21px;
 	color: black;
 	background: rgb(255 255 255);
-	padding: 12px 45px;
+	
+	margin-right: 10px;
+	padding: 12px;
+	padding-left: 48px;
+	padding-right: 27px;
+	
+	display: block;
+	position: relative;	
 }
-.user-nav a:hover,
-.user-nav a:focus{
+.login-link::before{
+	content: " ";
+	position: absolute;
+	top: 14px;
+	left: 14px;
+	width: 20px;
+	height: 17px;
+	background-image: url(/img/sprite.svg#accountLoginHover-view);
+	opacity: 0.3;
+}
+.registration-link{
+	font-style: 21px;
+	line-height: 21px;
+	color: black;
+	background: rgb(255 255 255);
+	padding: 12px 25px;
+}
+.login-link:hover,
+.login-link:focus,
+.registration-link:hover,
+.registration-link:focus{
 	outline: none;
 	color: rgb(238 54 67);
 }
-.user-nav a:active{
+.login-link:hover::before,
+.login-link:focus::before{
+	opacity: 1;
+}
+.login-link:active,
+registration-link:active{
 	color: rgba(0, 0, 0, 0.302);
 }
+/*Главное меню*/
 .menu{
 	font-size: 17px;
 	line-height: 17px;
@@ -176,7 +296,10 @@ input::-webkit-input-placeholder{
 	margin: 0;
 	padding: 0;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+}
+.nav-menu{
+	flex-grow: 1;
 }
 .nav-menu a{
 	color: white;
@@ -232,8 +355,8 @@ main{
 	border-radius: 5px;
 }
 .material{
-	background: rgb(255 191 71) url(/icon/icon-1.png) no-repeat;
-	background-position: 212px center;
+	background: rgb(255 191 71);
+
 	box-sizing: border-box;
 	width: 300px;
 	margin: 0px 10px 10px 0px;
@@ -242,54 +365,105 @@ main{
 	display: block;
 	position: relative;
 }
+.material::before{
+	content: " ";
+	position: absolute;
+	left: 212px;
+	width: 44px;
+	height: 65px;
+	background-image: url(/img/sprite.svg#accounticon-1-view);
+}
 .tooling a{
 	padding: 10px 27px;
 	border-radius: 5px;	
 }
 .tooling{
-	background: rgb(59 188 227)  url(/icon/icon-2.png) no-repeat;
-	background-position: 198px center;
+	background: rgb(59 188 227);
+	
 	box-sizing: border-box;
 	width: 300px;
 	margin: 0px 10px 10px 10px;
 	padding: 26px 22px;
-
+	
+	display: block;
+	position: relative;
+}
+.tooling::before{
+	content: " ";
+	position: absolute;
+	left: 198px;
+	width: 75px;
+	height: 61px;
+	background-image: url(/img/sprite.svg#accounticon-2-view);
 }
 .technique a{
 	padding: 10px 30px;
 	border-radius: 5px;	
 }
 .technique{
-	background: rgb(220 145 216) url(/icon/icon-3.png) no-repeat;
-	background-position: 191px center;
+	background: rgb(220 145 216);
+
 	box-sizing: border-box;
 	width: 300px;
 	margin: 0px 0px 20px 10px;	
 	padding: 26px 22px;
+	
+	display: block;
+	position: relative;
+}
+.technique::before{
+	content: " ";
+	position: absolute;
+	left: 191px;
+	width: 78px;
+	height: 62px;
+	background-image: url(/img/sprite.svg#accounticon-3-view);
 }
 .discount a{
 	padding: 10px 22px;
 	border-radius: 5px;	
 }
 .discount{
-	background: rgb(142 215 143) url(/icon/icon-4.png) no-repeat;
-	background-position: 196px center;	
+	background: rgb(142 215 143);
+
 	box-sizing: border-box;
 	width: 300px;
 	margin: 10px 0px 20px 10px;
 	padding: 26px 22px;
+	
+	display: block;
+	position: relative;
+}
+.discount::before{
+	content: " ";
+	position: absolute;
+	left: 196px;
+	width: 59px;
+	height: 72px;
+	background-image: url(/img/sprite.svg#accounticon-4-view);
 }
 .delivery a{
 	padding: 10px 37px;
 	border-radius: 5px;	
 }
 .delivery{
-	background: rgb(255 191 71) url(/icon/icon-5.png) no-repeat;
-	background-position: 191px center;	
-	box-sizing: border-box;	
+	background: rgb(255 191 71);
+
+	box-sizing: border-box;
 	width: 300px;
 	margin: 10px 0px 0px 10px;
 	padding: 26px 22px;
+	
+	display: block;
+	position: relative;
+}
+.delivery::before{
+	content: " ";
+	position: absolute;
+	left: 191px;
+	width: 78px;
+	height: 63px;
+	background-image: url(/img/sprite.svg#accounticon-5-view);
 }
 .slider{
 	background: url(/img/Layer%2099.jpg);
@@ -324,7 +498,8 @@ main{
 .snippet{
 	border: 1px solid rgb(234 234 234);
 	display: flex;
-	flex-direction: column;	
+	flex-direction: column;
+	align-items: center;
 } 
 .snippet a{
 	padding: 10px 37px;
@@ -365,13 +540,42 @@ main{
 .snippet img{
 	margin: auto;
 }
+/*Сервис*/
 .service{
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
 	line-height: 24px;
 	color: black;
 	background: rgb(244 248 249);
-} /*Сервисы еще требуют доработки табов*/
+} 
+.tabs { 
+display: flex; 
+flex-direction: column; 
+padding: 0; 
+margin: 0; 
+position: relative; 
+} 
+.tabs-label { 
+width: 20%; 
+outline: 1px solid green; 
+} 
+.tabs-input { 
+display: none; 
+} 
+.tabs-input:checked + .tabs-description { 
+display: block; 
+} 
+.tabs-description { 
+display: none; 
+position: absolute; 
+width: 80%; 
+right: 0; 
+top: 50%; 
+transform: translateY(-50%); 
+outline: 1px solid red; 
+}
+/*
+
 .tabs{
 	list-style: none;
 	
@@ -439,6 +643,9 @@ main{
 	color: white;
 	background: rgb(50 66 92);
 }
+*/
+
+/*Блок о компании и как добраться до нас*/
 .info-company{
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size:13px;
