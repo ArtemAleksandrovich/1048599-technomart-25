@@ -593,18 +593,29 @@ registration-link:active,
 	border: 1px solid rgb(234 234 234);
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
+}
+.goods-snippet{
+	height: 183px;
+	margin: auto;
+	display: flex;
+
+}
+.price{
+	display: flex;
+	flex-direction: column;
 	align-items: center;
 }
-.snippet div{
+.purchase{
 	display: none;
 }
-.snippet:hover img,
-.snippet:focus img
+.snippet:hover .goods-foto,
+.snippet:focus .foto
 {
 	display: none;
 }
-.snippet:hover div,
-.snippet:focus div{
+.snippet:hover .purchase,
+.snippet:focus .purchase{
 	display: block;
 }
 /*кнопка купить*/
@@ -683,11 +694,12 @@ registration-link:active,
 	border: none;
 	box-shadow: 0px 10px 25px rgba(41,52,73,0.5);
 }
-.goods h3{
+.price h3{
 	font-size: 18px;
 	line-height: 20px;
 	color: black;
 	font-family: "PT Sans", Arial, sans-serif;
+	text-align: center;
 }
 .goods span{
 	color: rgb(169 169 169);
@@ -720,7 +732,8 @@ registration-link:active,
 	line-height: 24px;
 	color: black;
 	background: rgb(244 248 249);
-	margin: 0;
+	margin: 0px;
+	margin-top: 75px;
 	padding-top: 68px;
 }
 .service h2{
@@ -808,6 +821,8 @@ display: block;
 	font-size:13px;
 	line-height: 24px;
 	color: black;
+	margin-top: 82px;
+	padding-bottom: 86px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -817,17 +832,61 @@ display: block;
 	line-height: 30px;
 	text-transform: uppercase;
 }
+
 .company{
 	width: 540px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 .contact{
 	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
+
 .information{
 	font-family: "Cuprum", Arial, sans-serif;
 	font-size: 18px;
 	line-height: 20px;
-	list-style: none; /*	нужно доделать красную черту*/
+	margin: 0;
+	list-style: none;
+}
+.information li{
+	padding: 12px 0px;
+	
+	display: block;
+	position: relative;
+}
+.information li::before{
+	content: " ";
+	position: absolute;
+	top: 21px;
+	left: -36px;
+	width: 25px;
+	height: 2px;
+	background: rgb(238 54 67);
+}
+.button.company{
+	margin-top: 40px;
+	padding: 10px;
+	width: 220px;
+	box-sizing: border-box;
+	align-items: center;
+}
+.button.contact{
+	margin-top: 40px;
+	padding: 10px;
+	box-sizing: border-box;
+	align-items: center;
+
+}
+.map{
+	background: url(/img/map-form.png);
+	width: 970px;
+	height: 476px;
+	display: none;
 }
 /*Подвал сайта*/
 .footer{
@@ -835,26 +894,20 @@ display: block;
 }
 .footer-top{
 	display: flex;
+	justify-content: space-between;
 }
 .logo-footer{
 	font-size: 30px;
 	line-height: 30px;
 	padding: 21px 41px;
-	margin-right: 170px;
 }
 .footer-middle{
 	display: flex;
-
-}
-.footer .wrapper{
-	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
 }
+
 .footer address{
-	width: 390px;
 	margin-top: 37px;
-	margin-right: 90px;
 	margin-bottom: 45px;
 }
 .footer-menu{
@@ -862,19 +915,19 @@ display: block;
 	line-height: 24px;
 	list-style: none;
 	padding: 0;
-/*	margin-top: 0px;*/
+	width: 550px;
+	
 	display: flex;
-/*	justify-content: space-between;*/
-	align-items: baseline;
-	align-items: center;
+	justify-content: space-between;
+	
 }
 
 
 .footer-menu-link{
 	color: white;
-
 }
 .footer-midle-b{
+	padding-left: 23px;
 	color: rgb(255 209 128);
 }
 .footer-menu-link:hover,
@@ -904,6 +957,11 @@ display: block;
 	font-size: 16px;
 	line-height: 18px;
 	background: rgb(41 52 73);
+}
+.copyright .wrapper{
+	display: flex;
+	justify-content: space-between;
+
 }
 .social-buttons{
 	list-style: none;
