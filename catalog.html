@@ -71,8 +71,42 @@
 				<h1>перфораторы</h1>
 			</div>
 			<div class="content">
-				<form action="">
-					
+				<form action="#" method="get" class="filter">
+					<fieldset>
+						<label for="worth">Цена:</label>
+						<input type="text" name="worth" id="worth">
+						<input type="range" min="0" max="30000">
+						<output mane="worth-min">0</output>
+						<output mane="worth-max">30000</output>
+					</fieldset>
+					<fieldset>
+					<p>Производители:</p>
+						<label for="manufacturer">
+							<input type="checkbox" mane="manufacturer">BOSCH
+						</label>
+						<label for="manufacturer">
+							<input type="checkbox" mane="manufacturer">ИНТЕРСКОЛ
+						</label>
+						<label for="manufacturer">
+							<input type="checkbox" mane="manufacturer">MAKITA
+						</label>
+						<label for="manufacturer">
+							<input type="checkbox" mane="manufacturer">DEWALT
+						</label>
+						<label for="manufacturer">
+							<input type="checkbox" mane="manufacturer">HITACHI
+						</label>
+					</fieldset>
+					<fieldset>
+					<p>ПИТАНИЕ:</p>
+						<label for="power">
+							<input type="radio" name="power" value="accumulator">АККУМУЛЯТОРНЫЕ
+						</label>
+						<label>
+							<input type="radio" name="power" value="networking">СЕТЕВЫЕ
+						</label>
+					</fieldset>
+					<input type="submit" value="ПОКАЗАТЬ">
 				</form>
 				<section>
 					<div class="sort">
@@ -203,7 +237,12 @@
 							</div>
 						</article>
 					</div>
-					
+					<ul>
+						<li><a href="">1</a></li>
+						<li><a href="">2</a></li>
+						<li><a href="">3</a></li>
+						<li><a href="">Следующая</a></li>
+					</ul>
 				</section>
 			</div>
 		</div>

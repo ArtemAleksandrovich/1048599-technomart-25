@@ -410,7 +410,6 @@ registration-link:active,
 	margin: 0;
 	padding: 20px;
 }
-
 .main-header h1{
 	font-size: 30px;
 	line-height: 30px;
@@ -419,6 +418,16 @@ registration-link:active,
 	margin: 0;
 	padding: 30px 30px;
 	background: rgb(242 246 248);
+}
+
+/*основной контент страницы каталога*/
+.content{
+	display: flex;
+}
+.filter{
+	width: 220px;
+	margin: 20px;
+	color: black;
 }
 
 
