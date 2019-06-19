@@ -75,38 +75,52 @@
 					<div class="sort">
 						<p>ФИЛЬТР:</p>
 					</div>
-					<fieldset class="worth">
+					<fieldset class="hunt-group">
 						<legend>Цена:</legend>
 						<input type="range" min="0" max="30000" step="500">
 						<output mane="worth-min">0</output>
 						<output mane="worth-max">30000</output>
 					</fieldset>
-					<fieldset class="manufacturer">
+					<fieldset class="hunt-group">
 						<legend>Производители:</legend>
-						<label for="manufacturer">
-							<input type="checkbox" mane="manufacturer">BOSCH
-						</label>
-						<label for="manufacturer">
-							<input type="checkbox" mane="manufacturer">ИНТЕРСКОЛ
-						</label>
-						<label for="manufacturer">
-							<input type="checkbox" mane="manufacturer">MAKITA
-						</label>
-						<label for="manufacturer">
-							<input type="checkbox" mane="manufacturer">DEWALT
-						</label>
-						<label for="manufacturer">
-							<input type="checkbox" mane="manufacturer">HITACHI
-						</label>
+						<div class="search-item">
+							<label for="BOSCH">
+								<input type="checkbox" mane="BOSCH" id="BOSCH">BOSCH
+							</label>
+						</div>
+						<div class="search-item">
+							<label for="interskol">
+								<input type="checkbox" mane="interskol" id="interskol">ИНТЕРСКОЛ
+							</label>
+						</div>
+						<div class="search-item">
+							<label for="MAKITA">
+								<input type="checkbox" mane="MAKITA" id="MAKITA">MAKITA
+							</label>
+						</div>
+						<div class="search-item">
+							<label for="DEWALT">
+								<input type="checkbox" mane="DEWALT" id="DEWALT">DEWALT
+							</label>
+						</div>
+						<div class="search-item">
+							<label for="HITACHI">
+								<input type="checkbox" mane="HITACHI" id="HITACHI">HITACHI
+							</label>
+						</div>
 					</fieldset>
-					<fieldset class="power">
+					<fieldset class="hunt-group">
 						<legend>Питание:</legend>
-						<label for="power">
-							<input type="radio" name="power" value="accumulator">АККУМУЛЯТОРНЫЕ
-						</label>
-						<label>
-							<input type="radio" name="power" value="networking">СЕТЕВЫЕ
-						</label>
+						<div class="search-item">
+							<label for="accumulator">
+								<input type="radio" name="power" id="accumulator" value="accumulator">АККУМУЛЯТОРНЫЕ
+							</label>
+						</div>
+						<div class="search-item">
+							<label for="networking">
+								<input type="radio" name="power" id="networking" value="networking">СЕТЕВЫЕ
+							</label>
+						</div>
 					</fieldset>
 					<input type="submit" value="ПОКАЗАТЬ">
 				</form>

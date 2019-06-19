@@ -421,11 +421,24 @@ registration-link:active,
 }
 
 /*основной контент страницы каталога*/
+.content form{
+	width: 220px;
+	box-sizing: border-box;
+	margin-right: 20px;
+}
+.content section{
+	width: 720px;
+}
+
 .content{
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	color: black;	
+	
 	display: flex;
 }
 .sort{
-	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
 	line-height: 18px;
 	color: black;
@@ -438,13 +451,80 @@ registration-link:active,
 .sort p{
 	margin: auto;
 }
-
-.filter{
-	width: 220px;
-	box-sizing: border-box;
-	margin-right: 20px;
-	color: black;
+.hunt-group{
+	border: none;
+	padding: 0;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	
+	display: flex;
 }
+.hunt-group legend{
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+/*фильтр производителей и питание*/
+.search-item{
+	padding-left: 35px;
+	padding-bottom: 17px;
+	
+	display: block;
+	position: relative;
+	}
+.search-item input{
+	-webkit-appearance: none; 
+	cursor: pointer;
+}
+
+input[type="checkbox"]::before{
+	content: " ";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 27px;
+	height: 23px;
+	background: url(/img/sprite.svg#accountChecbox-on-view);
+   }
+input[type="checkbox"]:checked::before {
+	content: " ";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 23px;
+	height: 23px;   
+    background: url(/img/sprite.svg#accountchecbox-off-view);
+   }
+input[type="checkbox"]:hover::before,
+input[type="checkbox"]:focus::before{
+	background: url(/img/sprite.svg#accountChecbox-onHover-view);
+}
+input[type="checkbox"]:checked:hover::before,
+input[type="checkbox"]:checked:focus::before{
+	background: url(/img/sprite.svg#accountchecbox-offHover-view);	
+}
+input[type="radio"]::before{
+	content: " ";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 25px;
+	height: 25px;
+	background: url(/img/sprite.svg#accountRadio-offHover-view);
+}
+input[type="radio"]:checked::before{
+	content: " ";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 25px;
+	height: 25px;
+	background: url(/img/sprite.svg#accountRadio-onHover-view);
+}
+
+
+
 .nav-page{
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
@@ -635,14 +715,10 @@ registration-link:active,
 .popular a{
 	padding: 10px 55px;
 }
-.goods{
-	font-size: 17px;
-	line-height: 18px;
-	color: black;	
+.goods{	
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin-top: 20px;
 }
 .snippet{
 	border: 1px solid rgb(234 234 234);
