@@ -72,15 +72,17 @@
 			</div>
 			<div class="content">
 				<form action="#" method="get" class="filter">
-					<fieldset>
-						<label for="worth">Цена:</label>
-						<input type="text" name="worth" id="worth">
-						<input type="range" min="0" max="30000">
+					<div class="sort">
+						<p>ФИЛЬТР:</p>
+					</div>
+					<fieldset class="worth">
+						<legend>Цена:</legend>
+						<input type="range" min="0" max="30000" step="500">
 						<output mane="worth-min">0</output>
 						<output mane="worth-max">30000</output>
 					</fieldset>
-					<fieldset>
-					<p>Производители:</p>
+					<fieldset class="manufacturer">
+						<legend>Производители:</legend>
 						<label for="manufacturer">
 							<input type="checkbox" mane="manufacturer">BOSCH
 						</label>
@@ -97,8 +99,8 @@
 							<input type="checkbox" mane="manufacturer">HITACHI
 						</label>
 					</fieldset>
-					<fieldset>
-					<p>ПИТАНИЕ:</p>
+					<fieldset class="power">
+						<legend>Питание:</legend>
 						<label for="power">
 							<input type="radio" name="power" value="accumulator">АККУМУЛЯТОРНЫЕ
 						</label>
@@ -110,7 +112,7 @@
 				</form>
 				<section>
 					<div class="sort">
-						
+						<p>СОРТИРОВКА:</p>	
 					</div>
 					<div class="goods">
 						<article class="snippet">
@@ -237,7 +239,7 @@
 							</div>
 						</article>
 					</div>
-					<ul>
+					<ul class="nav-page">
 						<li><a href="">1</a></li>
 						<li><a href="">2</a></li>
 						<li><a href="">3</a></li>

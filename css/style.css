@@ -424,10 +424,44 @@ registration-link:active,
 .content{
 	display: flex;
 }
+.sort{
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: black;
+	background: rgb(247 243 236);
+	border-radius: 3px;
+	margin-top: 20px;
+	padding: 10px;
+	padding-left: 18px;
+}
+.sort p{
+	margin: auto;
+}
+
 .filter{
 	width: 220px;
-	margin: 20px;
+	box-sizing: border-box;
+	margin-right: 20px;
 	color: black;
+}
+.nav-page{
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+	display: flex;
+}
+.nav-page li{
+
+	border: 1px solid rgb(229 229 229);
+	border-radius: 3px;
+	margin-right: 10px;
+	height: 38px;
 }
 
 
