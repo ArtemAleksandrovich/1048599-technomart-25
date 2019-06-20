@@ -465,6 +465,24 @@ registration-link:active,
 	line-height: 30px;
 	text-transform: uppercase;
 }
+.hunt-group-work{
+	background: rgb(247 243 236);
+	width: 220px;
+	box-sizing: border-box;
+	padding: 30px 20px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+
+}
+.hunt-group-work-min{
+	font-size: 17px;
+	line-height: 18px;
+	padding: 10px;
+	text-align: center;
+	width: 95px;
+	border-radius: 3px;
+
+}
 /*фильтр производителей и питание*/
 .search-item{
 	padding-left: 35px;
@@ -477,7 +495,6 @@ registration-link:active,
 	-webkit-appearance: none; 
 	cursor: pointer;
 }
-
 input[type="checkbox"]::before{
 	content: " ";
 	position: absolute;
@@ -522,7 +539,6 @@ input[type="radio"]:checked::before{
 	height: 25px;
 	background: url(/img/sprite.svg#accountRadio-onHover-view);
 }
-
 
 
 .nav-page{
@@ -819,8 +835,18 @@ input[type="radio"]:checked::before{
 
 
 .goods.button{
-	padding: 10px 37px;
+	padding: 10px 36px;
 	margin: 13px 36px 21px 43px;
+	display: block;
+	position: relative;
+}
+.goods.button::before{
+	content: " ";
+	position: absolute;
+	top: 0;
+	right: -19px;
+	border: 19px solid white;
+	border-left: 19px solid rgba(238,54,67,0);
 }
 .snippet:hover{
 	border: none;
