@@ -57,37 +57,47 @@ a{
 .logo-footer:active{
 	background: rgb(186 39 50);
 }
-.top-menu input{
+
+.search{
 	background: rgb(41 52 73);
 	color: white;
 	border: none;
 	
-}
-.search{
 	font-size: 17px;
 	line-height: 18px;
 	padding: 16px;
 	padding-left: 49px;
 	box-sizing: border-box;
 	width: 270px;
-	
+
+}
+.top-menu form{
 	display: block;
 	position: relative;
-	flex-grow: 1;
 }
-.search::before{
+.top-menu form::before{
 	content: " ";
 	position: absolute;
-	top: 12px;
+	top: 16px;
 	left: 17px;
 	width: 17px;
 	height: 17px;
 	background-image: url(/img/sprite.svg#accountSearchHover-view);
 	opacity: 0.3;
 }
-input::-webkit-input-placeholder{
+.top-menu form:hover::before
+{
+	opacity: 1;
+}
+.top-menu form:focus::before,
+.top-menu form:active::before{
+	background-image: url(/img/sprite.svg#accountSearchActiv-view);
+	opacity: 1;
+}
+.search::-webkit-input-placeholder{
 	color: white;
 }
+
 .search:hover{
 	outline: none;
 	background: rgb(33 42 58);
@@ -398,6 +408,7 @@ registration-link:active,
 .crumb{
 	list-style: none;
 	margin: 0;
+/*	padding: 0;*/
 	
 	display: flex;
 }
@@ -409,7 +420,22 @@ registration-link:active,
 	color: black;
 	margin: 0;
 	padding: 20px;
+	
+	display: block;
+	position: relative;
 }
+.crumb-link::before{
+	content: " ";
+	position: absolute;
+	top: 20px;
+	right: 1px;
+	width: 8px;
+	height: 12px;
+	background-image: url(/img/sprite.svg#"accountRight-small-view);
+
+}
+
+
 .main-header h1{
 	font-size: 30px;
 	line-height: 30px;
@@ -718,7 +744,7 @@ input[type="radio"]:checked::before{
 .popular{
 	color: rgb(50 66 92);
 	background: rgb(249 245 240);
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	display: flex;
 	justify-content: space-between;
 	padding: 30px;
@@ -731,7 +757,7 @@ input[type="radio"]:checked::before{
 .popular a{
 	padding: 10px 55px;
 }
-.goods{	
+.goods{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -869,6 +895,7 @@ input[type="radio"]:checked::before{
 	color: black;
 	font-family: "PT Sans", Arial, sans-serif;
 	text-align: center;
+	margin-bottom: auto;
 }
 .goods span{
 	color: rgb(169 169 169);
