@@ -5,7 +5,7 @@ body{
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 400;
-	color: white;
+	color: rgb(255, 255, 255);
 
 }
 .wrapper{
@@ -18,13 +18,13 @@ a{
 }
 /*Шапка сайта header-top*/
 .header{
-	background: rgb(243 247 248);
+	background: rgb(243, 247, 248);
 }
 .header-top{
 	font-size: 17px;
 	line-height: 18px;
-	color: white;
-	background: rgb(41 52 73);
+	color:  rgb(255, 255, 255);
+	background: rgb(41, 52, 73);
 
 	display: flex;
 	justify-content: space-around;
@@ -34,33 +34,39 @@ a{
 	display: flex;
 	justify-content: space-around;
 }
+
+/*Логотип*/
 .logo{
 	font-size: 24px;
 	line-height: 24px;
-	color:  white;
+	color:   rgb(255, 255, 255);
 	text-transform: uppercase;
-	background: rgb(238 54 67);
+	background: rgb(238, 54, 67);
 	box-sizing: border-box;
 	width: 220px;
 	padding: 13px 54px;
-	box-shadow: 0px 5px 0px rgb(181 41 51);
+	box-shadow: 0px 5px 0px rgb(181, 41, 51);
 }
-
 .logo:hover,
 .logo:focus,
 .logo-footer:hover,
 .logo-footer:focus{
 	outline: none;
-	background: rgb(202 44 55);
+	background: rgb(202, 44, 55);
 }
 .logo:active,
 .logo-footer:active{
-	background: rgb(186 39 50);
+	background: rgb(186, 39, 50);
 }
 
-.search{
-	background: rgb(41 52 73);
-	color: white;
+/*Поиск*/
+.search-form{
+	display: block;
+	position: relative;
+}
+.search-field{
+	background: rgb(41, 52, 73);
+	color:  rgb(255, 255, 255);
 	border: none;
 	
 	font-size: 17px;
@@ -69,8 +75,37 @@ a{
 	padding-left: 49px;
 	box-sizing: border-box;
 	width: 270px;
-
 }
+.search-field::-webkit-input-placeholder{
+	color:  rgb(255, 255, 255);
+}
+.search-field:hover{
+	outline: none;
+	background: rgb(33, 42, 58);
+	opacity: 1;
+}
+.search-field:focus{
+	outline: none;
+	background:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+.search-form::before{
+	content: " ";
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	top: 16px;
+	left: 17px;
+	background-image: url(/img/sprite.svg#accountSearchHover-view);
+	opacity: 0.3;
+	z-index: 1;
+}
+.search-link::-webkit-input-placeholder{
+	background-image: url(/img/sprite.svg#accountSearchActiv-view);
+	opacity: 1;
+}
+
+/*
 .top-menu form{
 	display: block;
 	position: relative;
@@ -85,8 +120,7 @@ a{
 	background-image: url(/img/sprite.svg#accountSearchHover-view);
 	opacity: 0.3;
 }
-.top-menu form:hover::before
-{
+.top-menu form:hover::before{
 	opacity: 1;
 }
 .top-menu form:focus::before,
@@ -94,21 +128,12 @@ a{
 	background-image: url(/img/sprite.svg#accountSearchActiv-view);
 	opacity: 1;
 }
-.search::-webkit-input-placeholder{
-	color: white;
-}
+*/
 
-.search:hover{
-	outline: none;
-	background: rgb(33 42 58);
-}
-.search:focus{
-	outline: none;
-	background: white;
-	color: black;
-}
+
+
 .bookmarks{
-	color: white;
+	color:  rgb(255, 255, 255);
 	padding: 15px;
 	padding-left: 45px;
 
@@ -127,7 +152,7 @@ a{
 	opacity: 0.3;
 }
 .basket{
-	color: white;
+	color:  rgb(255, 255, 255);
 	padding: 15px;
 	padding-left: 45px;
 	
@@ -161,31 +186,31 @@ a{
 .basket:hover,
 .basket:focus{
 	outline: none;
-	background: rgb(33 42 58);
+	background: rgb(33, 42, 58);
 }
 .bookmarks:active,
 .basket:active{
-	background: rgb(22 29 41);
+	background: rgb(22, 29, 41);
 }
 .formalize{
-	color: white;
-	background: rgb(99 166 62);
+	color:  rgb(255, 255, 255);
+	background: rgb(99, 166, 62);
 	padding: 15px 21px;
 	flex-grow: 1;
 }
 .formalize:hover,
 .formalize:focus{
 	outline: none;
-	background: rgb(95 187 45);
+	background: rgb(95, 187, 45);
 }
 .formalize:active{
-	background: rgb(81 133 52);
+	background: rgb(81, 133, 52);
 }
 /*Шапка сайта header-bottom*/
 .header-bottom{
 	font-size: 17px;
 	line-height: 17px;
-	color: white;
+	color:  rgb(255, 255, 255);
 	padding-bottom: 65px;
 }
 .user-info{
@@ -198,7 +223,7 @@ a{
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 23px;
-	color: rgb(238 54 67);
+	color: rgb(238, 54, 67);
 	
 	padding-top: 49px;
 	padding-left: 53px;
@@ -210,7 +235,7 @@ a{
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 23px;
-	color: rgb(238 54 67);
+	color: rgb(238, 54, 67);
 	
 	padding-top: 49px;
 	padding-left: 53px;
@@ -224,8 +249,8 @@ a{
 .phone{
 	font-size: 21px;
 	line-height: 21px;
-	color: rgb(233 41 42);
-	border: 3px solid white;
+	color: rgb(233, 41, 42);
+	border: 3px solid  rgb(255, 255, 255);
 	
 	box-sizing: border-box;
 	margin: 0;
@@ -248,8 +273,8 @@ a{
 .address{
 	font-size: 14px;
 	line-height: 24px;
-	color: rgb(50 66 92);
-	margin: 10px;;
+	color: rgb(50, 66, 92);
+	margin: 10px;
 }
 .user-nav{
 	margin-top: 46px;
@@ -261,8 +286,8 @@ a{
 .login-link{
 	font-style: 21px;
 	line-height: 21px;
-	color: black;
-	background: rgb(255 255 255);
+	color: rgb(0, 0, 0);
+	background: rgb(255, 255, 255);
 	
 	margin-right: 10px;
 	padding: 12px;
@@ -310,8 +335,8 @@ a{
 .registration-link{
 	font-style: 21px;
 	line-height: 21px;
-	color: black;
-	background: rgb(255 255 255);
+	color: rgb(0, 0, 0);
+	background: rgb(255, 255, 255);
 	padding: 12px 25px;
 }
 .login-link:hover,
@@ -323,7 +348,7 @@ a{
 .order:focus,
 .account:focus{
 	outline: none;
-	color: rgb(238 54 67);
+	color: rgb(238, 54, 67);
 }
 .login-link:hover::before,
 .login-link:focus::before,
@@ -348,7 +373,7 @@ registration-link:active,
 .account{
 	font-size: 16px;
 	line-height: 18px;
-	color: rgb(50 66 92);
+	color: rgb(50, 66, 92);
 	text-decoration: underline;
 	padding-left: 18px;
 	padding-right: 14px;
@@ -364,24 +389,26 @@ registration-link:active,
 	left: 1px;
 	width: 4px;
 	height: 4px;
-	background: rgb(50 66 92);
+	background: rgb(50, 66, 92);
 	border-radius: 50%;
 
 }
+/*
 .order:hover,
 .account:hover,
 .order:focus,
 .account:focus{
 	
 }
+*/
 
 /*Главное меню*/
 .menu{
 	font-size: 17px;
 	line-height: 17px;
 	list-style: none;
-	background: rgb(50 66 92);
-	box-shadow: 0px 5px 0px rgb(41 52 73);
+	background: rgb(50, 66, 92);
+	box-shadow: 0px 5px 0px rgb(41, 52, 73);
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -391,17 +418,17 @@ registration-link:active,
 	flex-grow: 1;
 }
 .nav-menu a{
-	color: white;
+	color:  rgb(255, 255, 255);
 	display: block;
 	padding: 19px 31px;
 }
 .nav-menu a:hover,
 .nav-menu a:focus{
 	outline: none;
-	background: rgb(41 52 73);
+	background: rgb(41, 52, 73);
 }
 .nav-menu a:active{
-	background: rgb(29 39 57);
+	background: rgb(29, 39, 57);
 	color: rgba(255, 255, 255, 0.5);
 }
 /*Хлебные крошки*/
@@ -417,7 +444,7 @@ registration-link:active,
 	font-size: 13px;
 	line-height: 18px;
 	text-transform: uppercase;
-	color: black;
+	color: rgb(0, 0, 0);
 	margin: 0;
 	padding: 20px;
 	
@@ -439,11 +466,11 @@ registration-link:active,
 .main-header h1{
 	font-size: 30px;
 	line-height: 30px;
-	color: rgb(50 66 92);
+	color: rgb(50, 66, 92);
 	text-transform: uppercase;
 	margin: 0;
 	padding: 30px 30px;
-	background: rgb(242 246 248);
+	background: rgb(242, 246, 248);
 }
 
 /*основной контент страницы каталога*/
@@ -460,15 +487,15 @@ registration-link:active,
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 15px;
 	line-height: 20px;
-	color: black;	
+	color: rgb(0, 0, 0);
 	
 	display: flex;
 }
 .sort{
 	font-size: 13px;
 	line-height: 18px;
-	color: black;
-	background: rgb(247 243 236);
+	color: rgb(0, 0, 0);
+	background: rgb(247, 243, 236);
 	border-radius: 3px;
 	margin-top: 20px;
 	padding: 10px;
@@ -492,7 +519,7 @@ registration-link:active,
 	text-transform: uppercase;
 }
 .hunt-group-work{
-	background: rgb(247 243 236);
+	background: rgb(247, 243, 236);
 	width: 220px;
 	box-sizing: border-box;
 	padding: 30px 20px;
@@ -580,7 +607,7 @@ input[type="radio"]:checked::before{
 }
 .nav-page li{
 
-	border: 1px solid rgb(229 229 229);
+	border: 1px solid rgb(229, 229, 229);
 	border-radius: 3px;
 	margin-right: 10px;
 	height: 38px;
@@ -601,31 +628,31 @@ input[type="radio"]:checked::before{
 .item-menu h3{
 	font-size: 24px;
 	line-height: 30px;
-	color: white;
+	color:  rgb(255, 255, 255);
 	font-weight: 700;
 	margin: 0 0 16px;
 }
 .item-menu a{
 	font-size: 14px;
 	line-height: 18px;
-	color: white;
+	color:  rgb(255, 255, 255);
 	text-transform: uppercase;
-	background: rgba(0,0,0,0.1);
+	background: rgba(0, 0, 0, 0.1);
 }
 .item-menu a:hover,
 .item-menu a:focus{
 	outline: none;
-	background: rgba(0,0,0,0.2);
+	background: rgba(0, 0, 0, 0.2);
 }
 .item-menu a:active{
-	background: rgba(0,0,0,0.3)
+	background: rgba(0, 0, 0, 0.3)
 }
 .material a{
 	padding: 10px 22px;
 	border-radius: 5px;
 }
 .material{
-	background: rgb(255 191 71);
+	background: rgb(255, 191, 71);
 
 	box-sizing: border-box;
 	width: 300px;
@@ -645,10 +672,10 @@ input[type="radio"]:checked::before{
 }
 .tooling a{
 	padding: 10px 27px;
-	border-radius: 5px;	
+	border-radius: 5px;
 }
 .tooling{
-	background: rgb(59 188 227);
+	background: rgb(59, 188, 227);
 	
 	box-sizing: border-box;
 	width: 300px;
@@ -671,11 +698,11 @@ input[type="radio"]:checked::before{
 	border-radius: 5px;	
 }
 .technique{
-	background: rgb(220 145 216);
+	background: rgb(220, 145, 216);
 
 	box-sizing: border-box;
 	width: 300px;
-	margin: 0px 0px 20px 10px;	
+	margin: 0px 0px 20px 10px;
 	padding: 26px 22px;
 	
 	display: block;
@@ -691,10 +718,10 @@ input[type="radio"]:checked::before{
 }
 .discount a{
 	padding: 10px 22px;
-	border-radius: 5px;	
+	border-radius: 5px;
 }
 .discount{
-	background: rgb(142 215 143);
+	background: rgb(142, 215, 143);
 
 	box-sizing: border-box;
 	width: 300px;
@@ -717,7 +744,7 @@ input[type="radio"]:checked::before{
 	border-radius: 5px;	
 }
 .delivery{
-	background: rgb(255 191 71);
+	background: rgb(255, 191, 71);
 
 	box-sizing: border-box;
 	width: 300px;
@@ -742,8 +769,8 @@ input[type="radio"]:checked::before{
 	margin: 10px 10px 0px 0px;
 }
 .popular{
-	color: rgb(50 66 92);
-	background: rgb(249 245 240);
+	color: rgb(50, 66, 92);
+	background: rgb(249, 245, 240);
 	text-transform: uppercase;
 	display: flex;
 	justify-content: space-between;
@@ -763,7 +790,7 @@ input[type="radio"]:checked::before{
 	flex-wrap: wrap;
 }
 .snippet{
-	border: 1px solid rgb(234 234 234);
+	border: 1px solid rgb(234, 234, 234);
 	margin-top: 20px;
 	display: flex;
 	flex-direction: column;
@@ -785,8 +812,7 @@ input[type="radio"]:checked::before{
 	display: none;
 }
 .snippet:hover .goods-foto,
-.snippet:focus .foto
-{
+.snippet:focus .foto{
 	display: none;
 }
 .snippet:hover .purchase,
@@ -797,15 +823,15 @@ input[type="radio"]:checked::before{
 .goods.buy{
 	font-size: 14px;
 	line-height: 18px;
-	color: white;
+	color:  rgb(255, 255, 255);
 	text-transform: uppercase;
 	margin-top: 45px;
 	padding: 10px;
 	padding-left: 49px;
 	padding-right: 45px;
 	
-	background: rgb(99 166 62);
-	box-shadow: 0px 3px 0px rgb(54 115 21);
+	background: rgb(99, 166, 62);
+	box-shadow: 0px 3px 0px rgb(54, 115, 21);
 	border-radius: 3px;
 	
 	display: block;
@@ -824,14 +850,14 @@ input[type="radio"]:checked::before{
 }
 .goods.buy:hover,
 .goods.buy:focus{
-	background: rgb(95 187 45);
+	background: rgb(95, 187, 45);
 }
 .goods.buy:hover::before,
 .goods.buy:focus::before{
 	opacity: 1;
 }
 .goods.buy:active{
-	background: rgb(95 187 45);
+	background: rgb(95, 187, 45);
 }
 .goods.buy:active::before{
 	opacity: 0.5;
@@ -840,21 +866,21 @@ input[type="radio"]:checked::before{
 .goods.bookmarks-this{
 	font-size: 14px;
 	line-height: 18px;
-	color: rgb(50 66 92);
+	color: rgb(50, 66, 92);
 	text-transform: uppercase;
 	margin-top: 7px;
 	padding: 7px;
 	padding-left: 33px;
 	padding-right: 29px;
 	
-	background: white;
-	border: 3px solid rgb(54 115 21);
+	background:  rgb(255, 255, 255);
+	border: 3px solid rgb(54, 115, 21);
 	border-radius: 3px;
 	
 }
 .goods.bookmarks-this:hover,
 .goods.bookmarks-this:focus{
-	border-color:rgb(50 66 92);
+	border-color:rgb(50, 66, 92);
 }
 .goods.bookmarks-this:focus{
 	opacity: 0.3;
@@ -872,13 +898,14 @@ input[type="radio"]:checked::before{
 	position: absolute;
 	top: 0;
 	right: -19px;
-	border: 19px solid white;
+	border: 19px solid  rgb(255, 255, 255);
 	border-left: 19px solid transparent;
 }
 
 .new::before{
 	content: " ";
 	position: absolute;
+	top: 0;
 	right: 0px;
 	width: 60px;
 	height: 59px;
@@ -892,13 +919,13 @@ input[type="radio"]:checked::before{
 .price h3{
 	font-size: 18px;
 	line-height: 20px;
-	color: black;
+	color: rgb(0, 0, 0);
 	font-family: "PT Sans", Arial, sans-serif;
 	text-align: center;
 	margin-bottom: auto;
 }
 .goods span{
-	color: rgb(169 169 169);
+	color: rgb(169, 169, 169);
 	text-decoration: line-through;
 	text-transform: uppercase;
 }
@@ -926,8 +953,8 @@ input[type="radio"]:checked::before{
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
 	line-height: 24px;
-	color: black;
-	background: rgb(244 248 249);
+	color: rgb(0, 0, 0);
+	background: rgb(244, 248, 249);
 	margin: 0px;
 	margin-top: 75px;
 	padding-top: 68px;
@@ -943,7 +970,7 @@ input[type="radio"]:checked::before{
 	font-size: 36px;
 	line-height: 24px;
 	text-transform: uppercase;
-	color: rgb(50 66 92);
+	color: rgb(50, 66, 92);
 }
 .tabs { 
 	display: flex; 
@@ -959,21 +986,21 @@ input[type="radio"]:checked::before{
 	font-weight: 700;
 	font-size: 21px;
 	line-height: 30px;
-	color: white;
+	color:  rgb(255, 255, 255);
 	
 	box-sizing: border-box;
 	padding: 15px 22px;
 	width: 240px; 
-	background: rgb(50 66 92);
-	outline: 1px solid rgb(71 98 123);
+	background: rgb(50, 66, 92);
+	outline: 1px solid rgb(71, 98, 123);
 } 
 .tabs-label:hover,
 .tabs-label:focus{
-	background: rgb(41 52 73);
+	background: rgb(41, 52, 73);
 }
 .tabs-label:active{
-	color: rgb(50 66 92);
-	background: white;
+	color: rgb(50, 66, 92);
+	background:  rgb(255, 255, 255);
 }
 .tabs-input { 
 display: none; 
@@ -991,7 +1018,7 @@ display: block;
 	top: 50%; 
 	transform: translateY(-50%); 
 	padding-left: 74px;
-	background: linear-gradient(to left #000 #fff );
+	background: linear-gradient(to left rgb(0, 0, 0)  rgb(255, 255, 255) );
 
 }
 .button.credit{
@@ -1007,7 +1034,7 @@ display: block;
 }
 .tabs-description:nth-of-type(3){
 	background: url(/img/credit.png) no-repeat;
-	background-position: right bottom;	
+	background-position: right bottom;
 }
 
 
@@ -1016,7 +1043,7 @@ display: block;
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size:13px;
 	line-height: 24px;
-	color: black;
+	color: rgb(0, 0, 0);
 	margin-top: 82px;
 	padding-bottom: 86px;
 	display: flex;
@@ -1062,7 +1089,7 @@ display: block;
 	left: -36px;
 	width: 25px;
 	height: 2px;
-	background: rgb(238 54 67);
+	background: rgb(238, 54, 67);
 }
 .button.company{
 	margin-top: 40px;
@@ -1076,7 +1103,6 @@ display: block;
 	padding: 10px;
 	box-sizing: border-box;
 	align-items: center;
-
 }
 .map{
 	background: url(/img/map-form.png);
@@ -1089,8 +1115,8 @@ display: block;
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
 	line-height: 24px;
-	color: black;
-	background: rgb(242 246 248);
+	color: rgb(0, 0, 0);
+	background: rgb(242, 246, 248);
 	padding-top: 68px;
 	padding-bottom: 39px;
 
@@ -1104,7 +1130,7 @@ display: block;
 }
 /*Подвал сайта*/
 .footer{
-	background: rgb(50 66 92);
+	background: rgb(50, 66, 92);
 }
 .footer-top{
 	display: flex;
@@ -1138,11 +1164,11 @@ display: block;
 
 
 .footer-menu-link{
-	color: white;
+	color:  rgb(255, 255, 255);
 }
 .footer-midle-b{
 	padding-left: 23px;
-	color: rgb(255 209 128);
+	color: rgb(255, 209, 128);
 }
 .footer-menu-link:hover,
 .footer-menu-link:focus{
@@ -1151,7 +1177,7 @@ display: block;
 }
 .footer-menu-link:active{
 	text-decoration: underline;
-	color: rgba(25,255,255,0.5);
+	color: rgba(25, 255, 255, 0.5);
 }
 .footer-midle-b:hover,
 .footer-midle-b:focus{
@@ -1160,17 +1186,17 @@ display: block;
 }
 .footer-midle-b:active{
 	text-decoration: underline;
-	color: rgba(255,209,128,0.5);
+	color: rgba(255, 209, 128, 0.5);
 }
 .footer address{
 	font-size: 18px;
 	line-height: 24px;
-	color: rgb(241 245 247);
+	color: rgb(241, 245, 247);
 }
 .copyright{
 	font-size: 16px;
 	line-height: 18px;
-	background: rgb(41 52 73);
+	background: rgb(41, 52, 73);
 }
 .copyright .wrapper{
 	display: flex;
@@ -1183,7 +1209,7 @@ display: block;
 	padding: 0;
 }
 .social-buttons li{
-	background: rgb(33 42 58);
+	background: rgb(33, 42, 58);
 	width: 42px;
 	height: 42px;
 	border-radius: 50%;
@@ -1222,35 +1248,34 @@ display: block;
 .social-buttons li:hover,
 .social-buttons li:focus,
 .social-buttons li:active{
-	background: rgb(238 54 67);
+	background: rgb(238, 54, 67);
 }
 .copyright a{
-	color: rgb(255 209 128);
+	color: rgb(255, 209, 128);
 }
 .copyright a:hover,
 .copyright a:focus{
 	outline: none;
 	text-decoration: underline;
-
 }
 .copyright a:active{
-	color: rgb(238 54 67);
+	color: rgb(238, 54, 67);
 }
 .button{
 	font-size: 14px;
 	line-height: 18px;
-	color: white;
-	background: rgb(238 54 67);
+	color:  rgb(255, 255, 255);
+	background: rgb(238, 54, 67);
 	text-transform: uppercase;
 	border-radius: 5px;
 }
 .button:hover,
 .button:focus{
 	outline: none;
-	background: rgb(202 44 55);
+	background: rgb(202, 44, 55);
 }
 .button:active{
-	background: rgb(186 39 50);
+	background: rgb(186, 39, 50);
 }
 
 
