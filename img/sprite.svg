@@ -198,7 +198,7 @@
 	<view id="accountInsta-view" viewBox="800 0 21 21" />
 	<use xlink:href="#accountInsta" width="21" height="21" x="800" y="0"></use>
 <!--  icon accountRight-small-->
-	<symbol id="accountRight-small" viewBox="0 0 0 12">
+	<symbol id="accountRight-small" viewBox="0 0 8 12">
 	<svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><path fill="#C1C6CE" d="M7.237 5.642L1.729.133a.506.506 0 1 0-.716.716L6.163 6l-5.151 5.15a.507.507 0 0 0 .716.717l5.509-5.509a.504.504 0 0 0 0-.716z"/></svg>
 	</symbol>
 	<view id="accountRight-small-view" viewBox="850 0 8 12" />

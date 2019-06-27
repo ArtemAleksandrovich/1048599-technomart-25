@@ -309,10 +309,10 @@ a{
 .login-link:focus,
 .registration-link:hover,
 .registration-link:focus,
-.order:hover,
-.account:hover,
-.order:focus,
-.account:focus{
+.personal-order:hover,
+.personal-account:hover,
+.personal-order:focus,
+.personal-account:focus{
 	outline: none;
 	color: rgb(238, 54, 67);
 }
@@ -324,19 +324,23 @@ a{
 }
 .login-link:active,
 registration-link:active,
-.order:active,
-.account:active{
+.personal-order:active,
+.personal-account:active{
 	color: rgba(0, 0, 0, 0.302);
 }
-.personal ul{
+.personal{
+    padding-top: 23px;
+}
+.personal-link-account{
 	list-style: none;
 	display: flex;
 	padding: 0;
     padding-top: 10px;
+    margin: 0;
 	align-items: flex-start;
 }
-.order,
-.account{
+.personal-order,
+.personal-account{
 	font-size: 16px;
 	line-height: 18px;
 	color: rgb(50, 66, 92);
@@ -348,7 +352,7 @@ registration-link:active,
 	position: relative;
 	
 }
-.account::before{
+.personal-account::before{
 	content: " ";
 	position: absolute;
 	top: 7px;
@@ -401,9 +405,8 @@ registration-link:active,
 .crumb{
 	list-style: none;
 	margin: 0;
-/*	padding: 0;*/
-	
-	display: flex;
+    padding: 0;
+    display: flex;
 }
 .crumb-link{
 	font-family: "PT Sans", Arial, sans-serif;
@@ -412,23 +415,32 @@ registration-link:active,
 	text-transform: uppercase;
 	color: rgb(0, 0, 0);
 	margin: 0;
-	padding: 20px;
+	padding: 24px;
 	
 	display: block;
 	position: relative;
 }
+.crumb-link-end{
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: rgb(0, 0, 0);
+	margin: 0;
+	padding: 24px;
+}
 .crumb-link::before{
 	content: " ";
 	position: absolute;
-	top: 20px;
-	right: 1px;
+	top: 25px;
+	right: -4px;
 	width: 8px;
 	height: 12px;
-	background-image: url(/img/sprite.svg#"accountRight-small-view);
+	background-image: url(/img/sprite.svg#accountRight-small-view);
 }
 
 
-.main-header h1{
+.main-header{
 	font-size: 30px;
 	line-height: 30px;
 	color: rgb(50, 66, 92);
@@ -740,7 +752,6 @@ input[type="radio"]:checked::before{
     padding-top: 53px;
 }
 .popular-maker{
-	padding-top: 21px;
     padding-bottom: 76px;
 }
 .popular{
@@ -772,6 +783,7 @@ input[type="radio"]:checked::before{
 	border: 1px solid rgb(234, 234, 234);
     width: 220px;
     box-sizing: border-box;
+    margin-bottom: 20px;
 	display: flex;
 	flex-direction: column;
 	position: relative;
@@ -1023,7 +1035,6 @@ display: block;
 	transform: translateY(-50%); 
 	padding-left: 74px;
 	background: linear-gradient(to left rgb(0, 0, 0)  rgb(255, 255, 255) );
-
 }
 .button.credit{
 	padding: 10px 44px;
