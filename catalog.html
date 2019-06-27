@@ -78,11 +78,11 @@
 				</div>
 				<div class="content">
 					<form action="#" method="get" class="filter">
-						<div class="sort">
-							<p>ФИЛЬТР:</p>
+						<div class="content-sort">
+							<p class="content-sort-view">ФИЛЬТР:</p>
 						</div>
 						<fieldset class="hunt-group">
-							<legend>Цена:</legend>
+							<legend class="content-sort-group">Цена:</legend>
 							<div class="hunt-group-work">
 								<input type="range" min="0" max="30000" step="500">
 							</div>
@@ -94,51 +94,51 @@
 							</div>
 						</fieldset>
 						<fieldset class="hunt-group">
-							<legend>Производители:</legend>
+							<legend class="content-sort-group">Производители:</legend>
 							<div class="search-item">
 								<label for="BOSCH">
-									<input type="checkbox" mane="BOSCH" id="BOSCH">BOSCH
+									<input type="checkbox" mane="BOSCH" id="BOSCH" class="search-item-cursor">BOSCH
 								</label>
 							</div>
 							<div class="search-item">
 								<label for="interskol">
-									<input type="checkbox" mane="interskol" id="interskol">ИНТЕРСКОЛ
+									<input type="checkbox" mane="interskol" id="interskol" class="search-item-cursor">ИНТЕРСКОЛ
 								</label>
 							</div>
 							<div class="search-item">
 								<label for="MAKITA">
-									<input type="checkbox" mane="MAKITA" id="MAKITA">MAKITA
+									<input type="checkbox" mane="MAKITA" id="MAKITA" class="search-item-cursor">MAKITA
 								</label>
 							</div>
 							<div class="search-item">
 								<label for="DEWALT">
-									<input type="checkbox" mane="DEWALT" id="DEWALT">DEWALT
+									<input type="checkbox" mane="DEWALT" id="DEWALT" class="search-item-cursor">DEWALT
 								</label>
 							</div>
 							<div class="search-item">
 								<label for="HITACHI">
-									<input type="checkbox" mane="HITACHI" id="HITACHI">HITACHI
+									<input type="checkbox" mane="HITACHI" id="HITACHI" class="search-item-cursor">HITACHI
 								</label>
 							</div>
 						</fieldset>
 						<fieldset class="hunt-group">
-							<legend>Питание:</legend>
+							<legend class="content-sort-group">Питание:</legend>
 							<div class="search-item">
 								<label for="accumulator">
-									<input type="radio" name="power" id="accumulator" value="accumulator">АККУМУЛЯТОРНЫЕ
+									<input type="radio" name="power" id="accumulator" value="accumulator" class="search-item-cursor radio">АККУМУЛЯТОРНЫЕ
 								</label>
 							</div>
 							<div class="search-item">
 								<label for="networking">
-									<input type="radio" name="power" id="networking" value="networking">СЕТЕВЫЕ
+									<input type="radio" name="power" id="networking" value="networking" class="search-item-cursor radio">СЕТЕВЫЕ
 								</label>
 							</div>
 						</fieldset>
 						<input type="submit" value="ПОКАЗАТЬ">
 					</form>
 					<section>
-						<div class="sort">
-							<p>СОРТИРОВКА:</p>
+						<div class="content-sort">
+							<p class="content-sort-view">СОРТИРОВКА:</p>
 						</div>
 						<div class="goods">
                             <article class="snippet">
@@ -266,10 +266,10 @@
                             </article>
 						</div>
 						<ul class="nav-page">
-							<li><a href="">1</a></li>
-							<li><a href="">2</a></li>
-							<li><a href="">3</a></li>
-							<li><a href="">Следующая</a></li>
+							<li class="nav-page-item activ"><a href="" class="nav-page-link activ">1</a></li>
+							<li class="nav-page-item"><a href="" class="nav-page-link">2</a></li>
+							<li class="nav-page-item"><a href="" class="nav-page-link">3</a></li>
+							<li class="nav-page-item next"><a href="" class="nav-page-link">Следующая</a></li>
 						</ul>
 					</section>
 				</div>
@@ -279,8 +279,8 @@
 			</article>
 			<section class="product">
 				<div class="wrapper">
-					<h2>пара слов о перфораторах</h2>
-					<p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+					<h2 class="product-title">пара слов о перфораторах</h2>
+					<p class="product-information">Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
 				</div>
 			</section>
 		</main>

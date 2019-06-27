@@ -438,15 +438,13 @@ registration-link:active,
 	height: 12px;
 	background-image: url(../img/sprite.svg#accountRight-small-view);
 }
-
-
 .main-header{
 	font-size: 30px;
 	line-height: 30px;
 	color: rgb(50, 66, 92);
 	text-transform: uppercase;
 	margin: 0;
-/*    margin-bottom: 20px;*/
+    margin-bottom: 20px;
 	padding: 30px 30px;
 	background: rgb(242, 246, 248);
 }
@@ -469,17 +467,18 @@ registration-link:active,
 	
 	display: flex;
 }
-.sort{
+.content-sort{
 	font-size: 13px;
 	line-height: 18px;
 	color: rgb(0, 0, 0);
 	background: rgb(247, 243, 236);
 	border-radius: 3px;
-    padding-top: 20px;
+    margin: 0;
 	padding: 10px;
 	padding-left: 18px;
+    margin-bottom: 20px;
 }
-.sort p{
+.content-sort-view{
 	margin: auto;
 }
 .hunt-group{
@@ -487,10 +486,9 @@ registration-link:active,
 	padding: 0;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	
 	display: flex;
 }
-.hunt-group legend{
+.content-sort-group{
 	font-size: 17px;
 	font-weight: 700;
 	line-height: 30px;
@@ -516,17 +514,20 @@ registration-link:active,
 }
 /*фильтр производителей и питание*/
 .search-item{
+    font-size: 15px;
+    line-height: 20px;
 	padding-left: 35px;
 	padding-bottom: 17px;
 	
 	display: block;
 	position: relative;
 	}
-.search-item input{
+
+.search-item-cursor{
 	-webkit-appearance: none; 
 	cursor: pointer;
 }
-input[type="checkbox"]::before{
+.search-item-cursor::before{
 	content: " ";
 	position: absolute;
 	top: 0px;
@@ -535,7 +536,7 @@ input[type="checkbox"]::before{
 	height: 23px;
 	background: url(../img/sprite.svg#accountChecbox-on-view);
    }
-input[type="checkbox"]:checked::before {
+.search-item-cursor:checked::before {
 	content: " ";
 	position: absolute;
 	top: 0px;
@@ -544,15 +545,15 @@ input[type="checkbox"]:checked::before {
 	height: 23px;   
     background: url(../img/sprite.svg#accountchecbox-off-view);
    }
-input[type="checkbox"]:hover::before,
-input[type="checkbox"]:focus::before{
-	background: url(img/sprite.svg#accountChecbox-onHover-view);
+.search-item-cursor:hover::before,
+.search-item-cursor:focus::before{
+	background: url(../img/sprite.svg#accountChecbox-onHover-view);
 }
-input[type="checkbox"]:checked:hover::before,
-input[type="checkbox"]:checked:focus::before{
-	background: url(../img/sprite.svg#accountchecbox-offHover-view);	
+.search-item-cursor:checked:hover::before,
+.search-item-cursor:checked:focus::before{
+	background: url(../img/sprite.svg#accountchecbox-offHover-view);
 }
-input[type="radio"]::before{
+.radio::before{
 	content: " ";
 	position: absolute;
 	top: 0px;
@@ -561,7 +562,7 @@ input[type="radio"]::before{
 	height: 25px;
 	background: url(../img/sprite.svg#accountRadio-offHover-view);
 }
-input[type="radio"]:checked::before{
+.radio:checked::before{
 	content: " ";
 	position: absolute;
 	top: 0px;
@@ -570,8 +571,6 @@ input[type="radio"]:checked::before{
 	height: 25px;
 	background: url(../img/sprite.svg#accountRadio-onHover-view);
 }
-
-
 .nav-page{
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 13px;
@@ -579,16 +578,32 @@ input[type="radio"]:checked::before{
 
 	list-style: none;
 	margin: 0;
+    margin-bottom: 60px;
 	padding: 0;
 	
 	display: flex;
 }
-.nav-page li{
-
+.nav-page-item{
 	border: 1px solid rgb(229, 229, 229);
-	border-radius: 3px;
+	border-radius: 2px;
 	margin-right: 10px;
-	height: 38px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+}
+.nav-page-link{
+    font-size:13px;
+    line-height: 18px;
+    color: rgb(0, 0, 0);
+}
+.activ{
+    background: rgb(238, 54, 67);
+    color: rgb(255, 255, 255);
+}
+.next{
+    width: 140px;
 }
 
 
@@ -1053,7 +1068,6 @@ display: block;
 	background-position: right bottom;
 }
 
-
 /*Блок о компании и как добраться до нас*/
 .info-company{
 	font-family: "PT Sans", Arial, sans-serif;
@@ -1131,6 +1145,7 @@ display: block;
 	height: 476px;
 	display: none;
 }
+
 /*нформация о товаре*/
 .product{
 	font-family: "PT Sans", Arial, sans-serif;
@@ -1142,13 +1157,20 @@ display: block;
 	padding-bottom: 39px;
 
 }
-.product h2{
+.product-title{
 	font-family: "Cuprum", Arial< sans-serif;
 	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
 	margin: 0;
+    padding: 0;
+    padding-bottom: 39px;
 }
+.product-information{
+    margin: 0;
+    padding: 0;
+}
+
 /*Подвал сайта*/
 .footer{
 	background: rgb(50, 66, 92);
