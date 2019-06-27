@@ -95,12 +95,12 @@ a{
 	height: 17px;
 	top: 16px;
 	left: 17px;
-	background-image: url(/img/sprite.svg#accountSearchHover-view);
+	background-image: url(../img/sprite.svg#accountSearchHover-view);
 	opacity: 0.3;
 	z-index: 1;
 }
 .search-link::-webkit-input-placeholder{
-	background-image: url(/img/sprite.svg#accountSearchActiv-view);
+	background-image: url(../img/sprite.svg#accountSearchActiv-view);
 	opacity: 1;
 }
 
@@ -141,7 +141,7 @@ a{
 	left: 17px;
 	width: 14px;
 	height: 16px;
-	background-image: url(/img/sprite.svg#accountBookmarkHover-view);
+	background-image: url(../img/sprite.svg#accountBookmarkHover-view);
 	opacity: 0.3;
 }
 .header-basket::before{
@@ -151,7 +151,7 @@ a{
 	left: 17px;
 	width: 15px;
 	height: 15px;
-	background-image: url(/img/sprite.svg#accountCartHover-view);
+	background-image: url(../img/sprite.svg#accountCartHover-view);
 	opacity: 0.3;
 }
 .header-basket:hover::before,
@@ -233,7 +233,7 @@ a{
 	left: 16px;
 	width: 19px;
 	height: 19px;
-	background-image: url(/img/sprite.svg#accountPhone-view);
+	background-image: url(../img/sprite.svg#accountPhone-view);
 }
 .header-address{
 	font-size: 14px;
@@ -275,7 +275,7 @@ a{
 	left: 13px;
 	width: 20px;
 	height: 18px;
-	background-image: url(/img/sprite.svg#accountUserHover-view);
+	background-image: url(../img/sprite.svg#accountUserHover-view);
 	opacity: 0.3;
 }
 .login-link.user::after{
@@ -285,7 +285,7 @@ a{
 	right: 10px;
 	width: 20px;
 	height: 17px;
-	background-image: url(/img/sprite.svg#accountLogoutHover-view);
+	background-image: url(../img/sprite.svg#accountLogoutHover-view);
 	opacity: 0.3;
 }
 .login-link::before{
@@ -295,7 +295,7 @@ a{
 	left: 14px;
 	width: 20px;
 	height: 17px;
-	background-image: url(/img/sprite.svg#accountLoginHover-view);
+	background-image: url(../img/sprite.svg#accountLoginHover-view);
 	opacity: 0.3;
 }
 .registration-link{
@@ -436,7 +436,7 @@ registration-link:active,
 	right: -4px;
 	width: 8px;
 	height: 12px;
-	background-image: url(/img/sprite.svg#accountRight-small-view);
+	background-image: url(../img/sprite.svg#accountRight-small-view);
 }
 
 
@@ -446,6 +446,7 @@ registration-link:active,
 	color: rgb(50, 66, 92);
 	text-transform: uppercase;
 	margin: 0;
+/*    margin-bottom: 20px;*/
 	padding: 30px 30px;
 	background: rgb(242, 246, 248);
 }
@@ -532,7 +533,7 @@ input[type="checkbox"]::before{
 	left: 0px;
 	width: 27px;
 	height: 23px;
-	background: url(/img/sprite.svg#accountChecbox-on-view);
+	background: url(../img/sprite.svg#accountChecbox-on-view);
    }
 input[type="checkbox"]:checked::before {
 	content: " ";
@@ -541,15 +542,15 @@ input[type="checkbox"]:checked::before {
 	left: 0px;
 	width: 23px;
 	height: 23px;   
-    background: url(/img/sprite.svg#accountchecbox-off-view);
+    background: url(../img/sprite.svg#accountchecbox-off-view);
    }
 input[type="checkbox"]:hover::before,
 input[type="checkbox"]:focus::before{
-	background: url(/img/sprite.svg#accountChecbox-onHover-view);
+	background: url(img/sprite.svg#accountChecbox-onHover-view);
 }
 input[type="checkbox"]:checked:hover::before,
 input[type="checkbox"]:checked:focus::before{
-	background: url(/img/sprite.svg#accountchecbox-offHover-view);	
+	background: url(../img/sprite.svg#accountchecbox-offHover-view);	
 }
 input[type="radio"]::before{
 	content: " ";
@@ -558,7 +559,7 @@ input[type="radio"]::before{
 	left: 0px;
 	width: 25px;
 	height: 25px;
-	background: url(/img/sprite.svg#accountRadio-offHover-view);
+	background: url(../img/sprite.svg#accountRadio-offHover-view);
 }
 input[type="radio"]:checked::before{
 	content: " ";
@@ -567,7 +568,7 @@ input[type="radio"]:checked::before{
 	left: 0px;
 	width: 25px;
 	height: 25px;
-	background: url(/img/sprite.svg#accountRadio-onHover-view);
+	background: url(../img/sprite.svg#accountRadio-onHover-view);
 }
 
 
@@ -646,7 +647,7 @@ input[type="radio"]:checked::before{
 	left: 212px;
 	width: 44px;
 	height: 65px;
-	background-image: url(/img/sprite.svg#accounticon-1-view);
+	background-image: url(../img/sprite.svg#accounticon-1-view);
 }
 .button-tooling{
 	padding: 10px 27px;
@@ -669,7 +670,7 @@ input[type="radio"]:checked::before{
 	left: 198px;
 	width: 75px;
 	height: 61px;
-	background-image: url(/img/sprite.svg#accounticon-2-view);
+	background-image: url(../img/sprite.svg#accounticon-2-view);
 }
 .button-technique{
 	padding: 10px 30px;
@@ -692,7 +693,7 @@ input[type="radio"]:checked::before{
 	left: 191px;
 	width: 78px;
 	height: 62px;
-	background-image: url(/img/sprite.svg#accounticon-3-view);
+	background-image: url(../img/sprite.svg#accounticon-3-view);
 }
 .button-discount{
 	padding: 10px 22px;
@@ -715,7 +716,7 @@ input[type="radio"]:checked::before{
 	left: 196px;
 	width: 59px;
 	height: 72px;
-	background-image: url(/img/sprite.svg#accounticon-4-view);
+	background-image: url(../img/sprite.svg#accounticon-4-view);
 }
 .button-delivery{
 	padding: 10px 37px;
@@ -738,10 +739,10 @@ input[type="radio"]:checked::before{
 	left: 191px;
 	width: 78px;
 	height: 63px;
-	background-image: url(/img/sprite.svg#accounticon-5-view);
+	background-image: url(../img/sprite.svg#accounticon-5-view);
 }
 .slider{
-	background: url(/img/Layer%2099.jpg);
+	background: url(../img/Layer%2099.jpg);
 	width: 620px;
 	height: 266px;
 	margin: 10px 10px 0px 0px;
@@ -843,7 +844,7 @@ input[type="radio"]:checked::before{
 	left: 12px;
 	width: 15px;
 	height: 15px;
-	background-image: url(/img/sprite.svg#accountCartHover-view);
+	background-image: url(../img/sprite.svg#accountCartHover-view);
 	opacity: 0.3;
 }
 .goods.buy:hover,
@@ -906,7 +907,7 @@ input[type="radio"]:checked::before{
 	right: 0;
 	width: 60px;
 	height: 59px;
-	background-image: url(/img/new-flag.png);
+	background-image: url(../img/new-flag.png);
 }
 .snippet:hover{
 	border: none;
@@ -1040,15 +1041,15 @@ display: block;
 	padding: 10px 44px;
 }
 .tabs-description:nth-of-type(1){
-	background: url(/img/delivery.png) no-repeat;
+	background: url(../img/delivery.png) no-repeat;
 	background-position: right bottom;
 }
 .tabs-description:nth-of-type(2){
-	background: url(/img/guarantee.png) no-repeat;
+	background: url(../img/guarantee.png) no-repeat;
 	background-position: right bottom;
 }
 .tabs-description:nth-of-type(3){
-	background: url(/img/credit.png) no-repeat;
+	background: url(../img/credit.png) no-repeat;
 	background-position: right bottom;
 }
 
@@ -1125,7 +1126,7 @@ display: block;
 	align-items: center;
 }
 .map{
-	background: url(/img/map-form.png);
+	background: url(../img/map-form.png);
 	width: 970px;
 	height: 476px;
 	display: none;
@@ -1260,7 +1261,7 @@ display: block;
 	left: 8px;
 	width: 26px;
 	height: 15px;
-	background-image: url(/img/sprite.svg#accountVK-view);
+	background-image: url(../img/sprite.svg#accountVK-view);
 }
 .social-buttons-fac::before{
 	content: " ";
@@ -1269,7 +1270,7 @@ display: block;
 	left: 14px;
 	width: 12px;
 	height: 22px;
-	background-image: url(/img/sprite.svg#accountFb-view);
+	background-image: url(../img/sprite.svg#accountFb-view);
 }
 .social-buttons-ins::before{
 	content: " ";
@@ -1278,7 +1279,7 @@ display: block;
 	left: 10px;
 	width: 21px;
 	height: 21px;
-	background-image: url(/img/sprite.svg#accountInsta-view);
+	background-image: url(../img/sprite.svg#accountInsta-view);
 }
 .social-buttons-item:hover,
 .social-buttons-item:focus,
