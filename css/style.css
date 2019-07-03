@@ -363,14 +363,6 @@ registration-link:active,
 	border-radius: 50%;
 
 }
-/*
-.order:hover,
-.account:hover,
-.order:focus,
-.account:focus{
-	
-}
-*/
 
 /*Главное меню*/
 .header-menu{
@@ -1003,8 +995,10 @@ registration-link:active,
     padding: 15px 0;
 }
 .service-description{
-/*    width: 311px;*/
     margin: 0;
+}
+.service-name-block{
+    padding-bottom: 34px;
 }
 .tabs{ 
 	display: flex; 
@@ -1435,5 +1429,18 @@ display: block;
     box-sizing: border-box;
     padding: 10px;
     border: 1px solid rgb(222, 227, 228);
+}
+.addet{
+    font-size: 30px;
+    line-height: 30px;
+/*
+    box-sizing: border-box;
+    height: 163px;
+*/
+    margin: auto;
+}
+.addet-notify{
+    box-sizing: border-box;
+/*    height: 163px;   */
 }
 
