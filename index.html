@@ -14,8 +14,7 @@
 					<div class="header-top-menu">
 						<a href="#"  class="header logo">ТЕХНОМАРТ</a>
 						<form action="#" class="search-form">
-							<div class="search-link"></div>
-							<input type="search" placeholder="Поиск:" class="search search-field">
+							<input type="search" placeholder="Поиск:" class="search-field">
 						</form>
 						<a href="#" class="header-bookmarks">Закладки: 0</a>
 						<a href="#" class="header-basket">Корзина: 0</a>
@@ -65,7 +64,7 @@
 			<div class="wrapper">
 				<div class="item-menu">
 					<div class="item-menu-left">
-						<div class="material">
+						<div class="material new">
 							<h3 class="item-menu-title">Материалы</h3>
 							<a href="/material.html" class="item-menu-button button-material">на любой вкус</a>
 						</div>
@@ -249,8 +248,10 @@
 					<div class="contact">
 						<h2 class="info-company-title">Контакты</h2>
 						<p class="contact-office">Вы можете забрать товар сами, заехав в наш офис:</p>
-						<img class="contact-map" src="img/map.jpg" alt="Адрес офиса: Большая Конюшенная, д. 19">
-						<a href="/contact.html" class="button contact">заблудились? Напишите нам</a>
+						<a class="mobal-map" href="#">
+							<img class="contact-map" src="img/map.jpg" alt="Адрес офиса: Большая Конюшенная, д. 19">
+						</a>
+						<a href="#" class="button contact feedback">заблудились? Напишите нам</a>
 					</div>
 				</section>
 				<div class="map"></div>
@@ -291,36 +292,51 @@
 				</div>
 			</div>
 		</footer>
-        <section class="mobal mobal-contact">
-            <div class="wrapper">
-                <form class="contact-form" action="#" method="post">
-                    <p class="contact-form-block">
-                        <ladel class="form-label" for="contact-form-name">Ваше имя:</ladel>
-                        <input class="contact-form-name" type="text" name="name" placeholder="Имя Фамилия" id="contact-form-name" required autofocus>
-                    </p>
-                    <p class="contact-form-block">
-                        <ladel class="form-label" for="contact-form-name">Ваш e-mail:</ladel>
-                        <input class="contact-form-name" type="text" name="name" placeholder="email@example.com" id="contact-form-name" required>
-                    </p>
-                    <p class="contact-form-block">
-                        <ladel class="form-label" for="contact-form-name">Текст письма:</ladel>
-                        <textarea class="contact-form-name contact-form-name-text" name="" id="" placeholder="В свободной форме"></textarea>  
-                    </p>
-                    <div class="mobal-contact-button">
-                        <button type="submit" class="button button-mobal">Отправить</button>
-                    </div>
-                </form>
-            </div>
-        </section>
-        <div  class="wrapper">
-            <div  class="contact-form addet">
-                <p class="addet-notify">Товар добавлен в корзину!</p>
-                <div class="mobal-contact-button">
-                        <button type="submit" class="button button-mobal">Оформить заказ</button>
-                        <button type="submit" class="button button-mobal">Продолжить покупки</button>
-                </div>    
-            </div>
-        </div>
+		<section class="modal modal-map">
+			<h3 class="visually-hidden">Как до нас добраться</h3>
+<!--			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533277!2d30.320858716096975!3d59.93871648187614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1561844789422!5m2!1sru!2sru" width="940" height="446" style="border:0" allowfullscreen></iframe>-->
+			<img src="img/map-form.png" width="940" height="446" alt="Офис интернет-магазина по адресу: г. Санкт-Петербург, улица Большая Конюшенная, дом 19">
+			<button class="modal-close" type="button">
+				<span class="visually-hidden">Закрыть карту</span>
+			</button>
+		</section>
+		<section class="modal modal-feedback">
+			<h3 class="visually-hidden">Форма обратной связи</h3>
+			<form class="feedback-form" action="https://echo.htmlacademy.ru/" method="post">
+				<div class="form-wrapper">
+					<p class="form-element">
+						<label for="feedback-name">Ваше имя:</label>
+						<input class="feedback-name" type="text" name="feedback-name" id="feedback-name" placeholder="Имя Фамилия">
+					</p>
+					<p class="form-element">
+						<label for="feedback-mail">Ваш e-mail:</label>
+						<input class="feedback-mail" type="email" name="feedback-mail" id="feedback-mail" placeholder="email@example.com">
+					</p>
+					<p class="form-element">
+						<label for="feedback-body">Текст письма:</label>
+						<textarea class="feedback-body" name="feedback-body" id="feedback-body" placeholder="В свободной форме"></textarea>
+					</p>
+				</div>
+				<p class="button-field">
+					<button class="button" type="submit">Отправить</button>
+				</p>
+			</form>
+			<button class="modal-close" type="button">
+				<span class="visually-hidden">Закрыть форму обратной связи</span>
+			</button>
+		</section>
+			<section class="modal modal-added">
+		<p class="added">Товар добавлен в корзину!</p>
+		<p class="button-field">
+			<a class="button botton-order" href="#">Оформить заказ</a>
+			<button class="button button-proceed" type="button">Продолжить покупки</button>
+		</p>
+		<button class="modal-close" type="button">
+			<span class="visually-hidden">Закрыть окно</span>
+		</button>
+	</section>
+	<script src="js/script.min.js"></script>
+	<script src="js/script-inner.min.js"></script>
 	</body>
 </html>
 
