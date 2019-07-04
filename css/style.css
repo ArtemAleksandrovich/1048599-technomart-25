@@ -17,28 +17,24 @@ a {
 	text-decoration: none;
 }
 
-/*Шапка сайта header-top*/
+/*--------Шапка сайта-----------*/
 .header {
 	background: rgb(243, 247, 248);
 }
-
 .header-top {
 	font-size: 17px;
 	line-height: 18px;
 	color: rgb(255, 255, 255);
 	background: rgb(41, 52, 73);
-
 	display: flex;
 	justify-content: space-around;
 
 }
-
 .header-top-menu {
 	display: flex;
 	justify-content: space-around;
 }
 
-/*Логотип*/
 .logo {
 	font-size: 24px;
 	line-height: 24px;
@@ -50,7 +46,6 @@ a {
 	padding: 13px 54px;
 	box-shadow: 0px 5px 0px rgb(181, 41, 51);
 }
-
 .logo:hover,
 .logo:focus,
 .logo-footer:hover,
@@ -58,49 +53,16 @@ a {
 	outline: none;
 	background: rgb(202, 44, 55);
 }
-
 .logo:active,
 .logo-footer:active {
 	background: rgb(186, 39, 50);
 }
 
-/*Поиск*/
+
 .search-form {
 	display: block;
 	position: relative;
-
 }
-
-.search-field {
-	background: rgb(41, 52, 73);
-	color: rgb(255, 255, 255);
-	border: none;
-
-	font-size: 17px;
-	line-height: 18px;
-	padding: 16px;
-	padding-left: 49px;
-	box-sizing: border-box;
-	width: 270px;
-}
-
-.search-field::-webkit-input-placeholder {
-	color: rgb(255, 255, 255);
-
-}
-
-.search-field:hover {
-	outline: none;
-	background: rgb(33, 42, 58);
-	opacity: 1;
-}
-
-.search-field:focus {
-	outline: none;
-	background: rgb(255, 255, 255);
-	color: rgb(0, 0, 0);
-}
-
 .search-form::before {
 	content: " ";
 	position: absolute;
@@ -124,20 +86,42 @@ a {
 	top: 16px;
 	left: 17px;
 	background-image: url(../img/sprite.svg#accountSearchActiv-view);
-/*	opacity: 1;*/
 	z-index: 2;
 }
+.search-field {
+	background: rgb(41, 52, 73);
+	color: rgb(255, 255, 255);
+	border: none;
+	font-size: 17px;
+	line-height: 18px;
+	padding: 16px;
+	padding-left: 49px;
+	box-sizing: border-box;
+	width: 270px;
+}
+.search-field::-webkit-input-placeholder {
+	color: rgb(255, 255, 255);
+}
+.search-field:hover {
+	outline: none;
+	background: rgb(33, 42, 58);
+	opacity: 1;
+}
+.search-field:focus {
+	outline: none;
+	background: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+
 
 .header-bookmarks {
 	color: rgb(255, 255, 255);
 	padding: 15px;
 	padding-left: 45px;
-
 	display: block;
 	position: relative;
 	flex-grow: 1;
 }
-
 .header-basket {
 	color: rgb(255, 255, 255);
 	padding: 15px;
@@ -150,6 +134,13 @@ a {
 .header-basket-full{
 	background: rgb(237, 54, 67);
 }
+.header-formalize {
+	color: rgb(255, 255, 255);
+	background: rgb(99, 166, 62);
+	padding: 15px 21px;
+	flex-grow: 1;
+}
+
 .header-bookmarks:hover,
 .header-bookmarks:focus,
 .header-basket:hover,
@@ -157,12 +148,10 @@ a {
 	outline: none;
 	background: rgb(33, 42, 58);
 }
-
 .header-bookmarks:active,
 .header-basket:active {
 	background: rgb(22, 29, 41);
 }
-
 .header-bookmarks::before {
 	content: " ";
 	position: absolute;
@@ -173,7 +162,6 @@ a {
 	background-image: url(../img/sprite.svg#accountBookmarkHover-view);
 	opacity: 0.3;
 }
-
 .header-basket::before {
 	content: " ";
 	position: absolute;
@@ -184,50 +172,36 @@ a {
 	background-image: url(../img/sprite.svg#accountCartHover-view);
 	opacity: 0.3;
 }
-
 .header-basket:hover::before,
 .header-basket:focus::before,
 .header-bookmarks:hover::before,
 .header-bookmarks:focus::before {
 	opacity: 1;
 }
-
 .header-bookmarks:active::before,
 .header-basket:active::before {
 	opacity: 0.5;
 }
-
-.header-formalize {
-	color: rgb(255, 255, 255);
-	background: rgb(99, 166, 62);
-	padding: 15px 21px;
-	flex-grow: 1;
-}
-
 .header-formalize:hover,
 .header-formalize:focus {
 	outline: none;
 	background: rgb(95, 187, 45);
 }
-
 .header-formalize:active {
 	background: rgb(81, 133, 52);
 }
 
-/*Шапка сайта header-bottom*/
+
 .header-bottom {
 	font-size: 17px;
 	line-height: 17px;
 	color: rgb(255, 255, 255);
 	padding-bottom: 65px;
 }
-
 .user-info {
 	display: flex;
 	justify-content: space-between;
-
 }
-
 .header-title {
 	font-style: italic;
 	font-weight: 400;
@@ -241,12 +215,9 @@ a {
 	padding-bottom: 44px;
 	margin: 0;
 }
-
 .header-contact {
 	padding-top: 46px;
-
 }
-
 .header-phone {
 	font-size: 21px;
 	line-height: 21px;
@@ -262,7 +233,6 @@ a {
 	display: block;
 	position: relative;
 }
-
 .header-phone::before {
 	content: " ";
 	position: absolute;
@@ -272,7 +242,6 @@ a {
 	height: 19px;
 	background-image: url(../img/sprite.svg#accountPhone-view);
 }
-
 .header-address {
 	font-size: 14px;
 	line-height: 24px;
@@ -283,12 +252,10 @@ a {
 .user-nav {
 	padding-top: 23px;
 }
-
 .user-nav.login {
 	margin: 0;
 	display: flex;
 }
-
 .login-link {
 	font-style: 21px;
 	line-height: 21px;
@@ -303,13 +270,11 @@ a {
 	display: block;
 	position: relative;
 }
-
 .login-link.user {
 	margin: 0px;
 	padding-left: 47px;
 	padding-right: 69px;
 }
-
 .login-link.user::before {
 	content: " ";
 	position: absolute;
@@ -320,7 +285,6 @@ a {
 	background-image: url(../img/sprite.svg#accountUserHover-view);
 	opacity: 0.3;
 }
-
 .login-link.user::after {
 	content: " ";
 	position: absolute;
@@ -331,7 +295,6 @@ a {
 	background-image: url(../img/sprite.svg#accountLogoutHover-view);
 	opacity: 0.3;
 }
-
 .login-link::before {
 	content: " ";
 	position: absolute;
@@ -362,16 +325,14 @@ a {
 	outline: none;
 	color: rgb(238, 54, 67);
 }
-
 .login-link:hover::before,
 .login-link:focus::before,
 .login-link:hover::after,
 .login-link:focus::after {
 	opacity: 1;
 }
-
 .login-link:active,
-registration-link:active,
+.registration-link:active,
 .personal-order:active,
 .personal-account:active {
 	color: rgba(0, 0, 0, 0.302);
@@ -380,7 +341,6 @@ registration-link:active,
 .personal {
 	padding-top: 23px;
 }
-
 .personal-link-account {
 	list-style: none;
 	display: flex;
@@ -389,7 +349,6 @@ registration-link:active,
 	margin: 0;
 	align-items: flex-start;
 }
-
 .personal-order,
 .personal-account {
 	font-size: 16px;
@@ -403,7 +362,6 @@ registration-link:active,
 	position: relative;
 
 }
-
 .personal-account::before {
 	content: " ";
 	position: absolute;
@@ -413,10 +371,9 @@ registration-link:active,
 	height: 4px;
 	background: rgb(50, 66, 92);
 	border-radius: 50%;
-
 }
 
-/*Главное меню*/
+
 .header-menu {
 	font-size: 17px;
 	line-height: 17px;
@@ -428,59 +385,46 @@ registration-link:active,
 	display: flex;
 	justify-content: space-between;
 }
-
 .header-menu-item-grow {
 	flex-grow: 1;
 }
-
 .header-menu-item {
 	color: rgb(255, 255, 255);
 	display: block;
 	padding: 19px 31px;
 }
-
 .header-menu-item:hover,
 .header-menu-item:focus {
 	outline: none;
 	background: rgb(41, 52, 73);
 }
-
 .header-menu-item:active {
 	background: rgb(29, 39, 57);
 	color: rgba(255, 255, 255, 0.5);
 }
 
-/*Хлебные крошки*/
+/*----------Хлебные крошки---------*/
 .crumb {
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	text-transform: uppercase;
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	display: flex;
 }
-
 .crumb-link {
-	font-family: "PT Sans", Arial, sans-serif;
-	font-size: 13px;
-	line-height: 18px;
-	text-transform: uppercase;
 	color: rgb(0, 0, 0);
-	margin: 0;
 	padding: 24px;
-
 	display: block;
 	position: relative;
 }
-
 .crumb-link-end {
-	font-family: "PT Sans", Arial, sans-serif;
-	font-size: 13px;
-	line-height: 18px;
-	text-transform: uppercase;
 	color: rgb(0, 0, 0);
 	margin: 0;
 	padding: 24px;
 }
-
 .crumb-link::before {
 	content: " ";
 	position: absolute;
@@ -501,8 +445,6 @@ registration-link:active,
 	padding: 30px 30px;
 	background: rgb(242, 246, 248);
 }
-
-/*основной контент страницы каталога*/
 
 .content {
 	font-family: "PT Sans", "Arial", sans-serif;
@@ -536,17 +478,17 @@ registration-link:active,
 
 .content-sort-parameter {
 	margin: 0px 26px 0px 39px;
-	color: #000000;
+	color: rgb(0, 0, 0);
 	opacity: 0.3;
 }
 
 .content-sort-parameter:hover {
-	border-bottom: 1px solid #ee3643;
+	border-bottom: 1px solid rgb(238, 54, 67);
 	opacity: 1;
 }
 
 .current-parameter {
-	color: #ee3643;
+	color: rgb(238, 54, 67);
 	border: none;
 	opacity: 1;
 }
@@ -733,7 +675,7 @@ registration-link:active,
 	border-radius: 2px;
 }
 
-/*фильтр производителей и питание*/
+/*------фильтр производителей и питание------*/
 .search-item {
 	font-size: 15px;
 	line-height: 20px;
@@ -809,12 +751,6 @@ registration-link:active,
 	opacity: 1;
 }
 
-
-
-
-
-
-
 /*----------Пагинация-------*/
 .nav-page {
     display: flex;
@@ -873,17 +809,17 @@ registration-link:active,
 	border-radius: 3px;
 }
 
+
+
 .item-menu {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 60px;
 }
-
 .item-menu-left {
 	display: flex;
 	flex-wrap: wrap;
 }
-
 .item-menu-title {
 	font-size: 24px;
 	line-height: 30px;
@@ -891,7 +827,6 @@ registration-link:active,
 	font-weight: 700;
 	margin: 0 0 16px;
 }
-
 .item-menu-button {
 	font-size: 14px;
 	line-height: 18px;
@@ -899,34 +834,24 @@ registration-link:active,
 	text-transform: uppercase;
 	background: rgba(0, 0, 0, 0.1);
 }
-
 .item-menu-button:hover,
 .item-menu-button:focus {
 	outline: none;
 	background: rgba(0, 0, 0, 0.2);
 }
-
 .item-menu-button:active {
 	background: rgba(0, 0, 0, 0.3)
 }
 
-.button-material {
-	padding: 10px 22px;
-	border-radius: 5px;
-}
-
 .material {
 	background: rgb(255, 191, 71);
-
 	box-sizing: border-box;
 	width: 300px;
 	margin: 0px 10px 10px 0px;
 	padding: 26px 22px;
-
 	display: block;
 	position: relative;
 }
-
 .material::before {
 	content: " ";
 	position: absolute;
@@ -935,24 +860,20 @@ registration-link:active,
 	height: 65px;
 	background-image: url(../img/sprite.svg#accounticon-1-view);
 }
-
-.button-tooling {
-	padding: 10px 27px;
+.button-material {
+	padding: 10px 22px;
 	border-radius: 5px;
 }
 
 .tooling {
 	background: rgb(59, 188, 227);
-
 	box-sizing: border-box;
 	width: 300px;
 	margin: 0px 10px 10px 10px;
 	padding: 26px 22px;
-
 	display: block;
 	position: relative;
 }
-
 .tooling::before {
 	content: " ";
 	position: absolute;
@@ -961,24 +882,20 @@ registration-link:active,
 	height: 61px;
 	background-image: url(../img/sprite.svg#accounticon-2-view);
 }
-
-.button-technique {
-	padding: 10px 30px;
+.button-tooling {
+	padding: 10px 27px;
 	border-radius: 5px;
 }
 
 .technique {
 	background: rgb(220, 145, 216);
-
 	box-sizing: border-box;
 	width: 300px;
 	margin: 0px 0px 20px 10px;
 	padding: 26px 22px;
-
 	display: block;
 	position: relative;
 }
-
 .technique::before {
 	content: " ";
 	position: absolute;
@@ -987,24 +904,20 @@ registration-link:active,
 	height: 62px;
 	background-image: url(../img/sprite.svg#accounticon-3-view);
 }
-
-.button-discount {
-	padding: 10px 22px;
+.button-technique {
+	padding: 10px 30px;
 	border-radius: 5px;
 }
 
 .discount {
 	background: rgb(142, 215, 143);
-
 	box-sizing: border-box;
 	width: 300px;
 	margin: 10px 0px 20px 10px;
 	padding: 26px 22px;
-
 	display: block;
 	position: relative;
 }
-
 .discount::before {
 	content: " ";
 	position: absolute;
@@ -1013,24 +926,20 @@ registration-link:active,
 	height: 72px;
 	background-image: url(../img/sprite.svg#accounticon-4-view);
 }
-
-.button-delivery {
-	padding: 10px 37px;
+.button-discount {
+	padding: 10px 22px;
 	border-radius: 5px;
 }
 
 .delivery {
 	background: rgb(255, 191, 71);
-
 	box-sizing: border-box;
 	width: 300px;
 	margin: 10px 0px 0px 10px;
 	padding: 26px 22px;
-
 	display: block;
 	position: relative;
 }
-
 .delivery::before {
 	content: " ";
 	position: absolute;
@@ -1038,6 +947,10 @@ registration-link:active,
 	width: 78px;
 	height: 63px;
 	background-image: url(../img/sprite.svg#accounticon-5-view);
+}
+.button-delivery {
+	padding: 10px 37px;
+	border-radius: 5px;
 }
 
 .slider {
@@ -1047,15 +960,10 @@ registration-link:active,
 	margin: 10px 10px 0px 0px;
 }
 
-/*популярные товары*/
+/*---------популярные товары--------*/
 .popular-goods {
 	padding-top: 53px;
 }
-
-.popular-maker {
-	padding-bottom: 76px;
-}
-
 .popular {
 	color: rgb(50, 66, 92);
 	background: rgb(249, 245, 240);
@@ -1065,31 +973,21 @@ registration-link:active,
 	padding: 30px;
 	margin-bottom: 20px;
 }
-
 .popular-title {
 	font-size: 30px;
 	line-height: 30px;
 	margin: 0;
 }
-
 .goods-button {
 	padding: 10px 55px;
 }
-
-.maker-button {
-	padding: 10px 70px;
-}
-
 .goods {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
-.content-catalog {
-	margin-bottom: 32px;
-}
-
+/*-----------Карточка товара--------------*/
 .snippet {
 	border: 1px solid rgb(234, 234, 234);
 	width: 220px;
@@ -1099,43 +997,31 @@ registration-link:active,
 	flex-direction: column;
 	position: relative;
 }
-
+.snippet:hover {
+	border: none;
+	box-shadow: 0px 10px 25px rgba(41, 52, 73, 0.5);
+}
 .goods-snippet {
 	height: 183px;
 	margin: auto;
 	display: flex;
-
 }
-
-.price {
-	height: 135px;
-	padding-bottom: 21px;
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
-	align-items: center;
+.goods-foto {
+	margin: auto;
 }
-
 .purchase {
 	display: none;
 	padding-top: 45px;
 }
-
-.goods-foto {
-	margin: auto;
-}
-
 .snippet:hover .goods-foto,
 .snippet:focus .foto {
 	display: none;
 }
-
 .snippet:hover .purchase,
 .snippet:focus .purchase {
 	display: block;
 }
 
-/*кнопка купить*/
 .goods.buy {
 	font-size: 14px;
 	line-height: 18px;
@@ -1154,7 +1040,6 @@ registration-link:active,
 	position: relative;
 
 }
-
 .goods.buy::before {
 	content: " ";
 	position: absolute;
@@ -1165,26 +1050,21 @@ registration-link:active,
 	background-image: url(../img/sprite.svg#accountCartHover-view);
 	opacity: 0.3;
 }
-
 .goods.buy:hover,
 .goods.buy:focus {
 	background: rgb(95, 187, 45);
 }
-
 .goods.buy:hover::before,
 .goods.buy:focus::before {
 	opacity: 1;
 }
-
 .goods.buy:active {
 	background: rgb(95, 187, 45);
 }
-
 .goods.buy:active::before {
 	opacity: 0.5;
 }
 
-/*Кнопка в закладки*/
 .goods.bookmarks-this {
 	font-size: 14px;
 	line-height: 18px;
@@ -1193,32 +1073,48 @@ registration-link:active,
 	padding: 7px;
 	padding-left: 33px;
 	padding-right: 29px;
-
 	background: rgb(255, 255, 255);
 	border: 3px solid rgb(54, 115, 21);
 	border-radius: 3px;
-
 }
-
 .goods.bookmarks-this:hover,
 .goods.bookmarks-this:focus {
 	border-color: rgb(50, 66, 92);
 }
-
 .goods.bookmarks-this:focus {
 	opacity: 0.3;
 }
 
-.goods.button {
+.price {
 	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 17px;
 	line-height: 18px;
 	font-weight: 700;
+	height: 135px;
+	padding-bottom: 21px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+}
+.goods-name {
+	font-size: 18px;
+	line-height: 20px;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 0 30px;
+	margin: 0;
+}
+.price-old {
+	color: rgb(169, 169, 169);
+	text-decoration: line-through;
+	text-transform: uppercase;
+}
+.goods.button {
 	padding: 10px 36px;
 	display: block;
 	position: relative;
 }
-
 .goods.button::before {
 	content: " ";
 	position: absolute;
@@ -1238,48 +1134,32 @@ registration-link:active,
 	background-image: url(../img/new-flag.png);
 }
 
-.snippet:hover {
-	border: none;
-	box-shadow: 0px 10px 25px rgba(41, 52, 73, 0.5);
+.popular-maker {
+	padding-bottom: 76px;
+}
+.maker-button {
+	padding: 10px 70px;
+}
+.content-catalog {
+	margin-bottom: 32px;
 }
 
-.goods-name {
-	font-family: "PT Sans", "Arial", sans-serif;
-	font-size: 18px;
-	line-height: 20px;
-	color: rgb(0, 0, 0);
-	text-align: center;
-	padding: 0 30px;
-	margin: 0;
-}
-
-.price-old {
-	font-family: "PT Sans", "Arial", sans-serif;
-	font-size: 17px;
-	line-height: 18px;
-	font-weight: 700;
-	color: rgb(169, 169, 169);
-	text-decoration: line-through;
-	text-transform: uppercase;
-}
-
+/*-----------Популярные производители--------*/
 .manufacturer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-
 .popular-manufacturer {
 	width: 220px;
 	height: 145px;
 	margin: 10px 0px;
 }
-
 .snippet-img {
 	margin: auto;
 }
 
-/*Сервис*/
+/*------------Сервис--------------*/
 .service {
 	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 13px;
@@ -1287,7 +1167,6 @@ registration-link:active,
 	color: rgb(0, 0, 0);
 	background: rgb(244, 248, 249);
 }
-
 .service-title {
 	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 30px;
@@ -1296,28 +1175,9 @@ registration-link:active,
 	padding-top: 68px;
 	text-transform: uppercase;
 }
-
 .service-title-description {
 	margin: 0;
 	padding: 39px 0;
-}
-
-.service-name {
-	font-family: "Cuprum", "Arial", sans-serif;
-	font-size: 36px;
-	line-height: 36px;
-	text-transform: uppercase;
-	color: rgb(50, 66, 92);
-	margin: 0;
-	padding: 15px 0;
-}
-
-.service-description {
-	margin: 0;
-}
-
-.service-name-block {
-	padding-bottom: 34px;
 }
 
 .tabs {
@@ -1327,14 +1187,12 @@ registration-link:active,
 	padding-bottom: 102px;
 	position: relative;
 }
-
 .tabs-label {
 	font-family: "Cuprum", "Arial", sans-serif;
-	font-weight: 700;
 	font-size: 21px;
 	line-height: 30px;
+	font-weight: 700;
 	color: rgb(255, 255, 255);
-
 	box-sizing: border-box;
 	padding: 15px 22px;
 	width: 240px;
@@ -1342,7 +1200,6 @@ registration-link:active,
 	outline: 1px solid rgb(71, 98, 123);
 
 }
-
 .tabs::before {
 	content: " ";
 	position: absolute;
@@ -1353,25 +1210,20 @@ registration-link:active,
 	box-shadow: -10px 0px 15px -10px rgb(0, 0, 0);
 	background: rgb(244, 247, 249);
 }
-
 .tabs-label:hover,
 .tabs-label:focus {
 	background: rgb(41, 52, 73);
 }
-
 .tabs-label:active {
 	color: rgb(50, 66, 92);
 	background: rgb(255, 255, 255);
 }
-
 .tabs-input {
 	display: none;
 }
-
 .tabs-input:checked + .tabs-description {
 	display: block;
 }
-
 .tabs-description {
 	display: none;
 	justify-content: space-between;
@@ -1385,27 +1237,41 @@ registration-link:active,
 	padding-left: 74px;
 	background: linear-gradient(to left rgb(0, 0, 0) rgb(255, 255, 255));
 }
-
-.button.credit {
-	padding: 10px 44px;
-}
-
 .tabs-description:nth-of-type(1) {
 	background: url(../img/delivery.png) no-repeat;
 	background-position: right bottom;
 }
-
 .tabs-description:nth-of-type(2) {
 	background: url(../img/guarantee.png) no-repeat;
 	background-position: right bottom;
 }
-
 .tabs-description:nth-of-type(3) {
 	background: url(../img/credit.png) no-repeat;
 	background-position: right bottom;
 }
 
-/*Блок о компании и как добраться до нас*/
+.service-name {
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-size: 36px;
+	line-height: 36px;
+	text-transform: uppercase;
+	color: rgb(50, 66, 92);
+	margin: 0;
+	padding: 15px 0;
+}
+.service-name-block {
+	padding-bottom: 34px;
+}
+.service-description {
+	margin: 0;
+}
+
+.button.credit {
+	padding: 10px 44px;
+}
+
+
+/*------Блок о компании и как добраться до нас-------*/
 .info-company {
 	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 13px;
@@ -1416,28 +1282,18 @@ registration-link:active,
 	display: flex;
 	justify-content: space-between;
 }
-
-.info-company-title {
-	font-family: "Cuprum", "Arial", sans-serif;
-	font-size: 30px;
-	line-height: 30px;
-	text-transform: uppercase;
-}
-
 .company {
 	width: 540px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
-
-.contact {
-	width: 300px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+.info-company-title {
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
 }
-
 .information {
 	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 18px;
@@ -1446,14 +1302,11 @@ registration-link:active,
 	padding-bottom: 40px;
 	list-style: none;
 }
-
 .information-item {
 	padding: 12px 0px;
-
 	display: block;
 	position: relative;
 }
-
 .information-item::before {
 	content: " ";
 	position: absolute;
@@ -1463,7 +1316,6 @@ registration-link:active,
 	height: 2px;
 	background: rgb(238, 54, 67);
 }
-
 .button.company {
 	padding: 10px;
 	width: 220px;
@@ -1471,21 +1323,26 @@ registration-link:active,
 	align-items: center;
 }
 
+.contact {
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
 .contact-office {
 	width: 185px;
 	margin: 0;
 	padding-bottom: 40px;
 }
-
 .contact-map {
 	margin-bottom: 40px;
 }
-
 .button.contact {
 	padding: 10px;
 	box-sizing: border-box;
 	align-items: center;
 }
+
 
 .map {
 	background: url(../img/map-form.png);
@@ -1494,7 +1351,7 @@ registration-link:active,
 	display: none;
 }
 
-/*нформация о товаре*/
+/*-------нформация о товаре--------*/
 .product {
 	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 13px;
@@ -1504,9 +1361,7 @@ registration-link:active,
 	background: rgb(242, 246, 248);
 	padding-top: 65px;
 	padding-bottom: 69px;
-
 }
-
 .product-title {
 	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 30px;
@@ -1517,101 +1372,82 @@ registration-link:active,
 	padding: 0;
 	padding-bottom: 25px;
 }
-
 .product-information {
 	margin: 0;
 	padding: 0;
 }
 
-/*Подвал сайта*/
+/*---------Подвал сайта-----------*/
 .footer {
 	background: rgb(50, 66, 92);
 }
-
 .footer-top {
-	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	display: flex;
 	justify-content: space-between;
 }
-
 .logo-footer {
 	font-size: 30px;
 	line-height: 30px;
 	padding: 21px 41px;
 }
-
-.footer-middle {
-	font-family: "Cuprum", "Arial", sans-serif;
-	font-size: 16px;
-	line-height: 18px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.footer-address {
-	padding-top: 37px;
-	padding-bottom: 45px;
-}
-
 .footer-menu {
 	font-size: 18px;
 	line-height: 24px;
 	list-style: none;
 	margin: 0;
-
 	width: 550px;
-
 	display: flex;
 	justify-content: space-between;
 }
-
 .footer-menu-top {
 	height: 63px;
 	align-items: flex-end;
 }
-
-.footer-menu-middle {
-	padding-top: 38px;
-}
-
 .footer-menu-link {
 	color: rgb(255, 255, 255);
 }
-
-.footer-midle-link {
-	padding-left: 23px;
-	color: rgb(255, 209, 128);
-}
-
 .footer-menu-link:hover,
 .footer-menu-link:focus {
 	outline: none;
 	text-decoration: underline;
 }
-
 .footer-menu-link:active {
 	text-decoration: underline;
 	color: rgba(25, 255, 255, 0.5);
 }
 
+.footer-middle {
+	font-size: 16px;
+	line-height: 18px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-address {
+	font-size: 18px;
+	line-height: 24px;
+	color: rgb(241, 245, 247);
+	font-style: normal;
+	padding-top: 37px;
+	padding-bottom: 45px;
+	width: 340px;
+}
+.footer-menu-middle {
+	padding-top: 38px;
+}
+.footer-midle-link {
+	padding-left: 23px;
+	color: rgb(255, 209, 128);
+}
 .footer-midle-link:hover,
 .footer-midle-link:focus {
 	outline: none;
 	text-decoration: underline;
 }
-
 .footer-midle-link:active {
 	text-decoration: underline;
 	color: rgba(255, 209, 128, 0.5);
-}
-
-.footer-address {
-	font-size: 18px;
-	line-height: 24px;
-	color: rgb(241, 245, 247);
-	width: 340px;
 }
 
 .copyright {
@@ -1619,12 +1455,10 @@ registration-link:active,
 	line-height: 18px;
 	background: rgb(41, 52, 73);
 }
-
 .copyright .wrapper {
 	display: flex;
 	justify-content: space-between;
 }
-
 .copyright-law {
 	width: 230px;
 }
@@ -1635,18 +1469,15 @@ registration-link:active,
 	width: 380px;
 	justify-content: center;
 }
-
 .social-buttons-item {
 	background: rgb(33, 42, 58);
 	width: 42px;
 	height: 42px;
 	border-radius: 50%;
 	margin-left: 5px;
-
 	display: block;
 	position: relative;
 }
-
 .social-buttons-vk::before {
 	content: " ";
 	position: absolute;
@@ -1656,7 +1487,6 @@ registration-link:active,
 	height: 15px;
 	background-image: url(../img/sprite.svg#accountVK-view);
 }
-
 .social-buttons-fac::before {
 	content: " ";
 	position: absolute;
@@ -1666,7 +1496,6 @@ registration-link:active,
 	height: 22px;
 	background-image: url(../img/sprite.svg#accountFb-view);
 }
-
 .social-buttons-ins::before {
 	content: " ";
 	position: absolute;
@@ -1676,7 +1505,6 @@ registration-link:active,
 	height: 21px;
 	background-image: url(../img/sprite.svg#accountInsta-view);
 }
-
 .social-buttons-item:hover,
 .social-buttons-item:focus,
 .social-buttons-item:active {
@@ -1686,28 +1514,25 @@ registration-link:active,
 .copyright-feedback {
 	width: 140px;
 }
-
 .copyright-developed {
 	width: 140px;
 	display: flex;
 	justify-content: flex-end;
 	flex-wrap: wrap;
 }
-
 .copyright-link {
 	color: rgb(255, 209, 128);
 }
-
 .copyright-link:hover,
 .copyright-link:focus {
 	outline: none;
 	text-decoration: underline;
 }
-
 .copyright-link:active {
 	color: rgb(238, 54, 67);
 }
 
+/*--------------Кнопка сайта---------*/
 .button {
 	font-size: 14px;
 	line-height: 18px;
@@ -1716,18 +1541,16 @@ registration-link:active,
 	text-transform: uppercase;
 	border-radius: 5px;
 }
-
 .button:hover,
 .button:focus {
 	outline: none;
 	background: rgb(202, 44, 55);
 }
-
 .button:active {
 	background: rgb(186, 39, 50);
 }
 
-/*всплывающие окна*/
+/*--------всплывающие окна--------*/
 
 
 @keyframes open {
@@ -1764,7 +1587,6 @@ registration-link:active,
     }
 }
 
-
 .modal {
     position: fixed;
     top: 50%;
@@ -1776,94 +1598,69 @@ registration-link:active,
     background-color: rgb(255, 255, 255);
     border-top: 7px solid rgb(238, 54, 67);
 }
-
 .modal-close {
     position: absolute;
     top: 9px;
     right: 9px;
-    
     width: 21px;
     height: 21px;
-    
     font-size: 0;
-    
     background-color: transparent;
     border: 0;
-    
     cursor: pointer;
 }
-
 .modal-close::before,
 .modal-close::after {
     content: "";
-
     position: absolute;
     top: 9px;
     right: -3px;
-
     width: 27px;
     height: 4px;
-
     background-color: rgb(238, 54, 67);
 }
-
 .modal-close::before {
     transform: rotate(45deg);
 }
-
 .modal-close::after {
     transform: rotate(-45deg);
 }
-
 .modal-map {
     width: 940px;
     height: 446px;
-    
     background-color: rgb(86, 86, 86);
     border: none;
     box-shadow: 0 0 15px 1px rgba(47, 42, 43, 0.5);
 }
-
 .modal-map iframe {
     position: absolute;
-    
     border: none;
 }
-
 .modal-map img {
     position: absolute;
-    z-index: -1;
-    
+    z-index: -1; 
     border: none;
 }
-
 .modal-feedback {
-    width: 620px;
-    
+    width: 620px;  
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.75);
 }
-
 .form-wrapper {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;   
     padding: 47px 81px 16px 81px;
-    
     font-size: 18px;
     line-height: 18px;
     font-weight: 400;
     color: rgb(0, 0, 0);
 }
-
 .form-element {
     margin: 0;
     padding: 0;
-    
     font-size: 18px;
     line-height: 18px;
 }
-
 .feedback-name,
 .feedback-mail,
 .feedback-body {
@@ -1874,15 +1671,12 @@ registration-link:active,
     padding: 14px 13px;
     margin-top: 9px;
     margin-bottom: 21px;
-    
     font-size: 16px;
     line-height: 18px;
     font-family: "PT Sans", "Arial", sans-serif;
     font-weight: 400;
-    
     box-sizing: border-box;
 }
-
 .feedback-name::placeholder,
 .feedback-mail::placeholder,
 .feedback-body::placeholder {
@@ -1892,95 +1686,69 @@ registration-link:active,
     font-weight: 400;
     color: rgb(169, 169, 169);
 }
-
 .feedback-body {
     width: 460px;
     height: 114px;
     padding: 9px 12px;
 }
-
 .button-field {
     margin: 0;
     padding: 37px 80px;
-    
     background-color: rgb(244, 244, 244);
 }
-
 .modal-feedback .button {
     width: 460px;
     padding: 10px 8px;
-    
     border: none;
 }
-
 .modal-added {
     width: 620px;
-    
     box-shadow: 0 20px 40px rgba(41, 52, 73, 0.75);
 }
-
 .added {
     margin: 47px 80px;
     padding: 19px 0 20px 100px;
-    
     font-size: 30px;
     line-height: 30px;
     font-family: "Cuprum", "Arial", sans-serif;
 	color: rgb(0, 0, 0);
 }
-
 .modal-added::before {
     content: "";
-    
     position: absolute;
     top: 48px;
     left: 81px;
-    
     width: 66px;
     height: 66px;
-    
     background-color: rgb(99, 166, 62);
     border-radius: 50%;
 }
-
 .added::before,
 .added::after {
     content: "";
-    
     position: absolute;
-    
     height: 7px;
-    
     background-color: rgb(255, 255, 255);
 }
-
 .added::before {
     top: 83px;
     left: 95px;
-    
     width: 18px;
-    
     transform: rotate(45deg);
 }
-
 .added::after {
     top: 80px;
     left: 103px;
-    
     width: 35px;
-    
     transform: rotate(-45deg);
 }
-
 .modal-added .button-field {
     display: flex;
     justify-content: space-between;
 }
-
 .modal-added .button {
     width: 220px;
     padding: 10px 0;
-
     border: none;
 }
 .botton-order{
@@ -1990,19 +1758,14 @@ registration-link:active,
     color: rgb(0, 0, 0);  
     background-color: rgb(255, 255, 255);
 }
-
 .modal-show {
     display: block;
-    
     animation: open 0.3s;
 }
-
 .modal-show-map {
     display: block;
-    
     animation: open-map 0.7s;
 }
-
 .modal-error {
     animation: shake-feedback 0.5s;
 }
