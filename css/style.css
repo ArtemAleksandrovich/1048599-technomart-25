@@ -689,10 +689,10 @@ a {
 .search-item-pointer{
 	cursor: pointer;
 }
-.search-item-cursor{
+
+.search-item-cursor {
 	-webkit-appearance: none;
 }
-
 .search-item-cursor::before {
 	content: " ";
 	position: absolute;
@@ -703,7 +703,6 @@ a {
 	background: url(../img/sprite.svg#accountchecbox-off-view);
 	opacity: 0.5;
 }
-
 .search-item-cursor:checked::before {
 	content: " ";
 	position: absolute;
@@ -715,39 +714,38 @@ a {
 	opacity: 0.5;
 }
 
-.radio::before {
+.myradio + label {
+  cursor: pointer;
+}
+.myradio:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.myradio:not(checked) + label::before {
 	content: " ";
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 25px;
+	height: 25px;
+	background-image: url(../img/sprite.svg#accountRadio-offHover-view);
+	opacity: 0.5;
+
+}
+.myradio:checked + label::before {
+	content: '';
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	width: 25px;
 	height: 25px;
-	background: url(../img/sprite.svg#accountRadio-offHover-view);
+	background-image: url(../img/sprite.svg#accountRadio-onHover-view);
 	opacity: 0.5;
 }
-
-.radio:checked::before {
-	content: " ";
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 25px;
-	height: 25px;
-	background: url(../img/sprite.svg#accountRadio-onHover-view);
-	opacity: 0.5;
-}
-
 .search-item-cursor:hover::before,
 .search-item-cursor:focus::before,
-.radio:hover::before,
-.radio:focus::before{
-	opacity: 1;
-}
-
-.search-item-cursor:checked:hover::before,
-.search-item-cursor:checked:focus::before,
-.radio:checked:hover::before,
-.radio:checked:focus::before{
+.myradio:focus + label::before,
+.myradio:hover + label::before {
 	opacity: 1;
 }
 
@@ -793,8 +791,7 @@ a {
     border: 1px solid rgb(198, 198, 202);
 }
 .nav-page-link:active{
-	background: rgb(238, 54, 67);
-	color: rgb(255, 255, 255);
+	border: 1px solid rgb(238, 54, 67);
 }
 
 
