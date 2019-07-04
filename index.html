@@ -13,8 +13,11 @@
 				<div class="wrapper">
 					<div class="header-top-menu">
 						<a href="#"  class="header logo">ТЕХНОМАРТ</a>
-						<form action="#" class="search-form">
-							<input type="search" placeholder="Поиск:" class="search-field">
+						<form class="search-form" method="get" action="https://echo.htmlacademy.ru">
+<!--							<div class="search-icon">-->
+							<input type="search" id="search" placeholder="Поиск:" class="search-field">
+							<label for="search" class="search-icon"></label>
+<!--							</div>-->
 						</form>
 						<a href="#" class="header-bookmarks">Закладки: 0</a>
 						<a href="#" class="header-basket">Корзина: 0</a>
@@ -73,30 +76,32 @@
 							<a href="/tooling.html" class="item-menu-button button-tooling">на все случаи</a>
 						</div>
 						<div class="slider">
-	<!--
-							<ol class="carousel-indicators">
-								<li aria-label="Первый слайд"></li>
-								<li aria-label="Второй слайд"></li>
-							</ol>
-							<ol  class="carousel-nav">
-								<li aria-label="Переключение в лево"></li>
-								<li aria-label="перключение в право"></li>
-							</ol>
-							<div class="item" id="slider-1">
-								<a href="#">
-									<img src="img/Layer%2099.jpg">
-								</a>
-								<h3>Дрели</h3>
-								<p>Соседям на радость</p>
+							<input class="slider-input" type="radio" name="slides" id="point1" checked>
+							<input class="slider-input" type="radio" name="slides" id="point2">
+							<input class="slider-input" type="radio" name="slides" id="left" checked>
+							<input class="slider-input" type="radio" name="slides" id="right">
+							<div class="slider-content">
+								<div class="slider-content-img img1">
+									<div>
+										<p class="slider-title">Дрели</p>
+										<p class="slider-text">Соседям на радость!</p>
+									</div>
+									<a href="#" class="slider-button button">открыть каталог</a>
+								</div>
+								<div class="slider-content-img img2">
+									<div>
+										<p class="slider-title">Перфораторы</p>
+										<p class="slider-text">Настоящие мужские игрушки</p>
+									</div>
+									<a href="#" class="slider-button button">открыть каталог</a>
+								</div>
 							</div>
-							<div class="item" id="slider-2">
-								<a href="#">
-									<img src="img/Layer%2099(2).png">
-								</a>
-								<h3>Перфораторы</h3>
-								<p>Настоящие мужские игрушки</p>
-							</div>  
-	-->
+							<div class="slider-control">
+								<label class="slider-control-point" for="point1"></label>
+								<label class="slider-control-point" for="point2"></label>
+								<label class="slider-control-left" for="left"></label>
+								<label class="slider-control-right" for="right"></label>
+							</div>
 						</div> 
 					</div>
 					<div class="item-menu-right">               
@@ -294,7 +299,7 @@
 		</footer>
 		<section class="modal modal-map">
 			<h3 class="visually-hidden">Как до нас добраться</h3>
-<!--			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533277!2d30.320858716096975!3d59.93871648187614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1561844789422!5m2!1sru!2sru" width="940" height="446" style="border:0" allowfullscreen></iframe>-->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533277!2d30.320858716096975!3d59.93871648187614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1561844789422!5m2!1sru!2sru" width="940" height="446" style="border:0" allowfullscreen></iframe>
 			<img src="img/map-form.png" width="940" height="446" alt="Офис интернет-магазина по адресу: г. Санкт-Петербург, улица Большая Конюшенная, дом 19">
 			<button class="modal-close" type="button">
 				<span class="visually-hidden">Закрыть карту</span>
