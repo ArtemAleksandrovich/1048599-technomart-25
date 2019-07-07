@@ -862,10 +862,8 @@ a {
 }
 .price-controls-item {
 	display: inline-block;
-	vertical-align: inherit;
 	width: 95px;
 
-	vertical-align: top;
 	font-size: 17px;
 	text-transform: uppercase;
 }
@@ -2794,7 +2792,7 @@ a {
 	
     border: none;
 }
-.botton-order {
+.button-order {
 	text-align: center;
 }
 .button-proceed {
