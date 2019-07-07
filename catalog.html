@@ -3,7 +3,8 @@
 
 <head>
 	<meta charset="utf-8">
-	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:700&display=swap&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&display=swap&subset=vietnamese" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet">
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<title>Перфораторы</title>
@@ -15,9 +16,10 @@
 			<div class="wrapper">
 				<div class="header-top-menu">
 					<a href="#" class="header logo">ТЕХНОМАРТ</a>
-					<form action="#" class="search-form">
-						<input type="search" placeholder="Поиск:" class="search search-field">
-					</form>
+						<form class="search-form" method="get" action="https://echo.htmlacademy.ru">
+							<input type="search" id="search" placeholder="Поиск:" class="search-field">
+							<label for="search" class="search-icon"></label>
+						</form>
 					<a href="#" class="header-bookmarks">Закладки: 0</a>
 					<a href="#" class="header-basket header-basket-full">Корзина: 10</a>
 					<a href="#" class="header-formalize">Оформить заказ</a>
@@ -84,22 +86,24 @@
 					<div class="content-sort">
 						<p class="content-sort-view">ФИЛЬТР:</p>
 					</div>
-					<legend class="content-sort-group">Цена:</legend>
-					<div class="range-filter filter-border">
-						<div class="range-controls">
-							<div class="scale">
-								<div class="bar"></div>
+					<div>
+						<legend class="content-sort-group">Цена:</legend>
+						<div class="range-filter filter-border">
+							<div class="range-controls">
+								<div class="scale">
+									<div class="bar"></div>
+								</div>
+								<div class="filter-toggle toggle-min"></div>
+								<div class="filter-toggle toggle-max"></div>
 							</div>
-							<div class="filter-toggle toggle-min"></div>
-							<div class="filter-toggle toggle-max"></div>
-						</div>
-						<div class="price-controls">
-							<label class="price-controls-item min-price">
-								<input class="price-controls-unit" name="min-price" type="text" value="0">
-							</label>
-							<label class="price-controls-item">
-								<input class="price-controls-unit" name="max-price" type="text" value="30000">
-							</label>
+							<div class="price-controls">
+								<label class="price-controls-item min-price">
+									<input class="price-controls-unit" name="min-price" type="text" value="0">
+								</label>
+								<label class="price-controls-item">
+									<input class="price-controls-unit" name="max-price" type="text" value="30000">
+								</label>
+							</div>
 						</div>
 					</div>
 					<fieldset class="hunt-group filter-border">
@@ -318,7 +322,7 @@
 			</div>
 		</div>
 		<div class="copyright">
-			<div class="wrapper">
+			<div class="wrapper copyright-wrapper">
 				<p class="copyright-law">&copy; 2010-2017 Компания &laquo;Техномарт&raquo; Все права защищены</p>
 				<ul class="social-buttons">
 					<li class="social-buttons-item"><a href="#" class="social-buttons-vk" aria-label="Техномарт в контакте"></a></li>
@@ -326,7 +330,7 @@
 					<li class="social-buttons-item"><a href="#" class="social-buttons-ins" aria-label="Техномарт в Instagram"></a></li>
 				</ul>
 				<p class="copyright-feedback">Обратная связь: <a class="copyright-link" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
-				<p class="copyright-developed">Разработано &mdash; <a class="copyright-link" href="https://htmlacademy.ru">htmlacademy.ru</a></p>
+				<p class="copyright-developed">Разработано &mdash; <a class="copyright-link" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a></p>
 			</div>
 		</div>
 	</footer>
