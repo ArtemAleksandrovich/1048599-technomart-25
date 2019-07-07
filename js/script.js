@@ -57,10 +57,19 @@ var linkMap = document.querySelector('.map');
 var popupMap = document.querySelector('.modal-map');
 var closeMap = popupMap.querySelector('.modal-close');
 
+var modalMapLink = document.querySelector('.modal-map-link');
 linkMap.addEventListener('click', function (evt) {
     evt.preventDefault();
     popupMap.classList.add('modal-show-map');
 });
+
+
+modalMapLink.addEventListener('click', function (evt) {
+    evt.preventDefault();
+    popupMap.classList.add('modal-show-map');
+});
+
+
 
 closeMap.addEventListener('click', function (evt) {
     evt.preventDefault();
