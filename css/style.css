@@ -1893,6 +1893,7 @@ a {
 	padding-top: 14px;
 	padding-bottom: 16px;
 	padding-left: 22px;
+	padding-right: 100px;
 	
 	border-bottom: 1px solid rgb(41, 52, 73);
 	border-top: 1px solid rgb(64, 80, 105);
@@ -1903,6 +1904,8 @@ a {
 	border-top: none;
 }
 .tabs-description {
+	width: 700px;
+	box-sizing: border-box;
 	padding-left: 80px;
 	background: url("../img/delivery.png") no-repeat;
 	background-position: right 22px;
