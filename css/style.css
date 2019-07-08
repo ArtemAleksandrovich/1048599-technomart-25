@@ -728,6 +728,10 @@ a {
 	padding-bottom: 10px;
 }
 .content-sort-parameter {
+	text-decoration: underline;
+	text-decoration-color: rgb(238, 54, 67);
+	text-decoration-style: dotted;
+	
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 41px;
@@ -738,11 +742,12 @@ a {
 	text-transform: uppercase;
 }
 .content-sort-parameter:hover {
-	border-bottom: 1px solid rgb(238, 54, 67);
-	padding-bottom: 9px;
+	text-decoration: underline;
+	text-decoration-color: rgb(238, 54, 67);
 	opacity: 1;
 }
 .current-parameter {
+	text-decoration: none;
 	color: rgb(238, 54, 67);
 	border: none;
 	opacity: 1;
@@ -1048,7 +1053,7 @@ a {
 	height: 38px;
 	text-align: center;
 }
-.activ {
+.active {
 	background: rgb(238, 54, 67);
 	color: rgb(255, 255, 255);
 }
