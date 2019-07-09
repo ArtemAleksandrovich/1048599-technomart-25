@@ -819,7 +819,7 @@ a {
 	border-bottom: 1px solid rgb(229, 229, 229);
 }
 .content-sort-group {
-	font-family: "Cuprum", "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 17px;
 	line-height: 17px;
 	font-weight: 700;
@@ -1761,9 +1761,10 @@ a {
 	align-items: center;
 }
 .goods-name {
-	font-family: "Cuprum", "Arial", sans-serif;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 18px;
 	line-height: 20px;
+	font-weight: 700;
 	color: rgb(0, 0, 0);
 	width: 100%;
 	text-align: center;
