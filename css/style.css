@@ -211,7 +211,7 @@ a {
 	color: rgb(255, 255, 255);
 	
 	padding: 12px;
-	padding-left: 45px;
+	padding-left: 46px;
 
 	display: block;
 	position: relative;
@@ -1138,7 +1138,7 @@ a {
 	color: rgb(255, 255, 255);
 	
 	margin: 0;
-	padding-bottom: 20px;
+	padding-bottom: 18px;
 }
 .item-menu-button {
 	font-family: "Cuprum", "Arial", sans-serif;
@@ -1167,9 +1167,9 @@ a {
 	width: 300px;
 	
 	margin: 0 10px 10px 0;
-	padding-top: 20px;
-	padding-left: 25px;
-	padding-bottom: 29px;
+	padding-top: 21px;
+	padding-left: 23px;
+	padding-bottom: 30px;
 	
 	display: block;
 	position: relative;
@@ -1189,6 +1189,7 @@ a {
 	padding: 10px;
 	padding-left: 25px;
 	padding-right: 24px;
+	margin-left: 2px;
 	
 	-webkit-border-radius: 5px;
 	
@@ -1207,9 +1208,9 @@ a {
 	width: 300px;
 	
 	margin: 0 10px 10px 10px;
-	padding-top: 20px;
-	padding-left: 25px;
-	padding-bottom: 29px;
+	padding-top: 21px;
+	padding-left: 23px;
+	padding-bottom: 30px;
 	
 	display: block;
 	position: relative;
@@ -1227,6 +1228,7 @@ a {
 }
 .button-tooling {
 	padding: 10px 27px;
+	margin-left: 2px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -1242,9 +1244,9 @@ a {
 	width: 300px;
 	
 	margin: 0 0 10px 10px;
-	padding-top: 20px;
-	padding-left: 25px;
-	padding-bottom: 29px;
+	padding-top: 21px;
+	padding-left: 23px;
+	padding-bottom: 25px;
 	
 	display: block;
 	position: relative;
@@ -1261,7 +1263,10 @@ a {
 	background-image: url("../img/sprite.svg#accounticon-3-view");
 }
 .button-technique {
-	padding: 10px 30px;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 11px;
+	padding-right: 32px;
 	
 	-webkit-border-radius: 5px;
 	
@@ -1280,9 +1285,9 @@ a {
 	width: 300px;
 	
 	margin: 10px 0 10px 10px;
-	padding-top: 20px;
-	padding-left: 25px;
-	padding-bottom: 29px;
+	padding-top: 21px;
+	padding-left: 23px;
+	padding-bottom: 25px;
 	
 	display: block;
 	position: relative;
@@ -1299,7 +1304,10 @@ a {
 	background-image: url("../img/sprite.svg#accounticon-4-view");
 }
 .button-discount {
-	padding: 10px 22px;
+	padding-top: 10px;
+	padding-bottom: 11px;
+	padding-left: 22px;
+	padding-right: 24px;
 	
 	-webkit-border-radius: 5px;
 	
@@ -1319,8 +1327,8 @@ a {
 	
 	margin: 10px 0 0 10px;
 	padding-top: 20px;
-	padding-left: 25px;
-	padding-bottom: 29px;
+	padding-left: 23px;
+	padding-bottom: 26px;
 	
 	display: block;
 	position: relative;
@@ -1337,7 +1345,10 @@ a {
 	background-image: url("../img/sprite.svg#accounticon-5-view");
 }
 .button-delivery {
-	padding: 10px 37px;
+	padding-top: 9px;
+	padding-bottom: 12px;
+	padding-left: 37px;
+	padding-right: 37px;
 	
 	-webkit-border-radius: 5px;
 	
@@ -1500,7 +1511,7 @@ a {
 	font-weight: 700;
 	
 	margin: 0;
-	padding-bottom: 3px;
+	padding-bottom: 2px;
 }
 .slider-text {
 	font-family: "Cuprum", "Arial", sans-serif;
@@ -1514,7 +1525,7 @@ a {
 	text-align: center;
 	
 	padding: 10px;
-	width: 195px;
+	width: 175px;
 }
 /*---------популярные товары--------*/
 .popular-goods {
@@ -1549,7 +1560,8 @@ a {
 
 }
 .goods-button {
-	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 9px;
 	padding-left: 54px;
 	padding-right: 55px;
 }
@@ -1857,7 +1869,7 @@ a {
 	font-weight: 400;
 	
 	margin: 0;
-	padding-top: 68px;
+	padding-top: 66px;
 	
 	text-transform: uppercase;
 }
@@ -1873,7 +1885,7 @@ a {
 	-ms-flex-pack: justify;
 	justify-content: space-between;
 
-	padding-bottom: 100px;
+	padding-bottom: 97px;
 }
 .service-title-description {
 	letter-spacing: 0.07px;
@@ -1905,10 +1917,9 @@ a {
 	background: rgb(50, 66, 92);
 	color: rgb(255, 255, 255);
 	
-	padding-top: 14px;
+	padding-top: 15px;
 	padding-bottom: 16px;
 	padding-left: 22px;
-	padding-right: 100px;
 	
 	border-bottom: 1px solid rgb(41, 52, 73);
 	border-top: 1px solid rgb(64, 80, 105);
@@ -1916,14 +1927,17 @@ a {
 .service-nav-active {
 	background: rgb(255, 255, 255);
 	color: rgb(50, 66, 92);
-	border-top: none;
+	
+	border: none;
+	padding-top: 16px;
+	padding-bottom: 17px;
 }
 .tabs-description {
 	width: 700px;
 	box-sizing: border-box;
 	padding-left: 80px;
 	background: url("../img/delivery.png") no-repeat;
-	background-position: right 22px;
+	background-position: 231px 25px;
 	-webkit-box-flex: 1;
 	-webkit-flex-grow: 1;
 	-moz-box-flex: 1;
@@ -1934,10 +1948,11 @@ a {
 	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 36px;
 	line-height: 36px;
+	letter-spacing: -0.7px;
 	text-transform: uppercase;
 	color: rgb(50, 66, 92);
 	margin: 0;
-	padding-bottom: 20px;
+	padding-bottom: 24px;
 }
 .service-description {
 	margin: 0;
@@ -1970,10 +1985,16 @@ a {
 .service-nav-item:focus {
 	background: rgb(41, 52, 73);
 	color: rgb(255, 255, 255);
+	border: none;
+	padding-top: 16px;
+	padding-bottom: 17px;
 }
 .service-nav-item:active {
 	color: rgb(50, 66, 92);
 	background: rgb(255, 255, 255);
+	border: none;
+	padding-top: 16px;
+	padding-bottom: 17px;
 }
 /*------Блок о компании и как добраться до нас-------*/
 .info-company {
@@ -1983,7 +2004,7 @@ a {
 	color: rgb(0, 0, 0);
 	
 	padding-top: 80px;
-	padding-bottom: 82px;
+	padding-bottom: 86px;
 	
 	display: -webkit-box;
 	
@@ -2028,7 +2049,7 @@ a {
 .company-text {
 	margin: 0;
 	padding: 0;
-	letter-spacing: 0.15;
+	letter-spacing: 0.1px;
 }
 .company-wap {
 	padding-top: 25px;
@@ -2041,7 +2062,19 @@ a {
 	text-transform: uppercase;
 	
 	margin: 0;
+	padding: 0;
 	padding-bottom: 25px;
+}
+.info-contact-title {
+	font-family: "Cuprum", "Arial", sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+	
+	margin: 0;
+	padding: 0;
+	padding-bottom: 17px;
 }
 .information {
 	font-family: "Cuprum", "Arial", sans-serif;
@@ -2049,7 +2082,9 @@ a {
 	line-height: 20px;
 	
 	margin: 0;
-	padding-bottom: 40px;
+	padding-top: 10px;
+	padding-left: 35px;
+	padding-bottom: 26px;
 	
 	list-style: none;
 }
@@ -2063,7 +2098,7 @@ a {
 	content: " ";
 	
 	position: absolute;
-	top: 21px;
+	top: 19px;
 	left: -36px;
 	
 	width: 25px;
@@ -2122,7 +2157,8 @@ a {
 	width: 185px;
 	
 	margin: 0;
-	padding-bottom: 40px;
+
+	padding-bottom: 25px;
 }
 .contact-map {
 	margin-bottom: 25px;
@@ -2232,6 +2268,7 @@ a {
 }
 .footer-menu-top {
 	height: 63px;
+
 	
 	-webkit-box-align: end;
 	
