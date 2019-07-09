@@ -2676,7 +2676,7 @@ a {
     border: none;
 }
 .modal-feedback {
-    width: 620px;  
+    width: 620px;
     -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.75);  
     -moz-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.75);  
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.75);
@@ -2696,7 +2696,7 @@ a {
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap; 
 	
-    padding: 47px 81px 16px 81px;
+    padding: 47px 81px 36px 81px;
 	
 	font-family: "Cuprum", "Arial", sans-serif;
     font-size: 18px;
