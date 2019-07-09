@@ -82,7 +82,7 @@ a {
 	box-sizing: border-box;
 	width: 220px;
 	text-align: center;
-	padding: 9px;
+	padding: 12px 9px 6px 9px;
 	-webkit-box-shadow: 0 5px 0 rgb(181, 41, 51);
 	-moz-box-shadow: 0 5px 0 rgb(181, 41, 51);
 	box-shadow: 0 5px 0 rgb(181, 41, 51);
