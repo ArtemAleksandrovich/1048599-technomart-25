@@ -1913,7 +1913,7 @@ a {
 	border-bottom: 1px solid rgb(41, 52, 73);
 	border-top: 1px solid rgb(64, 80, 105);
 }
-.activ {
+.service-nav-active {
 	background: rgb(255, 255, 255);
 	color: rgb(50, 66, 92);
 	border-top: none;
