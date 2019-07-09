@@ -2,8 +2,7 @@
 <html lang="ru">
 	<head>
 		<meta charset="utf-8">
-		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&display=swap&subset=vietnamese" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|P.." rel="stylesheet">
 		<link href="css/normalize.css" rel="stylesheet">
 		<link href="css/style-mini.css" rel="stylesheet">
 		<title>Техномарт</title>
@@ -13,7 +12,9 @@
 			<div class="header-top">
 				<div class="wrapper">
 					<div class="header-top-menu">
-						<a href="index.html"  class="header logo">ТЕХНОМАРТ</a>
+						<a href="index.html"  class="header logo">
+							<img src="img/logo.svg" width="108" height="18" alt="Логотип «Техномарт»">
+						</a>
 						<form class="search-form" method="get" action="https://echo.htmlacademy.ru">
 							<input type="search" id="search" placeholder="Поиск:" class="search-field">
 							<label for="search" class="search-icon"></label>
@@ -281,6 +282,7 @@
 				<span class="visually-hidden">Закрыть карту</span>
 			</button>
 		</section>
+<!--
 		<section class="modal modal-feedback">
 			<h3 class="visually-hidden">Форма обратной связи</h3>
 			<form class="feedback-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -305,6 +307,32 @@
 			<button class="modal-close" type="button">
 				<span class="visually-hidden">Закрыть форму обратной связи</span>
 			</button>
+		</section>
+-->
+		<section class="modal modal-feedback"> 
+			<h3 class="visually-hidden">Форма обратной связи</h3> 
+			<form class="feedback-form" action="https://echo.htmlacademy.ru/" method="post"> 
+				<div class="form-wrapper"> 
+					<div class="form-element"> 
+						<label for="feedback-name" class="feedback-label">Ваше имя:</label> 
+						<input class="feedback-name feedback-input" type="text" name="feedback-name" id="feedback-name" placeholder="Имя Фамилия"> 
+					</div> 
+					<div class="form-element"> 
+						<label for="feedback-mail" class="feedback-label">Ваш e-mail:</label> 
+						<input class="feedback-mail feedback-input" type="email" name="feedback-mail" id="feedback-mail" placeholder="email@example.com"> 
+					</div> 
+					<div class="form-element"> 
+						<label for="feedback-body" class="feedback-label">Текст письма:</label> 
+						<textarea class="feedback-body" name="feedback-body" id="feedback-body" placeholder="В свободной форме"></textarea> 
+					</div> 
+				</div> 
+				<div class="button-field"> 
+					<button class="button" type="submit">Отправить</button> 
+				</div> 
+			</form> 
+			<button class="modal-close" type="button"> 
+				<span class="visually-hidden">Закрыть форму обратной связи</span> 
+			</button> 
 		</section>
 	<script src="js/script.min.js"></script>
 	</body>

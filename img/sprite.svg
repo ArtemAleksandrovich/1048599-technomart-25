@@ -1,0 +1,302 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!-- icon accountSearch Поиск-->
+	<symbol id="accountSearch" viewBox="0 0 17 17">
+	<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"><path fill="rgba(255,255,255,0.3)" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/></svg>
+	</symbol>
+	<view id="accountSearch-view" viewBox="0 0 17 17" />
+	<use xlink:href="#accountSearch" width="17" height="17" x="0" y="0"></use>
+<!-- icon accountSearchHover Поиск-->
+	<symbol id="accountSearchHover" viewBox="0 0 17 17">
+		<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"><path fill="#fff" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/></svg>
+	</symbol>
+	<view id="accountSearchHover-view" viewBox="0 50 17 17" />
+	<use xlink:href="#accountSearchHover" width="17" height="17" x="0" y="50"></use>
+<!-- icon accountSearch50 Поиск-->
+	<symbol id="accountSearch50" viewBox="0 0 17 17">
+		<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"><path fill="rgba(255,255,255,0.5)" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/></svg>
+	</symbol>
+	<view id="accountSearch50-view" viewBox="0 100 17 17" />
+	<use xlink:href="#accountSearch50" width="17" height="17" x="0" y="100"></use>
+<!-- icon accountSearchActiv Поиск-->
+	<symbol id="accountSearchActiv" viewBox="0 0 17 17">
+		<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"><path fill="#ee3643" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/></svg>
+	</symbol>
+	<view id="accountSearchActiv-view" viewBox="0 150 17 17" />
+	<use xlink:href="#accountSearchActiv" width="17" height="17" x="0" y="150"></use>
+<!--  icon accountBookmark Закладки-->
+	<symbol id="accountBookmark" viewBox="0 0 14 16">
+		<svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill="rgba(255,255,255,0.3)" d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/></svg>
+	</symbol>
+	<view id="accountBookmark-view" viewBox="50 0 14 16" />
+	<use xlink:href="#accountBookmark" width="14" height="16" x="50" y="0"></use>
+<!--  icon accountBookmarkHover Закладки-->
+	<symbol id="accountBookmarkHover" viewBox="0 0 14 16">
+		<svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill="#fff" d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/></svg>
+	</symbol>
+	<view id="accountBookmarkHover-view" viewBox="50 50 14 16" />
+	<use xlink:href="#accountBookmarkHover" width="14" height="16" x="50" y="50"></use>	
+<!--  icon accountBookmarkActiv Закладки-->
+	<symbol id="accountBookmarkActiv" viewBox="0 0 14 16">
+		<svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path fill="rgba(255,255,255,0.5)" d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/></svg>
+	</symbol>
+	<view id="accountBookmarkActiv-view" viewBox="50 100 14 16" />
+	<use xlink:href="#accountBookmarkActiv" width="14" height="16" x="50" y="100"></use>
+<!--  icon accountCart Корзина-->
+	<symbol id="accountCart" viewBox="0 0 15 15">
+		<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><circle fill="rgba(255,255,255,0.3)" cx="4.5" cy="13.5" r="1.5"/><circle fill="#fff" cx="12.5" cy="13.5" r="1.5"/><path fill="#fff" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/></svg>
+	</symbol>
+	<view id="accountCart-view" viewBox="100 0 15 15" />
+	<use xlink:href="#accountCart" width="15" height="15" x="100" y="0"></use>	
+<!--  icon accountCartHover Корзина-->
+	<symbol id="accountCartHover" viewBox="0 0 15 15">
+		<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><circle fill="#fff" cx="4.5" cy="13.5" r="1.5"/><circle fill="#fff" cx="12.5" cy="13.5" r="1.5"/><path fill="#fff" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/></svg>
+	</symbol>
+	<view id="accountCartHover-view" viewBox="100 50 15 15" />
+	<use xlink:href="#accountCartHover" width="15" height="15" x="100" y="50"></use>
+<!--  icon accountCartActiv Корзина-->
+	<symbol id="accountCartActiv" viewBox="0 0 15 15">
+		<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><circle fill="rgba(255,255,255,0.3)" cx="4.5" cy="13.5" r="1.5"/><circle fill="#fff" cx="12.5" cy="13.5" r="1.5"/><path fill="#fff" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/></svg>
+	</symbol>
+	<view id="accountCartActiv-view" viewBox="100 100 15 15" />
+	<use xlink:href="#accountCartActiv" width="15" height="15" x="100" y="100"></use>	
+<!--  icon accountPhone Телефон-->
+	<symbol id="accountPhone" viewBox="0 0 19 19">
+		<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19"><path fill="#B7BFC8" d="M15.572 18.985h-.941c-4.129-.488-7.157-2.408-9.359-4.864C3.062 11.66 1.318 8.492.978 4.228V3.084c.078-.774.459-1.304.898-1.757C2.425.766 3.25.044 4.002.019c.554-.018 1.5.38 1.879.899.329.446.504 1.339.656 2.003.154.671.505 1.643.408 2.289-.148 1.007-1.487 1.434-1.879 2.166 1.307 3.135 3.443 5.439 6.293 7.031.715-.392 1.346-1.572 2.332-1.595.359-.009.818.178 1.184.286.402.121.75.275 1.104.408.596.224 1.648.521 2.004 1.021.365.513.57 1.356.49 1.879-.164 1.041-1.879 2.197-2.901 2.579z"/></svg>
+	</symbol>
+	<view id="accountPhone-view" viewBox="150 0 19 19" />
+	<use xlink:href="#accountPhone" width="19" height="19" x="150" y="0"></use>
+<!--  icon accountLogin Вход-->
+	<symbol id="accountLogin" viewBox="0 0 20 17">
+	<svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path fill="#c5c5c5" d="M14.875 8.5L6 0v6H0v5h6v6z"/><path fill="#c5c5c5" d="M16.986 15.01h-5.027V17h5.027c2.178 0 3.004-1.81 3.029-3.026V3.028C19.99 1.811 19.164 0 16.986 0h-5.027v1.99h5.027c.839 0 .992.681 1.01 1.057v10.904c-.017.376-.171 1.059-1.01 1.059z"/></svg>
+	</symbol>
+	<view id="accountLogin-view" viewBox="200 0 20 17" />
+	<use xlink:href="#accountLogin" width="20" height="17" x="200" y="0"></use>
+<!--  icon accountLoginHover Вход-->
+	<symbol id="accountLoginHover" viewBox="0 0 20 17">
+	<svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path fill="#32425c" d="M14.875 8.5L6 0v6H0v5h6v6z"/><path fill="#32425c" d="M16.986 15.01h-5.027V17h5.027c2.178 0 3.004-1.81 3.029-3.026V3.028C19.99 1.811 19.164 0 16.986 0h-5.027v1.99h5.027c.839 0 .992.681 1.01 1.057v10.904c-.017.376-.171 1.059-1.01 1.059z"/></svg>
+	</symbol>
+	<view id="accountLoginHover-view" viewBox="200 50 20 17" />
+	<use xlink:href="#accountLoginHover" width="20" height="17" x="200" y="50"></use>	
+<!--  icon accountUser Иконка пользователя-->
+	<symbol id="accountUser" viewBox="0 0 20 18">
+	<svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18"><path fill="#c5c5c5" d="M17.881 14.166c-2.144-.735-4.256-1.666-5.207-2.39-.657-.501-.77-1.618-.517-2.415 1.118-.903 1.864-2.477 1.864-4.278C14.021 2.276 12.221 0 10 0S5.979 2.276 5.979 5.083c0 1.801.746 3.374 1.863 4.277.253.798.141 1.915-.517 2.416-.95.724-3.063 1.654-5.207 2.39S0 18 0 18h20s.025-3.099-2.119-3.834z"/></svg>
+	</symbol>
+	<view id="accountUser-view" viewBox="250 0 20 18" />
+	<use xlink:href="#accountUser" width="20" height="17" x="250" y="0"></use>
+<!--  icon accountUserHover Иконка пользователя-->
+	<symbol id="accountUserHover" viewBox="0 0 20 18">
+	<svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18"><path fill="#32425c" d="M17.881 14.166c-2.144-.735-4.256-1.666-5.207-2.39-.657-.501-.77-1.618-.517-2.415 1.118-.903 1.864-2.477 1.864-4.278C14.021 2.276 12.221 0 10 0S5.979 2.276 5.979 5.083c0 1.801.746 3.374 1.863 4.277.253.798.141 1.915-.517 2.416-.95.724-3.063 1.654-5.207 2.39S0 18 0 18h20s.025-3.099-2.119-3.834z"/></svg>
+	</symbol>
+	<view id="accountUserHover-view" viewBox="250 50 20 18" />
+	<use xlink:href="#accountUserHover" width="20" height="17" x="250" y="50"></use>	
+<!--  icon accountLogout Выход-->
+	<symbol id="accountLogout" viewBox="0 0 20 17">
+	<svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17"><g fill="#c5c5c5"><path fill="#c5c5c5" d="M21 8.5L12.125 0v6h-6v5h6v6z"/><path fill="#c5c5c5" d="M3.106 13.952V3.048c.018-.376.171-1.057 1.01-1.057h5.027V0H4.116C1.938 0 1.112 1.81 1.087 3.027v10.946C1.112 15.189 1.938 17 4.116 17h5.027v-1.99H4.116c-.839 0-.992-.683-1.01-1.058z"/></g></svg>
+	</symbol>
+	<view id="accountLogout-view" viewBox="300 0 20 17" />
+	<use xlink:href="#accountLogout" width="20" height="17" x="300" y="0"></use>
+<!--  icon accountLogoutHover Выход-->
+	<symbol id="accountLogoutHover" viewBox="0 0 20 17">
+	<svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17"><g fill="#32425c"><path fill="#32425c" d="M21 8.5L12.125 0v6h-6v5h6v6z"/><path fill="#32425c" d="M3.106 13.952V3.048c.018-.376.171-1.057 1.01-1.057h5.027V0H4.116C1.938 0 1.112 1.81 1.087 3.027v10.946C1.112 15.189 1.938 17 4.116 17h5.027v-1.99H4.116c-.839 0-.992-.683-1.01-1.058z"/></g></svg>
+	</symbol>
+	<view id="accountLogoutHover-view" viewBox="300 50 20 17" />
+	<use xlink:href="#accountLogoutHover" width="20" height="17" x="300" y="50"></use>	
+<!--  icon accountleft Стрелка слайдера left-->
+	<symbol id="accountleft" viewBox="0 0 22 40">
+		<svg xmlns="http://www.w3.org/2000/svg" width="22" height="40" viewBox="0 0 22 40"><path fill="#fff" d="M19.83-.035l2.089 2.099L4.13 19.947l17.847 17.939-2.09 2.099L-.048 19.947z"/></svg>
+	</symbol>
+	<view id="accountleft-view" viewBox="350 0 22 40" />
+	<use xlink:href="#accountleft" width="22" height="40" x="350" y="0"></use>
+<!--  icon accountRight стрелка слайдера right-->
+	<symbol id="accountRight" viewBox="0 0 22 40">
+		<svg xmlns="http://www.w3.org/2000/svg" width="22" height="40" viewBox="0 0 22 40"><path fill="#fff" d="M2.098-.035L.009 2.064l17.789 17.883L-.048 37.886l2.089 2.099 19.935-20.038z"/></svg>
+	</symbol>
+	<view id="accountRight-view" viewBox="400 0 22 40" />
+	<use xlink:href="#accountRight" width="22" height="40" x="400" y="0"></use>
+<!--  icon checbox-off-->
+	<symbol id="accountchecbox-off" viewBox="0 0 23 23">
+		<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path fill="#b5b5b5" d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg>
+	</symbol>
+	<view id="accountchecbox-off-view" viewBox="450 0 23 23" />
+	<use xlink:href="#accountchecbox-off" width="23" height="23" x="450" y="0"></use>
+<!--  icon checbox-offHover-->
+	<symbol id="accountchecbox-offHover" viewBox="0 0 23 23">
+		<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path fill="#c5c5c5" d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg>
+	</symbol>
+	<view id="accountchecbox-offHover-view" viewBox="450 50 23 23" />
+	<use xlink:href="#accountchecbox-offHover" width="23" height="23" x="450" y="50"></use>
+<!--  icon checbox-offBlok-->
+	<symbol id="accountchecbox-offBlok" viewBox="0 0 23 23">
+		<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path fill="rgba(181,181,181,0.3)" d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg>
+	</symbol>
+	<view id="accountchecbox-offBlok-view" viewBox="450 100 23 23" />
+	<use xlink:href="#accountchecbox-offBlok" width="23" height="23" x="450" y="100"></use>	
+<!--  icon accountChecbox-on-->
+	<symbol id="accountChecbox-on" viewBox="0 0 27 23">
+	<svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"><path fill="#b5b5b5" d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path fill="#c5c5c5" d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg>
+	</symbol>
+	<view id="accountChecbox-on-view" viewBox="500 0 27 23" />
+	<use xlink:href="#accountChecbox-on" width="27" height="23" x="500" y="0"></use>
+<!--  icon accountChecbox-onHover-->
+	<symbol id="accountChecbox-onHover" viewBox="0 0 27 23">
+	<svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"><path fill="#c5c5c5" d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path fill="#c5c5c5" d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg>
+	</symbol>
+	<view id="accountChecbox-onHover-view" viewBox="500 50 27 23" />
+	<use xlink:href="#accountChecbox-onHover" width="27" height="23" x="500" y="50"></use>
+<!--  icon accountChecbox-onBlok-->
+	<symbol id="accountChecbox-onBlok" viewBox="0 0 27 23">
+	<svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"><path fill="rgba(181,181,181,0.3)" d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path fill="rgba(181,181,181,0.3)" d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg>
+	</symbol>
+	<view id="accountChecbox-onBlok-view" viewBox="500 100 27 23" />
+	<use xlink:href="#accountChecbox-onBlok" width="27" height="23" x="500" y="100"></use>	
+<!--  icon accountFilter-button-->
+	<symbol id="accountFilter-button" viewBox="0 0 20 23">
+	<svg xmlns="http://www.w3.org/2000/svg" width="20" height="23" viewBox="0 0 20 23"><path opacity=".3" fill="#ABABAB" d="M10 20C4.477 20 0 15.522 0 10v2c0 5.522 4.477 10 10 10 5.522 0 10-4.478 10-10v-2c0 5.522-4.478 10-10 10z"/><circle fill="#FFF" cx="10" cy="10" r="10"/><circle fill="#ABABAB" cx="10" cy="10" r="2"/></svg>
+	</symbol>
+	<view id="accountFilter-button-view" viewBox="550 0 20 23" />
+	<use xlink:href="#accountFilter-button" width="20" height="17" x="550" y="0"></use>
+<!--  icon accountClose-->
+	<symbol id="accountClose" viewBox="0 0 21 21">
+	<svg enable-background="new 0 0 21 21" height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><path d="m13.273 10.5 7.422-7.422c.389-.389.389-1.025 0-1.414l-1.359-1.359c-.389-.389-1.025-.389-1.414 0l-7.422 7.422-7.422-7.422c-.389-.389-1.025-.389-1.414 0l-1.359 1.359c-.389.389-.389 1.025 0 1.414l7.422 7.422-7.421 7.422c-.389.389-.389 1.025 0 1.414l1.359 1.359c.389.389 1.025.389 1.414 0l7.422-7.422 7.422 7.422c.389.389 1.025.389 1.414 0l1.359-1.359c.389-.389.389-1.025 0-1.414z" fill="#ee3643"/></svg>
+	</symbol>
+	<view id="accountClose-view" viewBox="600 150 21 21" />
+	<use xlink:href="#accountClose" width="21" height="21" x="600" y="150"></use>
+<!--  icon accountDown-dir-->
+	<symbol id="accountDown-dir" viewBox="0 0 11 10">
+		<svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#c5c5c5" d="M5.5 10L0 0h11"/></svg>
+	</symbol>
+	<view id="accountDown-dir-view" viewBox="650 0 11 10" />
+	<use xlink:href="#accountDown-dir" width="11" height="10" x="650" y="0"></use>	
+<!--  icon accountDown-dirHover-->
+	<symbol id="accountDown-dirHover" viewBox="0 0 11 10">
+		<svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#231F20" d="M5.5 10L0 0h11"/></svg>
+	</symbol>
+	<view id="accountDown-dirHover-view" viewBox="650 50 11 10" />
+	<use xlink:href="#accountDown-dirHover" width="11" height="10" x="650" y="50"></use>
+<!--  icon accountDown-dirActiv-->
+	<symbol id="accountDown-dirActiv" viewBox="0 0 11 10">
+		<svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#ee3643" d="M5.5 10L0 0h11"/></svg>
+	</symbol>
+	<view id="accountDown-dirActiv-view" viewBox="650 150 11 10" />
+	<use xlink:href="#accountDown-dirActiv" width="11" height="10" x="650" y="150"></use>
+<!--  icon accountFb Иконка фейсбук-->
+	<symbol id="accountFb" viewBox="0 0 12 22">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22"><path fill="#fff" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z"/></svg>
+	</symbol>
+	<view id="accountFb-view" viewBox="700 0 12 22" />
+	<use xlink:href="#accountFb" width="12" height="22" x="700" y="0"></use>
+<!--  icon accountHome-->
+	<symbol id="accountHome" viewBox="0 0 15 12">
+	<svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 15 12"><g fill="#C1C6CE"><path d="M3 8v4h4V8h2v4h4V8L8 3.516z"/><path d="M14.831 6.365L13 4.751V0h-2v2.987L8.332.635c-.02-.017-.043-.023-.064-.037a.465.465 0 0 0-.08-.047.551.551 0 0 0-.095-.024C8.062.521 8.032.515 8 .515c-.031 0-.061.006-.092.012a.46.46 0 0 0-.095.025c-.028.011-.053.029-.08.046-.021.014-.045.02-.064.037l-6.498 5.73a.501.501 0 0 0 .33.875.497.497 0 0 0 .331-.125L8 1.677l6.169 5.438a.501.501 0 0 0 .662-.75z"/></g></svg>
+	</symbol>
+	<view id="accountHome-view" viewBox="750 0 15 12" />
+	<use xlink:href="#accountHome" width="15" height="12" x="750" y="0"></use>
+<!--  icon accountInsta иконка инстаграмм-->
+	<symbol id="accountInsta" viewBox="0 0 21 21">
+	<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><path fill="#fff" d="M18 0H3C1.35 0 0 1.35 0 3v15c0 1.65 1.35 3 3 3h15c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3zm-7.5 7c1.93 0 3.5 1.57 3.5 3.5S12.43 14 10.5 14 7 12.43 7 10.5 8.57 7 10.5 7zM18 18H3V9h1.181A6.504 6.504 0 0 0 4 10.5a6.5 6.5 0 1 0 13 0 6.45 6.45 0 0 0-.181-1.5H18v9zm0-11h-4V3h4v4z"/></svg>
+	</symbol>
+	<view id="accountInsta-view" viewBox="800 0 21 21" />
+	<use xlink:href="#accountInsta" width="21" height="21" x="800" y="0"></use>
+<!--  icon accountRight-small-->
+	<symbol id="accountRight-small" viewBox="0 0 8 12">
+	<svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12"><path fill="#C1C6CE" d="M7.237 5.642L1.729.133a.506.506 0 1 0-.716.716L6.163 6l-5.151 5.15a.507.507 0 0 0 .716.717l5.509-5.509a.504.504 0 0 0 0-.716z"/></svg>
+	</symbol>
+	<view id="accountRight-small-view" viewBox="850 0 8 12" />
+	<use xlink:href="#accountRight-small" width="8" height="12" x="850" y="0"></use>
+<!--  icon accountUp-dir-->
+	<symbol id="accountUp-dir" viewBox="0 0 11 10">
+		<svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#c5c5c5" d="M5.5 0L0 10h11z"/></svg>
+	</symbol>
+	<view id="accountUp-dir-view" viewBox="900 0 11 10" />
+	<use xlink:href="#accountUp-dir" width="11" height="10" x="900" y="0"></use>
+<!--  icon accountUp-dirHover-->
+	<symbol id="accountUp-dirHover" viewBox="0 0 11 10">
+		<svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#231F20" d="M5.5 0L0 10h11z"/></svg>
+	</symbol>
+	<view id="accountUp-dirHover-view" viewBox="900 50 11 10" />
+	<use xlink:href="#accountUp-dirHover" width="11" height="10" x="900" y="50"></use>
+<!--  icon accountUp-dirActiv-->
+	<symbol id="accountUp-dirActiv" viewBox="0 0 11 10">
+		<svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path fill="#ee3643" d="M5.5 0L0 10h11z"/></svg>
+	</symbol>
+	<view id="accountUp-dirActiv-view" viewBox="900 150 11 10" />
+	<use xlink:href="#accountUp-dirActiv" width="11" height="10" x="900" y="150"></use>	
+<!--  icon accountVK Иконка в контакте-->
+	<symbol id="accountVK" viewBox="0 0 26 15">
+	<svg xmlns="http://www.w3.org/2000/svg" width="26" height="15" viewBox="0 0 26 15"><path fill="#fff" d="M16.138 11.51c.956-.309 2.18 2.04 3.483 2.939.978.681 1.727.534 1.727.534l3.473-.05s1.815-.112.957-1.554c-.071-.12-.503-1.069-2.585-3.022-2.177-2.043-1.882-1.712.739-5.244 1.597-2.153 2.236-3.468 2.036-4.028-.192-.539-1.365-.399-1.365-.399L20.69.713c-.381.001-.704.119-.851.515-.003.004-.621 1.666-1.445 3.079-1.741 2.989-2.436 3.148-2.724 2.961-.661-.433-.494-1.737-.494-2.664 0-2.897.432-4.105-.846-4.417-.427-.104-.739-.172-1.828-.182-1.392-.021-2.574 0-3.244.329-.445.223-.786.712-.579.74.26.035.843.16 1.155.586.401.552.389 1.789.389 1.789s.229 3.411-.54 3.834c-.528.29-1.25-.302-2.803-3.016-.793-1.388-1.392-2.922-1.392-2.922s-.116-.285-.326-.441c-.25-.185-.6-.244-.6-.244L.848.684S.29.7.085.946c-.182.218-.015.668-.015.668s2.909 6.881 6.203 10.347c3.02 3.182 6.452 2.971 6.452 2.971h1.555s.469-.054.709-.312c.224-.24.214-.691.214-.691s-.031-2.109.935-2.419z"/></svg>
+	</symbol>
+	<view id="accountVK-view" viewBox="950 0 26 15" />
+	<use xlink:href="#accountVK" width="26" height="15" x="950" y="0"></use>
+<!--  icon accountRadio-off-->
+	<symbol id="accountRadio-off" viewBox="0 0 25 25">
+	<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#b5b5b5" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg>
+	</symbol>
+	<view id="accountRadio-off-view" viewBox="1000 0 25 25" />
+	<use xlink:href="#accountRadio-off" width="25" height="25" x="1000" y="0"></use>
+<!--  icon accountRadio-offHover-->
+	<symbol id="accountRadio-offHover" viewBox="0 0 25 25">
+	<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#c5c5c5" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg>
+	</symbol>
+	<view id="accountRadio-offHover-view" viewBox="1000 50 25 25" />
+	<use xlink:href="#accountRadio-offHover" width="25" height="25" x="1000" y="50"></use>
+<!--  icon accountRadio-offBlok-->
+	<symbol id="accountRadio-offBlok" viewBox="0 0 25 25">
+	<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="rgba(181,181,181,0.3)" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg>
+	</symbol>
+	<view id="accountRadio-offBlok-view" viewBox="1000 100 25 25" />
+	<use xlink:href="#accountRadio-offBlok" width="25" height="25" x="1000" y="100"></use>	
+<!--  icon accountRadio-on-->
+	<symbol id="accountRadio-on" viewBox="0 0 25 25">
+	<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#b5b5b5" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/><circle fill="#b5b5b5" cx="12.5" cy="12.5" r="4.5"/></svg>
+	</symbol>
+	<view id="accountRadio-on-view" viewBox="1331 0 25 25" />
+	<use xlink:href="#accountRadio-on" width="25" height="25" x="1050" y="0"></use>
+<!--  icon accountRadio-onHover-->
+	<symbol id="accountRadio-onHover" viewBox="0 0 25 25">
+	<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#c5c5c5" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/><circle fill="#c5c5c5" cx="12.5" cy="12.5" r="4.5"/></svg>
+	</symbol>
+	<view id="accountRadio-onHover-view" viewBox="1050 50 25 25" />
+	<use xlink:href="#accountRadio-onHover" width="25" height="25" x="1050" y="50"></use>
+<!--  icon accountRadio-onBlok-->
+	<symbol id="accountRadio-onBlok" viewBox="0 0 25 25">
+	<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="rgba(181,181,181,03)" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/><circle fill="rgba(181,181,181,03)" cx="12.5" cy="12.5" r="4.5"/></svg>
+	</symbol>
+	<view id="accountRadio-onBlok-view" viewBox="1050 100 25 25" />
+	<use xlink:href="#accountRadio-onBlok" width="25" height="25" x="1050" y="100"></use>
+<!--  icon accountMark-->
+	<symbol id="accountMark" viewBox="0 0 66 66">
+	<svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66"><circle fill="#63A63E" cx="33" cy="33" r="33"/><path fill="#FFF" d="M49.641 21.066a1.003 1.003 0 0 0-1.414 0L29.788 39.504a1.003 1.003 0 0 1-1.414 0l-8.14-8.139a1.003 1.003 0 0 0-1.414 0L15.285 34.9a1.003 1.003 0 0 0 0 1.414l13.089 13.09a1.003 1.003 0 0 0 1.414 0l3.536-3.536 1.414-1.414 18.438-18.438a1.003 1.003 0 0 0 0-1.414l-3.535-3.536z"/></svg>
+	</symbol>
+	<view id="accountMark-view" viewBox="0 200 66 66" />
+	<use xlink:href="#accountMark" width="66" height="66" x="0" y="200"></use>
+<!--  icon accounticon-1-->
+	<symbol id="accounticon-1" viewBox="0 0 44 65">
+	<svg xmlns="http://www.w3.org/2000/svg" width="44" height="65" viewBox="0 0 44 65"><g fill="#fff"><path d="M37.91 30.438v10.869s.105 2.735-2.825 2.735c-3.069 0-3.125-2.735-3.125-2.735v-6.416c0-.24-.336-1.909-2.319-1.909-2.625 0-2.67 1.877-2.67 1.877V54.08s.029 1.863-2.464 1.863C22 55.943 22 53.96 22 53.96V40.016s0-2.945-3.805-2.945c-4.054 0-3.967 3.125-3.967 3.125v3.728s-.121 2.945-4.688 2.945-4.628-4.509-4.628-4.509V29.938C3.168 28.976 0 26.671 0 26.671v29.332S2.988 65 22 65s22-8.695 22-8.695V26.671c-2.938 2.829-6.09 3.767-6.09 3.767z"/><path d="M22 0C1.688 0 0 19.875 0 19.875v3.062C8.438 29.188 22 29 22 29s13.562.188 22-6.062v-3.062C44 19.875 42.312 0 22 0zm0 25c-11.75 0-14.312-2.375-14.312-2.375C13.938 19.75 22 19.875 22 19.875s8.062-.125 14.312 2.75c0 0-2.562 2.375-14.312 2.375zm0-12.375c-9.562 0-17.688 2.938-17.688 2.938C8.875 2.625 22 3.062 22 3.062s13.125-.438 17.688 12.5c0 0-8.126-2.937-17.688-2.937z"/></g></svg>
+	</symbol>
+	<view id="accounticon-1-view" viewBox="100 200 44 65" />
+	<use xlink:href="#accounticon-1" width="44" height="65" x="100" y="200"></use>
+<!--  icon accounticon-2-->
+	<symbol id="accounticon-2" viewBox="0 0 75 61">
+	<svg xmlns="http://www.w3.org/2000/svg" width="75" height="61" viewBox="0 0 75 61"><g fill="#fff"><path d="M5.039 58.949S5.039 61 6.907 61h27.02s2.001-.184 2.001-1.984V47.942H5.039v11.007zM73.875 8.016H60.387c-.621-2.287-2.071-3.891-3.762-3.891h-7.542v12.75h7.542c1.69 0 3.141-1.604 3.762-3.891h13.488c.575 0 1.042-1.112 1.042-2.484s-.467-2.484-1.042-2.484zM2.103 0C.167 0 0 2.041 0 2.041v15.812c0 2.936 2.903 3.002 2.903 3.002h9.007c1.935 0 1.601 1.334 1.601 1.334s-2.469 13.01-2.735 15.211c-.267 2.203-1.868 3.604-1.868 3.604s-2.135 1.201-3.002 1.668-.867 2.201-.867 2.201h30.889v-.734c0-1.467-6.472-3.135-9.073-3.402-2.602-.266-2.068-2.002-2.068-2.002l1.067-7.805h3.002l1.134-7.873h-3.002l.331-2.737 8.609-.131c5.805-.601 10.008-4.07 10.008-4.07V4.109C41.333.84 33.993 0 33.993 0H2.103zM36 4.938v.031c0 .55-.45 1-1 1H5.031c-.55 0-1-.45-1-1v-.031c0-.55.45-1 1-1H35c.55 0 1 .45 1 1z"/></g></svg>
+	</symbol>
+	<view id="accounticon-2-view" viewBox="200 200 75 61" />
+	<use xlink:href="#accounticon-2" width="75" height="61" x="200" y="200"></use>
+<!--  icon accounticon-3-->
+	<symbol id="accounticon-3" viewBox="0 0 78 62">
+	<svg xmlns="http://www.w3.org/2000/svg" width="78" height="62" viewBox="0 0 78 62"><g fill="#fff"><path d="M16.125 29.749C7.22 29.749 0 36.968 0 45.875 0 54.78 7.22 62 16.125 62S32.25 54.78 32.25 45.875c.001-8.907-7.219-16.126-16.125-16.126zm0 23.433a7.306 7.306 0 0 1-7.307-7.307 7.307 7.307 0 1 1 14.614 0 7.306 7.306 0 0 1-7.307 7.307zM60.854 45.874a8.062 8.062 0 0 0-8.062 8.062 8.062 8.062 0 1 0 16.124 0 8.06 8.06 0 0 0-8.062-8.062zm0 13.126a5.063 5.063 0 1 1 .002-10.126A5.063 5.063 0 0 1 60.854 59z"/><path d="M77.898 49.727s-2.023-15.102-2.461-18.414c-.547-4.141-3.625-4.688-3.625-4.688L66 25.946V14h-3v5.833h-4v5.295L47.188 23.75S37.438 3.688 36.626 1.875 33.5 0 33.5 0 11.125 2.375 8.75 3 5.312 6.167 5.312 6.167c-2.308 6.37-2.311 17.296-2.266 20.255a23.328 23.328 0 0 1 13.079-3.986c12.944 0 23.438 10.493 23.438 23.439 0 2.438-.373 4.789-1.064 7h10.164c.39-6.402 5.69-11.479 12.191-11.479s11.802 5.077 12.191 11.479H75c3.641 0 2.898-3.148 2.898-3.148zM23.083 19.833h-6.958V6.167h6.958v13.666zm10 0h-6.958V6.167h6.958v13.666zM53.016 36H49v-7h4.016v7zm7 0H56v-7h4.016v7zm7 0H63v-7h4.016v7z"/></g></svg>
+	</symbol>
+	<view id="accounticon-3-view" viewBox="300 200 78 62" />
+	<use xlink:href="#accounticon-3" width="78" height="62" x="300" y="200"></use>
+<!--  icon accounticon-4-->
+	<symbol id="accounticon-4" viewBox="0 0 59 72">
+	<svg xmlns="http://www.w3.org/2000/svg" width="59" height="72" viewBox="0 0 59 72"><g fill="#fff"><path d="M58.34 20.545a2.997 2.997 0 0 0-2.396-1.195h-38.67l-2.475-7.385H3.058a3 3 0 1 0 0 6h7.424l13.5 40.285h25.159a3 3 0 1 0 0-6H28.299l-1.726-5.149h23.12a3.001 3.001 0 0 0 2.884-2.172l6.25-21.75a3.005 3.005 0 0 0-.487-2.634zm-7.781 9.681h-4.81V25.35h6.211l-1.401 4.876zm-17.617 0V25.35h6.807v4.875h-6.807zm6.807 6v4.875h-6.807v-4.875h6.807zM26.942 25.35v4.875h-6.023l-1.634-4.875h7.657zm-4.013 10.876h4.013v4.875h-2.379l-1.634-4.875zm22.82 4.875v-4.875h3.086l-1.401 4.875h-1.685z"/><circle cx="27.406" cy="66.094" r="5.781"/><circle cx="44.844" cy="66.094" r="5.781"/><path d="M29.335 9.699l7.547 5.492a1.986 1.986 0 0 0 2.818-.494c.646-.936.43-2.232-.48-2.895l-2.373-1.726 9.436-5.09L50.911 17h4.347L49.214 1.309A2.051 2.051 0 0 0 48.037.126a1.97 1.97 0 0 0-1.643.109L33.146 7.382l-3.022-2.199a1.986 1.986 0 0 0-2.742.39l-8.481 10.798a2.176 2.176 0 0 0-.405.628h5.106l5.733-7.3z"/></g></svg>
+	</symbol>
+	<view id="accounticon-4-view" viewBox="400 200 59 72" />
+	<use xlink:href="#accounticon-4" width="59" height="72" x="400" y="200"></use>
+<!--  icon accounticon-5-->
+	<symbol id="accounticon-5" viewBox="0 0 78 63">
+	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78" height="63" viewBox="0 0 78 63"><g fill="#fff"><circle cx="25.983" cy="55.5" r="7.5"/><circle cx="59.982" cy="55.5" r="7.5"/><path d="M64 0H11.062c-3.188 0-3 3.125-3 3.125V8H3.469a3.469 3.469 0 1 0 0 6.938l28.085 1.84.196.043c-.761 3.197-8.938 3.805-8.938 3.805l-8.31.428H5.446a3.375 3.375 0 1 0 0 6.75l23.656 1.254c-.807 3.153-6.29 3.756-6.29 3.756l-14.751.76v15.615c0 3.188 2.564 3.812 2.564 3.812h2.099c1.173-6.261 6.659-11 13.259-11s12.085 4.739 13.259 11h7.404c1.174-6.261 6.66-11 13.26-11 6.601 0 12.086 4.739 13.26 11h1.709C77.812 53 78 48.938 78 48.938v-15.25C78 14.812 64 0 64 0zM52 23.938v-15h10.062l5.75 15H52z"/></g></svg>
+	</symbol>
+	<view id="accounticon-5-view" viewBox="500 200 78 63" />
+	<use xlink:href="#accounticon-5" width="78" height="63" x="500" y="200"></use>
+</svg>
