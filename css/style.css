@@ -1929,14 +1929,16 @@ a {
 	width: 700px;
 	box-sizing: border-box;
 	padding-left: 80px;
+	padding-right: 270px;
 	background: url("../img/delivery.png") no-repeat;
-	background-position: 231px 25px;
+	background-position: bottom right;
 	-webkit-box-flex: 1;
 	-webkit-flex-grow: 1;
 	-moz-box-flex: 1;
 	-ms-flex-positive: 1;
 	flex-grow: 1;
 }
+
 .service-name {
 	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 36px;
