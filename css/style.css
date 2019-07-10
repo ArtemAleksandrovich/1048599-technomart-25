@@ -305,13 +305,10 @@ a {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: -moz-box;
-	display: flex;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	-webkit-justify-content: space-between;
-	-moz-box-pack: justify;
-	justify-content: space-between;
-	
+
+	display: flex; 
+	flex-direction: row; 
+	justify-content: flex-start; 
 	padding-top: 45px;
 	padding-left: 53px;
 	padding-bottom: 39px;
@@ -327,6 +324,7 @@ a {
 	width: 200px;
 	box-sizing: border-box;
 	margin: 0;
+	margin-right: auto; 
 	padding-top: 4px;
 }
 .header-contact {
@@ -415,19 +413,17 @@ a {
 	
 	box-sizing: border-box;
 	text-align: center;
-	margin-right: 10px;
-	padding: 12px;
-	padding-left: 45px;
-	padding-right: 27px;
-
+	margin-left: 67px; 
+	padding: 12px 25px 12px 48px; 
 	display: block;
 	position: relative;
 }
 .login-link.user {
 	width: 300px;
 	margin: 0;
-	padding-left: 46px;
-	padding-right: 68px;
+	margin-left: 50px;
+	padding-left: 50px;
+	padding-right: 64px;
 }
 .login-link.user:before {
 	content: " ";
@@ -473,9 +469,8 @@ a {
 	
 	-moz-box-sizing: border-box;
 
-	padding: 12px;
-	padding-left: 22px;
-	padding-right: 25px;
+	padding: 12px 25px;
+	margin-left: 10px;
 }
 .login-link:hover,
 .login-link:focus,
@@ -521,6 +516,7 @@ a {
 	padding: 0;
 	padding-top: 10px;
 	margin: 0;
+	margin-left: 50px;
 }
 .personal-order,
 .personal-account {
@@ -669,7 +665,7 @@ a {
 	font-size: 15px;
 	line-height: 20px;
 	color: rgb(0, 0, 0);
-	margin-bottom: 54px;
+	margin-bottom: 59px;
 	
 	display: -webkit-flex;
 	
@@ -711,7 +707,7 @@ a {
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
-	margin-bottom: 20px;
+	margin-bottom: 17px;
 	padding-left: 19px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -823,7 +819,7 @@ a {
 	font-weight: 700;
 	text-transform: uppercase;
 
-	margin-bottom: 19px;
+	margin-bottom: 20px;
 }
 .hunt-group-work {
 	background: rgb(247, 243, 236);
@@ -1835,7 +1831,7 @@ a {
 	padding-right: 70px;
 }
 .content-catalog {
-	margin-bottom: 25px;
+	margin-bottom: 28px;
 }
 /*-----------Популярные производители--------*/
 .manufacturer {
@@ -1871,6 +1867,8 @@ a {
 	font-weight: 400;
 	
 	text-transform: uppercase;
+	
+	margin-bottom: 27px;
 }
 .service-content {
 	display: -webkit-box;
@@ -1886,7 +1884,7 @@ a {
 }
 .service-title-description {
 	letter-spacing: 0.07px;
-	margin-bottom: 69px;
+	margin-bottom: 67px;
 }
 .service-nav {
 	display: -webkit-box;
